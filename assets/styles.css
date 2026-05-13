@@ -431,6 +431,131 @@ h3 {
   border-radius: 8px;
 }
 
+.legacy-page {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vw, 5rem) clamp(1rem, 4vw, 3rem);
+}
+
+.legacy-intro {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.legacy-intro h1 {
+  max-width: 13ch;
+  font-size: clamp(2.35rem, 7vw, 4.2rem);
+}
+
+.legacy-copy {
+  max-width: 46rem;
+  color: #4f4941;
+}
+
+.legacy-copy p {
+  margin: 0 0 0.85rem;
+}
+
+.feature-post {
+  margin: 1.5rem 0 2.5rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.feature-post a {
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.65fr) minmax(0, 1fr);
+  color: inherit;
+  text-decoration: none;
+}
+
+.feature-post img {
+  width: 100%;
+  height: 100%;
+  min-height: 15rem;
+  object-fit: cover;
+}
+
+.feature-post div {
+  display: grid;
+  align-content: center;
+  gap: 0.6rem;
+  padding: clamp(1.2rem, 4vw, 2rem);
+}
+
+.legacy-section-title {
+  margin: 1rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.story-list {
+  display: grid;
+  gap: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.story-row {
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  gap: 1.1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.story-row:last-child {
+  border-bottom: 0;
+}
+
+.story-thumb {
+  display: block;
+  overflow: hidden;
+  background: #e9dfd1;
+  border-radius: 6px;
+}
+
+.story-thumb img {
+  width: 100%;
+  height: 100%;
+  min-height: 8.2rem;
+  object-fit: cover;
+}
+
+.story-copy {
+  align-self: center;
+}
+
+.story-copy a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.story-copy a:hover,
+.story-copy a:focus {
+  text-decoration: underline;
+}
+
+.story-copy p {
+  margin: 0.45rem 0;
+  color: var(--muted);
+}
+
+.legacy-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
 @media (max-width: 900px) {
   .site-header {
     align-items: flex-start;
@@ -490,5 +615,15 @@ h3 {
 
   .stat:last-child {
     border-bottom: 0;
+  }
+
+  .feature-post a,
+  .story-row {
+    grid-template-columns: 1fr;
+  }
+
+  .story-thumb img {
+    aspect-ratio: 16 / 10;
+    min-height: 0;
   }
 }

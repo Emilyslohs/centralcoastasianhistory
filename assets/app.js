@@ -212,10 +212,151 @@ function renderCollection(key) {
   `;
 }
 
+function collectionKeyFromSlug(slug) {
+  if (slug.includes("chinese")) return "chinese";
+  if (slug.includes("japanese")) return "japanese";
+  if (slug.includes("filipino")) return "filipino";
+  return "community";
+}
+
+function normalizePageLine(line = "") {
+  return line
+    .replace(/^\/?\$\s*/g, "")
+    .replace(/^\/\$\s*/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function comparableTitle(value = "") {
+  return normalizePageLine(value)
+    .toLowerCase()
+    .replace(/railraods/g, "railroads")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function sanitizedPageLines(page) {
+  const junk = /^(Safari Pinned Tab Icon|Segmenter Polyfill|Legacy Polyfills|Performance API Polyfills|Essential Viewer Model|Globals Definitions|BEGIN |END |Initial CSS|pageHtmlEmbeds|head performance|render-head|domStoreHtml|Polyfills check|initCustomElements|preloading pre-scripts|sentry|Add the rest|renderIndicator|versionIndicator|used platform|Business Manager|react|react-dom|lodash script|initial scripts|scriptTagsToPreload|Old Browsers|bi|warmup data|presets polyfill|detect browser zoom|Home|Central Coast Asian American History|We gratefully acknowledge)/i;
+  return page.body.map(normalizePageLine).filter((line) => line && !junk.test(line));
+}
+
+function cleanPageBody(page) {
+  const stopWords = [
+    "Quick Facts:",
+    "Chinese Stories",
+    "Japanese History",
+    "Filipino History",
+    "Chinese American Stories",
+    "Japanese American Stories",
+    "Filipino American Stories",
+  ];
+  const lines = sanitizedPageLines(page);
+  const titleIndex = lines.findIndex((line) => comparableTitle(line) === comparableTitle(page.title) || /History: Stories|Current Events/.test(line));
+  const scoped = titleIndex >= 0 ? lines.slice(titleIndex + 1) : lines;
+  const stopIndex = scoped.findIndex((line) => stopWords.some((word) => line.startsWith(word)) || data.posts.some((post) => comparableTitle(post.title) === comparableTitle(line)));
+  return (stopIndex >= 0 ? scoped.slice(0, stopIndex) : scoped).filter((line) => !stopWords.some((word) => line.startsWith(word)));
+}
+
+function storyList(posts) {
+  return posts
+    .map((post) => html`
+      <article class="story-row">
+        <a class="story-thumb" href="${routeHash(`post/${post.slug}`)}">
+          <img src="${escapeHtml(imageFor(post))}" alt="">
+        </a>
+        <div class="story-copy">
+          <a href="${routeHash(`post/${post.slug}`)}"><h3>${escapeHtml(post.title)}</h3></a>
+          <p>${escapeHtml(post.description || post.excerpt || "")}</p>
+          <p class="meta">${escapeHtml([post.author, post.date].filter(Boolean).join(" · "))}</p>
+        </div>
+      </article>
+    `)
+    .join("");
+}
+
+function orderedPostsFromPage(page, fallbackPosts) {
+  const normalized = new Map(fallbackPosts.map((post) => [comparableTitle(post.title), post]));
+  const ordered = [];
+  for (const line of sanitizedPageLines(page)) {
+    const key = comparableTitle(line);
+    if (normalized.has(key) && !ordered.includes(normalized.get(key))) {
+      ordered.push(normalized.get(key));
+    }
+  }
+  return ordered.length ? ordered : fallbackPosts;
+}
+
+function renderHistoryPage(page) {
+  const key = collectionKeyFromSlug(page.slug);
+  const quickFact = data.posts.find((post) => post.categoryKey === key && post.title.toLowerCase().includes("quick facts"));
+  const stories = orderedPostsFromPage(page, data.posts.filter((post) => post !== quickFact)).filter((post) => post !== quickFact).slice(0, key === "chinese" ? 15 : 6);
+  const storyPage = data.pages.find((item) => item.slug === `${key}-american-stories`);
+  const photoPage = data.pages.find((item) => item.slug === `${key}-american-photos`);
+
+  app.innerHTML = html`
+    <section class="legacy-page">
+      <div class="legacy-intro">
+        <h1>${escapeHtml(page.title)}</h1>
+        <div class="legacy-copy">${paragraphize(cleanPageBody(page).slice(0, 3))}</div>
+        <div class="actions">
+          ${storyPage ? `<a class="button primary" href="${routeHash(storyPage.slug)}">Stories</a>` : ""}
+          ${photoPage ? `<a class="button" href="${routeHash(photoPage.slug)}">Photos</a>` : ""}
+        </div>
+      </div>
+      ${quickFact ? html`
+        <article class="feature-post">
+          <a href="${routeHash(`post/${quickFact.slug}`)}">
+            <img src="${escapeHtml(imageFor(quickFact))}" alt="">
+            <div>
+              <p class="eyebrow">Quick Facts</p>
+              <h2>${escapeHtml(quickFact.title)}</h2>
+              <p class="meta">${escapeHtml([quickFact.author, quickFact.date].filter(Boolean).join(" · "))}</p>
+            </div>
+          </a>
+        </article>
+      ` : ""}
+      <div class="legacy-section-title">
+        <h2>${escapeHtml(key === "chinese" ? "Chinese Stories" : key === "japanese" ? "Japanese History" : "Filipino History")}</h2>
+      </div>
+      <div class="story-list">${storyList(stories)}</div>
+      ${storyPage ? `<div class="legacy-more"><a class="button" href="${routeHash(storyPage.slug)}">${escapeHtml(storyPage.title.replace(": Stories", " Stories"))}</a></div>` : ""}
+    </section>
+  `;
+}
+
+function renderStoryIndex(page) {
+  const key = page.slug === "current" ? "community" : collectionKeyFromSlug(page.slug);
+  const fallbackPosts = page.slug === "current"
+    ? data.posts.filter((post) => ["little-south-east-asia-api-voices-at-a-hispanic-majority-school", "young-asian-american-voices", "face-mask-inventor-dr-wu-lien-teh", "california-honors-filipino-farm-workers-labor-movement-on-larry-itliong-day"].includes(post.slug))
+    : data.posts.filter((post) => !post.title.toLowerCase().includes("quick facts"));
+  const posts = orderedPostsFromPage(page, fallbackPosts);
+  const bodyTitle = sanitizedPageLines(page).find((line) => /History: Stories|Current Events/.test(line));
+
+  app.innerHTML = html`
+    <section class="legacy-page">
+      <div class="legacy-intro">
+        <h1>${escapeHtml(bodyTitle || (page.slug === "current" ? "Current Events" : page.title))}</h1>
+        ${page.slug === "current" ? `<div class="legacy-copy">${paragraphize(cleanPageBody(page).slice(0, 2))}</div>` : ""}
+      </div>
+      <div class="story-list">${storyList(posts)}</div>
+    </section>
+  `;
+}
+
 function renderPage(slug) {
   const page = data.pages.find((item) => item.slug === slug);
   if (!page) {
     renderNotFound();
+    return;
+  }
+
+  if (/^(chinese|japanese|filipino)-american-history$/.test(slug)) {
+    renderHistoryPage(page);
+    return;
+  }
+
+  if (/^(chinese|japanese|filipino)-american-stories$/.test(slug) || slug === "current") {
+    renderStoryIndex(page);
     return;
   }
 
