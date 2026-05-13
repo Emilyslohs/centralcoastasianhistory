@@ -1,6 +1,6 @@
 # Central Coast Asian American History
 
-Static GitHub Pages migration of the original Wix site at <https://www.centralcoastasianhistory.org>.
+Static migration of the original Wix site at <https://www.centralcoastasianhistory.org>.
 
 ## What is included
 
@@ -18,12 +18,12 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>.
 
-## Publish on GitHub Pages
+## Publish
 
-1. Create a new GitHub repository.
+1. Create a new public repository.
 2. Push these files to the repository's default branch.
-3. In GitHub, go to `Settings` -> `Pages`.
+3. In the repository settings, go to `Pages`.
 4. Select `Deploy from a branch`, choose the default branch, and use `/ (root)`.
-5. Save, then wait for GitHub to publish the Pages URL.
+5. Save, then wait for the site to publish.
 
-The site has no build step, so GitHub Pages can host it directly.
+The site has no build step, so static hosting can serve it directly.
