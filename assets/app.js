@@ -72,6 +72,7 @@ const inlineArticleImages = {
   "On March 10, 2021, Google's logo tribute featured Dr. Wu Lien-teh, a Chinese man who saved so many lives during the coronavirus pandemic, on his 142nd birthday. Dr. Wu Lien-teh is credited for creating the surgical face mask.": {
     src: "assets/images/wu-lien-teh.jpg",
     alt: "Portrait of Dr. Wu Lien-teh",
+    className: "is-large",
   },
 };
 
@@ -82,7 +83,7 @@ function paragraphize(lines = []) {
       const inlineImage = inlineArticleImages[line];
       if (inlineImage) {
         return html`
-          <div class="article-inline-photo">
+          <div class="article-inline-photo ${escapeHtml(inlineImage.className || "")}">
             <img src="${escapeHtml(inlineImage.src)}" alt="${escapeHtml(inlineImage.alt)}">
             <p>${linkify(escapeHtml(line))}</p>
           </div>

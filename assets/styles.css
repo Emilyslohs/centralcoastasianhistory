@@ -395,6 +395,10 @@ h3 {
   background: #f1ece4;
 }
 
+.article-inline-photo.is-large img {
+  width: min(18rem, 48%);
+}
+
 .article-body h2,
 .article-body h3 {
   margin: 1.5rem 0 0.7rem;
@@ -665,6 +669,11 @@ h3 {
     width: 100%;
     max-width: 11rem;
     margin: 0 0 0.75rem;
+  }
+
+  .article-inline-photo.is-large img {
+    width: 100%;
+    max-width: 18rem;
   }
 
   .article-gallery {
