@@ -57,6 +57,10 @@ const inlineArticleImages = {
     src: "assets/images/raphaelle-fuentes.png",
     alt: "Raphaelle Fuentes smiling in a classroom",
   },
+  "7. Quinn Kobayashi": {
+    src: "assets/images/quinn-kobayashi.png",
+    alt: "Quinn Kobayashi smiling against a wall",
+  },
 };
 
 function paragraphize(lines = []) {
