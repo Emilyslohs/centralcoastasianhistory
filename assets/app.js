@@ -69,6 +69,10 @@ const inlineArticleImages = {
     src: "assets/images/alivia-vogtman.png",
     alt: "Alivia Vogtman smiling against a wall",
   },
+  "On March 10, 2021, Google's logo tribute featured Dr. Wu Lien-teh, a Chinese man who saved so many lives during the coronavirus pandemic, on his 142nd birthday. Dr. Wu Lien-teh is credited for creating the surgical face mask.": {
+    src: "assets/images/wu-lien-teh.jpg",
+    alt: "Portrait of Dr. Wu Lien-teh",
+  },
 };
 
 function paragraphize(lines = []) {
