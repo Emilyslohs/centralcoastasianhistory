@@ -3072,8 +3072,8 @@ window.CCAH_DATA = {
       "readTime": "3 min read",
       "description": "Protesting the death of George Floyd (Image Source here)HistoryIn the 1800s and 1900s, Asian immigrants working in the United States as laborers were illy spoken of as the \"Yellow Peril\". Yet it was the discrimination they faced that helped bring about solidarity with the Black community. For example, Fredrick Douglass condemned the Chinese Exclusion Act of 1882, while an Indian immigrant served as the editor of Negro World. Similarly, the civil rights movement in the 1960s fostered new ways of",
       "excerpt": "In the 1800s and 1900s, Asian immigrants working in the United States as laborers were illy spoken of as the \"Yellow Peril\". Yet it was the discrimination they faced that helped bring about solidarity with the Black community. For example, Fredrick Douglass condemned the Chinese Exclusion Act of 1882 , while an Indian immigrant served as the editor of Negro World . Similarly, the civil rights movement in the 1960s fostered new ways of interpreting justice and equality in America, furthering the support Asian American leaders and Black freedom activists gave each other. For example, a group of Japanese Americans, who were sent to detention camps during World War 2 later supported Black civil rights activists for fear that they would be subject to similar treatment. Moreover, the term \"Asian American\" came about in 1968 from students involved in the Black Power Movement at UC Berkeley, while Asian American students rallied with Black students at the same time.",
-      "categoryKey": "japanese",
-      "category": "Japanese American",
+      "categoryKey": "community",
+      "category": "Current",
       "image": "https://static.wixstatic.com/media/f45b0f_a46b36c408024179b9c29279449a9ef0~mv2.png/v1/fill/w_800,h_534,al_c,q_90/f45b0f_a46b36c408024179b9c29279449a9ef0~mv2.png",
       "body": [
         "Loadable Component TPAMultiSection_kbf9680l",
