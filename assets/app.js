@@ -41,6 +41,10 @@ const inlineArticleImages = {
     src: "assets/images/mathew-thaisuriya.png",
     alt: "Mathew Thaisuriya smiling and giving thumbs up",
   },
+  "3. Brandon Nguyen": {
+    src: "assets/images/brandon-nguyen.png",
+    alt: "Brandon Nguyen smiling outdoors",
+  },
 };
 
 function paragraphize(lines = []) {
