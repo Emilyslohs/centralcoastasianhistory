@@ -32,10 +32,27 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#039;");
 }
 
+const inlineArticleImages = {
+  "1. Kalani Gaviola": {
+    src: "assets/images/kalani-gaviola.png",
+    alt: "Kalani Gaviola holding a handwritten card",
+  },
+};
+
 function paragraphize(lines = []) {
   return lines
     .filter(Boolean)
     .map((line) => {
+      const inlineImage = inlineArticleImages[line];
+      if (inlineImage) {
+        return html`
+          <div class="article-inline-photo">
+            <p>${linkify(escapeHtml(line))}</p>
+            <img src="${escapeHtml(inlineImage.src)}" alt="${escapeHtml(inlineImage.alt)}">
+          </div>
+        `;
+      }
+
       if (/^(Works Cited|Recent Posts|See All)$/i.test(line)) {
         return `<h2>${escapeHtml(line)}</h2>`;
       }

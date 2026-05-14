@@ -374,6 +374,25 @@ h3 {
   margin: 0 0 1rem;
 }
 
+.article-inline-photo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 9.5rem;
+  align-items: start;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.article-inline-photo p {
+  margin: 0;
+}
+
+.article-inline-photo img {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #f1ece4;
+}
+
 .article-body h2,
 .article-body h3 {
   margin: 1.5rem 0 0.7rem;
@@ -637,6 +656,14 @@ h3 {
   .feature-post a,
   .story-row {
     grid-template-columns: 1fr;
+  }
+
+  .article-inline-photo {
+    grid-template-columns: 1fr;
+  }
+
+  .article-inline-photo img {
+    max-width: 11rem;
   }
 
   .article-gallery {
