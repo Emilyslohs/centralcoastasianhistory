@@ -7,7 +7,8 @@ window.CCAH_DATA = {
     "chinese": "Chinese American",
     "japanese": "Japanese American",
     "filipino": "Filipino American",
-    "community": "Community"
+    "community": "Community",
+    "current-events": "Current Events"
   },
   "galleryCount": 0,
   "pages": [
@@ -1276,8 +1277,8 @@ window.CCAH_DATA = {
       "readTime": "3 min read",
       "description": "Gandhi Anastacio-Olivo from Paso Robles High School graciously drafted this article, highlighting Asian American voices at Paso Robles High School (PRHS). Kopiko.HiChew.Guava candy.Seaweed snacks.As small and young as the club is, PRHS AYA (API Youth Association) still offers this, and more, as a way of connecting with the Asian/Pacific Islander student community at Paso High.However, it’s still not easy getting the word out about such a small club geared towards a relatively small portion of th",
       "excerpt": "Gandhi Anastacio-Olivo from Paso Robles High School graciously drafted this article, highlighting Asian American voices at Paso Robles High School (PRHS).",
-      "categoryKey": "filipino",
-      "category": "Filipino American",
+      "categoryKey": "current-events",
+      "category": "Current Events",
       "image": "https://static.wixstatic.com/media/f45b0f_42ebafc68cfa4719bc66f6ac9c7f695a~mv2.png/v1/fill/w_1000,h_686,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_42ebafc68cfa4719bc66f6ac9c7f695a~mv2.png",
       "body": [
         "Loadable Component TPAMultiSection_kbf9680l",
@@ -1321,8 +1322,8 @@ window.CCAH_DATA = {
       "readTime": "2 min read",
       "description": "Paso Robles High School students Serenity Wulfing and Elidia Chavez in Mr. Geoffrey Land's ethnic studies class interviewed local Asian American students to hear about how they celebrate their cultural heritage. Below are some snapshots of what these Asian American students had to say.1. Kalani Gaviola- Filipino- 3rd generation- “We celebrate our heritage through food. Sometimes when we visit my Lola we wear Filipino clothes, make food, and participate in Filipino traditions. We go to church wit",
       "excerpt": "Paso Robles High School students Serenity Wulfing and Elidia Chavez in Mr. Geoffrey Land's ethnic studies class interviewed local Asian American students to hear about how they celebrate their cultural heritage. Below are some snapshots of what these Asian American students had to say.",
-      "categoryKey": "filipino",
-      "category": "Filipino American",
+      "categoryKey": "current-events",
+      "category": "Current Events",
       "image": "https://static.wixstatic.com/media/f45b0f_5f89fe0046b246f78bd47272137cf46b~mv2.png/v1/fill/w_213,h_251,al_c,lg_1,q_85/f45b0f_5f89fe0046b246f78bd47272137cf46b~mv2.png",
       "body": [
         "Loadable Component TPAMultiSection_kbf9680l",
@@ -1564,8 +1565,8 @@ window.CCAH_DATA = {
       "readTime": "2 min read",
       "description": "On March 10, 2021, Google's logo tribute featured Dr. Wu Lien-teh, a Chinese man who saved so many lives during the coronavirus pandemic, on his 142nd birthday. Dr. Wu Lien-teh is credited for creating the surgical face mask. Dr. Wu invented the surgical face mask in response to the 1910 Manchurian Plague which spread throughout northern China. The Chinese government had appointed Dr. Wu to investigate the disease, and he concluded that it was a highly contagious plague that spread through respi",
       "excerpt": "On March 10, 2021, Google's logo tribute featured Dr. Wu Lien-teh, a Chinese man who saved so many lives during the coronavirus pandemic, on his 142nd birthday. Dr. Wu Lien-teh is credited for creating the surgical face mask.",
-      "categoryKey": "chinese",
-      "category": "Chinese American",
+      "categoryKey": "current-events",
+      "category": "Current Events",
       "image": "https://static.wixstatic.com/media/f45b0f_66ea7b076766466a812f8bf14bbb0c91~mv2.jpg/v1/fill/w_419,h_652,al_c,lg_1,q_80/f45b0f_66ea7b076766466a812f8bf14bbb0c91~mv2.jpg",
       "body": [
         "Loadable Component TPAMultiSection_kbf9680l",
@@ -1648,8 +1649,8 @@ window.CCAH_DATA = {
       "readTime": "1 min read",
       "description": "RecognitionIn 2020, California Governor Newsom issued a proclamation that declared October 25 as 'Larry Itliong Day'. October is Filipino American History Month and October 25 is now 'Larry Itliong Day' in California, recognizing Larry Itliong, a Filipino immigrant and farm worker who played a crucial role in leading the farm labor movement. The proclamation said in part, “Today, on this 107th anniversary of his birth, we recognize the great contributions of Larry Itliong and the Manongs, whose",
       "excerpt": "In 2020, California Governor Newsom issued a proclamation that declared October 25 as 'Larry Itliong Day'. October is Filipino American History Month and October 25 is now 'Larry Itliong Day' in California, recognizing Larry Itliong, a Filipino immigrant and farm worker who played a crucial role in leading the farm labor movement. The proclamation said in part, “Today, on this 107th anniversary of his birth, we recognize the great contributions of Larry Itliong and the Manongs, whose hard-fought battles helped advance farmworkers’ rights and social justice...In redoubling our efforts to protect these workers, we honor an indelible legacy which continues to inspire the next generation of leaders across our state and nation.”",
-      "categoryKey": "filipino",
-      "category": "Filipino American",
+      "categoryKey": "current-events",
+      "category": "Current Events",
       "image": "https://i.ytimg.com/vi/33eyuHL8OCs/maxresdefault.jpg",
       "body": [
         "Loadable Component TPAMultiSection_kbf9680l",
@@ -1953,8 +1954,8 @@ window.CCAH_DATA = {
       "readTime": "",
       "description": "On December 9, 2020, Chinese American Veterans who served in World War II were honored with the Congressional Gold Medal.",
       "excerpt": "On December 9, 2020, Chinese American Veterans who served in World War II were honored with the Congressional Gold Medal.",
-      "categoryKey": "community",
-      "category": "Current",
+      "categoryKey": "current-events",
+      "category": "Current Events",
       "image": "https://i.ytimg.com/vi/Lww3U3xKYos/maxresdefault.jpg",
       "body": [
         "Recognition",
@@ -3071,8 +3072,8 @@ window.CCAH_DATA = {
       "readTime": "3 min read",
       "description": "Protesting the death of George Floyd (Image Source here)HistoryIn the 1800s and 1900s, Asian immigrants working in the United States as laborers were illy spoken of as the \"Yellow Peril\". Yet it was the discrimination they faced that helped bring about solidarity with the Black community. For example, Fredrick Douglass condemned the Chinese Exclusion Act of 1882, while an Indian immigrant served as the editor of Negro World. Similarly, the civil rights movement in the 1960s fostered new ways of",
       "excerpt": "In the 1800s and 1900s, Asian immigrants working in the United States as laborers were illy spoken of as the \"Yellow Peril\". Yet it was the discrimination they faced that helped bring about solidarity with the Black community. For example, Fredrick Douglass condemned the Chinese Exclusion Act of 1882 , while an Indian immigrant served as the editor of Negro World . Similarly, the civil rights movement in the 1960s fostered new ways of interpreting justice and equality in America, furthering the support Asian American leaders and Black freedom activists gave each other. For example, a group of Japanese Americans, who were sent to detention camps during World War 2 later supported Black civil rights activists for fear that they would be subject to similar treatment. Moreover, the term \"Asian American\" came about in 1968 from students involved in the Black Power Movement at UC Berkeley, while Asian American students rallied with Black students at the same time.",
-      "categoryKey": "community",
-      "category": "Current",
+      "categoryKey": "current-events",
+      "category": "Current Events",
       "image": "https://static.wixstatic.com/media/f45b0f_a46b36c408024179b9c29279449a9ef0~mv2.png/v1/fill/w_800,h_534,al_c,q_90/f45b0f_a46b36c408024179b9c29279449a9ef0~mv2.png",
       "body": [
         "Loadable Component TPAMultiSection_kbf9680l",

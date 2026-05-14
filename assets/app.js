@@ -173,7 +173,7 @@ function renderArchive(filter = "all") {
         <p class="lede">Search all migrated posts, or filter by the community collection most closely connected to the story.</p>
       </div>
       <div class="filters" aria-label="Archive filters">
-        ${["all", "chinese", "japanese", "filipino", "community"]
+        ${["all", "chinese", "japanese", "filipino", "current-events", "community"]
           .map((key) => `<a class="chip ${key === filter ? "is-active" : ""}" href="#/archive/${key}">${key === "all" ? "All" : data.categoryLabels[key]}</a>`)
           .join("")}
       </div>
