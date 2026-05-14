@@ -49,6 +49,10 @@ const inlineArticleImages = {
     src: "assets/images/drais-thai.png",
     alt: "Drais Thai standing against a wall",
   },
+  "5. Devon Kinder": {
+    src: "assets/images/devon-kinder.png",
+    alt: "Devon Kinder smiling outdoors",
+  },
 };
 
 function paragraphize(lines = []) {
