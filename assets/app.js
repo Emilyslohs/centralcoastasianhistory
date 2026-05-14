@@ -367,7 +367,6 @@ function renderPage(slug) {
         ${page.image ? `<img class="article-hero" src="${escapeHtml(page.image)}" alt="">` : ""}
         <div class="article-body">
           ${paragraphize(page.body)}
-          <p><a href="${escapeHtml(page.source)}" target="_blank" rel="noopener">View original page</a></p>
         </div>
       </article>
     </section>
@@ -393,7 +392,6 @@ function renderPost(slug) {
         ${post.image ? `<img class="article-hero" src="${escapeHtml(post.image)}" alt="">` : ""}
         <div class="article-body">
           ${paragraphize(post.body)}
-          <p><a href="${escapeHtml(post.source)}" target="_blank" rel="noopener">View original post</a></p>
         </div>
       </article>
     </section>
