@@ -73,6 +73,8 @@ function linkify(text) {
 }
 
 function renderArticleMedia(item) {
+  if (item.hideHeroImage) return "";
+
   if (item.videoEmbed) {
     return html`
       <div class="video-frame">

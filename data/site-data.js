@@ -1309,6 +1309,7 @@ window.CCAH_DATA = {
       "excerpt": "Paso Robles High School students Serenity Wulfing and Elidia Chavez in Mr. Geoffrey Land's ethnic studies class interviewed local Asian American students to hear about how they celebrate their cultural heritage. Below are some snapshots of what these Asian American students had to say.",
       "categoryKey": "current-events",
       "category": "Current Events",
+      "hideHeroImage": true,
       "image": "https://static.wixstatic.com/media/f45b0f_5f89fe0046b246f78bd47272137cf46b~mv2.png/v1/fill/w_213,h_251,al_c,lg_1,q_85/f45b0f_5f89fe0046b246f78bd47272137cf46b~mv2.png",
       "body": [
         "Paso Robles High School students Serenity Wulfing and Elidia Chavez in Mr. Geoffrey Land's ethnic studies class interviewed local Asian American students to hear about how they celebrate their cultural heritage. Below are some snapshots of what these Asian American students had to say.",
