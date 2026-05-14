@@ -61,6 +61,10 @@ const inlineArticleImages = {
     src: "assets/images/quinn-kobayashi.png",
     alt: "Quinn Kobayashi smiling against a wall",
   },
+  "8. Kaela Tran": {
+    src: "assets/images/kaela-tran.png",
+    alt: "Kaela Tran smiling outdoors",
+  },
 };
 
 function paragraphize(lines = []) {
