@@ -53,6 +53,10 @@ const inlineArticleImages = {
     src: "assets/images/devon-kinder.png",
     alt: "Devon Kinder smiling outdoors",
   },
+  "6. Raphaelle Fuentes": {
+    src: "assets/images/raphaelle-fuentes.png",
+    alt: "Raphaelle Fuentes smiling in a classroom",
+  },
 };
 
 function paragraphize(lines = []) {
