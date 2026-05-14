@@ -90,6 +90,10 @@ function paragraphize(lines = []) {
         `;
       }
 
+      if (line.startsWith("body-label:")) {
+        return `<p>${escapeHtml(line.replace("body-label:", ""))}</p>`;
+      }
+
       if (/^(Works Cited|Recent Posts|See All)$/i.test(line)) {
         return `<h2>${escapeHtml(line)}</h2>`;
       }

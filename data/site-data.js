@@ -1543,9 +1543,9 @@ window.CCAH_DATA = {
         "Today, Dr. Wu's invention is regarded as the precursor of the N95 mask and \"Wu Lien-teh remains as much of a hero now as he was then\" (Marcos, para. 9).",
         "Not only was Dr. Wu the inventor of the surgical face mask, but he was also one of the first students of Chinese ancestry to receive a degree in medicine from Cambridge University. Then in 1935, he was the first person of Chinese ancestry to be nominated for the Nobel Prize in Physiology or Medicine in recognition for his work in controlling the plague.",
         "Dr. Wu died at the age of 80 in 1960, but as shown during the COVID-19 pandemic, \"A devoted advocate and practitioner of medical advancement, Wu’s efforts not only changed public health in China but that of the entire world\" (Marcos, para. 11).",
-        "Works Cited",
+        "body-label:Works Cited",
         "Marcos, Coral Murphy. “Google Doodle Celebrates Surgical Face Mask Inventor Dr. Wu Lien-Teh's 142nd Birthday.” USA Today, Gannett Satellite Information Network, 10 Mar. 2021, www.usatoday.com/story/tech/2021/03/10/face-mask-inventor-google-doodle-marks-dr-wu-lien-tehs-birthday/6936312002/.",
-        "Image Source",
+        "body-label:Image Source",
         "Wong, K.C. and Wu, Lien-Teh. Dr Wu Lien Teh. n.d., Photograph, Wellcome Collection, https://wellcomecollection.org/works/aa6ety53."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/face-mask-inventor-dr-wu-lien-teh"
