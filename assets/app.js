@@ -145,7 +145,6 @@ function renderHome() {
           <p class="eyebrow">Collections</p>
           <h2>Start with a community</h2>
         </div>
-        <p>Each collection gathers the original history pages, story indexes, posts, and photo galleries into one cleaner path.</p>
       </div>
       <div class="grid cards">
         ${Object.entries(collections)
