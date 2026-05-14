@@ -278,6 +278,11 @@ function orderedPostsFromPage(page, fallbackPosts) {
   return ordered.length ? ordered : fallbackPosts;
 }
 
+function orderedPostsFromPageWithExtras(page, fallbackPosts) {
+  const ordered = orderedPostsFromPage(page, fallbackPosts);
+  return [...ordered, ...fallbackPosts.filter((post) => !ordered.includes(post))];
+}
+
 function renderHistoryPage(page) {
   const key = collectionKeyFromSlug(page.slug);
   const quickFact = data.posts.find((post) => post.categoryKey === key && post.title.toLowerCase().includes("quick facts"));
@@ -319,9 +324,9 @@ function renderHistoryPage(page) {
 function renderStoryIndex(page) {
   const key = page.slug === "current" ? "community" : collectionKeyFromSlug(page.slug);
   const fallbackPosts = page.slug === "current"
-    ? data.posts.filter((post) => ["little-south-east-asia-api-voices-at-a-hispanic-majority-school", "young-asian-american-voices", "face-mask-inventor-dr-wu-lien-teh", "california-honors-filipino-farm-workers-labor-movement-on-larry-itliong-day"].includes(post.slug))
+    ? data.posts.filter((post) => ["little-south-east-asia-api-voices-at-a-hispanic-majority-school", "young-asian-american-voices", "face-mask-inventor-dr-wu-lien-teh", "california-honors-filipino-farm-workers-labor-movement-on-larry-itliong-day", "chinese-american-wwii-veterans-honored-with-congressional-gold-medal"].includes(post.slug))
     : data.posts.filter((post) => !post.title.toLowerCase().includes("quick facts"));
-  const posts = orderedPostsFromPage(page, fallbackPosts);
+  const posts = page.slug === "current" ? orderedPostsFromPageWithExtras(page, fallbackPosts) : orderedPostsFromPage(page, fallbackPosts);
   const bodyTitle = sanitizedPageLines(page).find((line) => /History: Stories|Current Events/.test(line));
 
   app.innerHTML = html`
