@@ -349,6 +349,18 @@ h3 {
   object-fit: cover;
 }
 
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #111;
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .article-body {
   padding: clamp(1.2rem, 4vw, 2.5rem);
 }

@@ -51,6 +51,23 @@ function linkify(text) {
   );
 }
 
+function renderArticleMedia(item) {
+  if (item.videoEmbed) {
+    return html`
+      <div class="video-frame">
+        <iframe
+          src="${escapeHtml(item.videoEmbed)}"
+          title="${escapeHtml(item.videoTitle || item.title || "Video")}"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    `;
+  }
+
+  return item.image ? `<img class="article-hero" src="${escapeHtml(item.image)}" alt="">` : "";
+}
+
 function imageFor(item) {
   return item.image || data.fallbackImage;
 }
@@ -394,7 +411,7 @@ function renderPost(slug) {
         <p class="meta">${escapeHtml([post.author, post.date, post.readTime].filter(Boolean).join(" · "))}</p>
       </div>
       <article class="article">
-        ${post.image ? `<img class="article-hero" src="${escapeHtml(post.image)}" alt="">` : ""}
+        ${renderArticleMedia(post)}
         <div class="article-body">
           ${paragraphize(post.body)}
         </div>

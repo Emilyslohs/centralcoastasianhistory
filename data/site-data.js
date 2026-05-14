@@ -1957,9 +1957,6 @@ window.CCAH_DATA = {
       "category": "Current",
       "image": "https://i.ytimg.com/vi/Lww3U3xKYos/maxresdefault.jpg",
       "body": [
-        "Emily Pan",
-        "Dec 12, 2020",
-        "Updated: Jan 2, 2021",
         "Recognition",
         "On December 9, 2020, Chinese American Veterans who served in World War II were honored with the Congressional Gold Medal. The Congressional Gold Medal was initiated following the American Revolution and is an award bestowed by the United States Congress to honor individuals who have served in the military.",
         "Seventy-five years after World War II ended, 20,000 Chinese American veterans were presented with the highest civilian honor, the Congressional Gold Medal to honor their service, heroism, and patriotism to the United States of America. Due to coronavirus concerns, the event was held virtually, and the service members still alive today, numbering fewer than 300 of the 20,000 who enlisted, were honored to be presented the award.",
@@ -1971,7 +1968,9 @@ window.CCAH_DATA = {
         "Works Cited",
         "Silva, Cynthia, and The Associated Press. “Chinese American WWII Veterans Honored with Congressional Gold Medal.” NBCNews.com, NBCUniversal News Group, 11 Dec. 2020, www.nbcnews.com/news/asian-america/chinese-american-wwii-veterans-honored-congressional-gold-medal-n1250767."
       ],
-      "source": "https://www.centralcoastasianhistory.org/post/chinese-american-wwii-veterans-honored-with-congressional-gold-medal"
+      "source": "https://www.centralcoastasianhistory.org/post/chinese-american-wwii-veterans-honored-with-congressional-gold-medal",
+      "videoEmbed": "https://www.youtube.com/embed/Lww3U3xKYos",
+      "videoTitle": "Chinese American WWII veterans honored with Congressional Gold Medal"
     },
     {
       "slug": "honoring-the-past",
