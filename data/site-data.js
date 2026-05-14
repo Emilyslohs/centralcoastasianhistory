@@ -1277,6 +1277,7 @@ window.CCAH_DATA = {
       "excerpt": "Gandhi Anastacio-Olivo from Paso Robles High School graciously drafted this article, highlighting Asian American voices at Paso Robles High School (PRHS).",
       "categoryKey": "current-events",
       "category": "Current Events",
+      "hideHeroImage": true,
       "image": "https://static.wixstatic.com/media/f45b0f_42ebafc68cfa4719bc66f6ac9c7f695a~mv2.png/v1/fill/w_1000,h_686,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_42ebafc68cfa4719bc66f6ac9c7f695a~mv2.png",
       "body": [
         "Gandhi Anastacio-Olivo from Paso Robles High School graciously drafted this article, highlighting Asian American voices at Paso Robles High School (PRHS).",
