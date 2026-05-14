@@ -369,7 +369,7 @@ function renderPage(slug) {
       <div class="page-title">
         <p class="eyebrow">Page</p>
         <h1>${escapeHtml(page.title)}</h1>
-        <p class="lede">${escapeHtml(page.description || page.excerpt || "")}</p>
+        ${slug === "about" ? "" : `<p class="lede">${escapeHtml(page.description || page.excerpt || "")}</p>`}
       </div>
       <article class="article">
         ${page.image ? `<img class="article-hero" src="${escapeHtml(page.image)}" alt="">` : ""}
