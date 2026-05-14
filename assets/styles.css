@@ -365,6 +365,23 @@ h3 {
   padding: clamp(1.2rem, 4vw, 2.5rem);
 }
 
+.article-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0 0 1.4rem;
+}
+
+.article-gallery img {
+  width: 100%;
+  height: 100%;
+  max-height: 34rem;
+  object-fit: contain;
+  background: #f1ece4;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+
 .article-body p {
   margin: 0 0 1rem;
 }
@@ -631,6 +648,10 @@ h3 {
 
   .feature-post a,
   .story-row {
+    grid-template-columns: 1fr;
+  }
+
+  .article-gallery {
     grid-template-columns: 1fr;
   }
 

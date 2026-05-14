@@ -1255,7 +1255,17 @@ window.CCAH_DATA = {
         "Gomez Borah, Eloisa. \"The Filipino Landing in Morro Bay in 1587.\" Project Muse. 6 Oct. 2023 https://muse.jhu.edu/pub/5/article/908214/pdf",
         "Guillermo, Emil. \"If Filipinos were here first, shouldn’t this be the United States of the Philippines?\" Asian American Legal Defense and Education Fund. 16 Oct. 2017 https://www.aaldef.org/blog/emil-guillermo-filipinos-here-first-at-morro-bay-pedro-de-unamuno/"
       ],
-      "source": "https://www.centralcoastasianhistory.org/post/first-filipinos"
+      "source": "https://www.centralcoastasianhistory.org/post/first-filipinos",
+      "gallery": [
+        {
+          "src": "assets/images/filipino-landing-journal-page.jpeg",
+          "alt": "Journal page titled The Filipino Landing in Morro Bay in 1587 by Eloisa Gomez Borah"
+        },
+        {
+          "src": "assets/images/morro-bay-rock.jpg",
+          "alt": "Morro Rock and beach in Morro Bay, California"
+        }
+      ]
     },
     {
       "slug": "little-south-east-asia-api-voices-at-a-hispanic-majority-school",

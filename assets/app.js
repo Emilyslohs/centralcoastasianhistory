@@ -68,6 +68,22 @@ function renderArticleMedia(item) {
   return item.image ? `<img class="article-hero" src="${escapeHtml(item.image)}" alt="">` : "";
 }
 
+function renderArticleGallery(item) {
+  if (!item.gallery?.length) return "";
+
+  return html`
+    <div class="article-gallery">
+      ${item.gallery
+        .map((image) => {
+          const src = typeof image === "string" ? image : image.src;
+          const alt = typeof image === "string" ? "" : image.alt || "";
+          return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}">`;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
 function imageFor(item) {
   return item.image || data.fallbackImage;
 }
@@ -413,6 +429,7 @@ function renderPost(slug) {
       <article class="article">
         ${renderArticleMedia(post)}
         <div class="article-body">
+          ${renderArticleGallery(post)}
           ${paragraphize(post.body)}
         </div>
       </article>
