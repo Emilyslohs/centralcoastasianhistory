@@ -396,7 +396,7 @@ h3 {
 }
 
 .article-inline-photo.is-large img {
-  width: min(18rem, 48%);
+  width: min(24rem, 56%);
 }
 
 .article-body h2,
@@ -673,7 +673,7 @@ h3 {
 
   .article-inline-photo.is-large img {
     width: 100%;
-    max-width: 18rem;
+    max-width: 22rem;
   }
 
   .article-gallery {
