@@ -116,7 +116,7 @@ function renderHome() {
         <p class="lede">A digital archive featuring stories, oral histories, and local photographs about Chinese, Japanese, Filipino, and Asian American communities across California's Central Coast.</p>
         <div class="actions">
           <a class="button primary" href="#/archive">Browse the archive</a>
-          <a class="button" href="#/about">About the project</a>
+          <a class="button" href="#/about">About the website</a>
         </div>
       </div>
       <div class="hero-media">
