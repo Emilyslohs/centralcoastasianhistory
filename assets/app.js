@@ -107,14 +107,6 @@ function renderHome() {
       </div>
     </section>
     <section class="section">
-      <div class="stats">
-        <div class="stat"><strong>${data.posts.length}</strong><span>Posts migrated</span></div>
-        <div class="stat"><strong>${data.pages.length}</strong><span>Pages indexed</span></div>
-        <div class="stat"><strong>${data.galleryCount}</strong><span>Gallery images found</span></div>
-        <div class="stat"><strong>2020</strong><span>Archive founded</span></div>
-      </div>
-    </section>
-    <section class="section">
       <div class="section-header">
         <div>
           <p class="eyebrow">Collections</p>
