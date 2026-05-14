@@ -37,6 +37,10 @@ const inlineArticleImages = {
     src: "assets/images/kalani-gaviola.png",
     alt: "Kalani Gaviola holding a handwritten card",
   },
+  "2. Mathew Thaisuriya": {
+    src: "assets/images/mathew-thaisuriya.png",
+    alt: "Mathew Thaisuriya smiling and giving thumbs up",
+  },
 };
 
 function paragraphize(lines = []) {
