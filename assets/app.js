@@ -45,6 +45,10 @@ const inlineArticleImages = {
     src: "assets/images/brandon-nguyen.png",
     alt: "Brandon Nguyen smiling outdoors",
   },
+  "4. Drais Thai": {
+    src: "assets/images/drais-thai.png",
+    alt: "Drais Thai standing against a wall",
+  },
 };
 
 function paragraphize(lines = []) {
