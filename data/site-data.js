@@ -1258,11 +1258,11 @@ window.CCAH_DATA = {
       "source": "https://www.centralcoastasianhistory.org/post/first-filipinos",
       "gallery": [
         {
-          "src": "assets/images/filipino-landing-journal-page.jpeg",
+          "src": "assets/images/filipino-landing-journal-page.jpeg?v=e729487",
           "alt": "Journal page titled The Filipino Landing in Morro Bay in 1587 by Eloisa Gomez Borah"
         },
         {
-          "src": "assets/images/morro-bay-rock.jpg",
+          "src": "assets/images/morro-bay-rock.jpg?v=e729487",
           "alt": "Morro Rock and beach in Morro Bay, California"
         }
       ]
