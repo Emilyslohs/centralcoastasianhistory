@@ -65,6 +65,10 @@ const inlineArticleImages = {
     src: "assets/images/kaela-tran.png",
     alt: "Kaela Tran smiling outdoors",
   },
+  "9. Alivia Vogtman": {
+    src: "assets/images/alivia-vogtman.png",
+    alt: "Alivia Vogtman smiling against a wall",
+  },
 };
 
 function paragraphize(lines = []) {
