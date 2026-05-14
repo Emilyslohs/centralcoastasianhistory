@@ -375,10 +375,6 @@ h3 {
 }
 
 .article-inline-photo {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 9.5rem;
-  align-items: start;
-  gap: 1rem;
   margin: 0 0 1rem;
 }
 
@@ -387,7 +383,9 @@ h3 {
 }
 
 .article-inline-photo img {
-  width: 100%;
+  float: right;
+  width: min(9.5rem, 40%);
+  margin: 0 0 0.75rem 1rem;
   border: 1px solid var(--line);
   border-radius: 7px;
   background: #f1ece4;
@@ -658,12 +656,11 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .article-inline-photo {
-    grid-template-columns: 1fr;
-  }
-
   .article-inline-photo img {
+    float: none;
+    width: 100%;
     max-width: 11rem;
+    margin: 0 0 0.75rem;
   }
 
   .article-gallery {

@@ -51,8 +51,8 @@ function paragraphize(lines = []) {
       if (inlineImage) {
         return html`
           <div class="article-inline-photo">
-            <p>${linkify(escapeHtml(line))}</p>
             <img src="${escapeHtml(inlineImage.src)}" alt="${escapeHtml(inlineImage.alt)}">
+            <p>${linkify(escapeHtml(line))}</p>
           </div>
         `;
       }
