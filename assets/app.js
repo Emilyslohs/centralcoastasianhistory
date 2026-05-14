@@ -96,7 +96,7 @@ function renderHome() {
       <div class="hero-copy">
         <p class="eyebrow">Community archive</p>
         <h1>Central Coast Asian American History</h1>
-        <p class="lede">A home for timelines, oral histories, local photographs, and student research about Chinese, Japanese, Filipino, and Asian American communities across California's Central Coast.</p>
+        <p class="lede">A digital archive featuring stories, oral histories, and local photographs about Chinese, Japanese, Filipino, and Asian American communities across California's Central Coast.</p>
         <div class="actions">
           <a class="button primary" href="#/archive">Browse the archive</a>
           <a class="button" href="#/about">About the project</a>
