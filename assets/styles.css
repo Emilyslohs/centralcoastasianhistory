@@ -374,6 +374,10 @@ h3 {
   margin: 0 0 1rem;
 }
 
+.article-body .speaker-quote {
+  margin-bottom: 2.35rem;
+}
+
 .article-inline-photo {
   margin: 0 0 1rem;
 }

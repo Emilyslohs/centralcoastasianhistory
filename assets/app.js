@@ -88,6 +88,9 @@ function paragraphize(lines = []) {
       if (/^(Works Cited|Recent Posts|See All)$/i.test(line)) {
         return `<h2>${escapeHtml(line)}</h2>`;
       }
+      if (/^- [“"]/.test(line)) {
+        return `<p class="speaker-quote">${linkify(escapeHtml(line))}</p>`;
+      }
       return `<p>${linkify(escapeHtml(line))}</p>`;
     })
     .join("");
