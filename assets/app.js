@@ -79,6 +79,11 @@ const inlineArticleImages = {
     alt: "Routes and Roots exhibit introduction page",
     className: "is-wide",
   },
+  "During World War II, as many as 250,000 Filipinos served in the U.S. Army, even though most of them could not become naturalized citizens. Nevertheless, they served for the United States, showing their patriotism to America.": {
+    src: "assets/images/robert-offley.jpg",
+    alt: "Filipino soldiers and U.S. Army officers during World War II",
+    className: "is-wide",
+  },
 };
 
 function paragraphize(lines = [], item = {}) {
