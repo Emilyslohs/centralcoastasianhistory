@@ -1607,7 +1607,7 @@ window.CCAH_DATA = {
       "categoryKey": "current-events",
       "category": "Current Events",
       "image": "https://i.ytimg.com/vi/33eyuHL8OCs/maxresdefault.jpg",
-      "videoEmbed": "https://www.cbsnews.com/losangeles/news/california-honors-filipino-farm-workers-labor-movement-larry-itliong-day/",
+      "videoEmbed": "https://www.youtube.com/embed/33eyuHL8OCs",
       "videoTitle": "California Honors Filipino Farm Workers Labor Movement On 'Larry Itliong Day'",
       "sectionHeadings": [
         "Recognition",
