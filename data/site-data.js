@@ -3771,22 +3771,17 @@ window.CCAH_DATA = {
       "categoryKey": "filipino",
       "category": "Filipino American",
       "image": "https://static.wixstatic.com/media/f45b0f_3655be07708a4f18bdad9b88c8d90e09~mv2.png/v1/fill/w_1000,h_442,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_3655be07708a4f18bdad9b88c8d90e09~mv2.png",
+      "sectionHeadings": [
+        "Works Cited"
+      ],
+      "links": [
+        {
+          "text": "Check out the exhibit here",
+          "url": "https://sites.google.com/site/centralcoastroutesandroots/home"
+        }
+      ],
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
-        "Emily Pan",
-        "Jan 11, 2021",
-        "1 min read",
-        "Updated: May 22, 2025",
-        "A Google site called \" Routes and Roots: Cultivating Filipino American History on the Central Coast \" created by Cal Poly students and directed by Ethnic Studies Professor Grace Yeh showcases the mark Filipino Americans have left on the Central Coast of California. The routes section shares the life experiences of Filipino migrant laborers who harvested crops in California, specifically narrowing in on their working and living conditions. The roots section follows the Filipino Americans from before World War II to after the war and aims to capture the culture formed by Filipino Americans as they worked to overcome the harsh realities of life in America and created a sense of belonging on the Central Coast. Check out the exhibit here .",
+        "A Google site called \"Routes and Roots: Cultivating Filipino American History on the Central Coast\" created by Cal Poly students and directed by Ethnic Studies Professor Grace Yeh showcases the mark Filipino Americans have left on the Central Coast of California. The routes section shares the life experiences of Filipino migrant laborers who harvested crops in California, specifically narrowing in on their working and living conditions. The roots section follows the Filipino Americans from before World War II to after the war and aims to capture the culture formed by Filipino Americans as they worked to overcome the harsh realities of life in America and created a sense of belonging on the Central Coast. Check out the exhibit here.",
         "One fascinating piece of information from the exhibit is that Filipinos landed in Morro Bay as early as 1587. The Filipinos who first landed in Morrow Bay were described as “Luzones Indios” in the ship’s log, and they were sailors aboard a Spanish galleon that traveled between Mexico and Manila in the Philippines. The Central Coast Chapter of the Filipino American National Historical Society (FANHS) created a plaque in remembrance of the first recorded landing of Filipinos on American shores in 1995.",
         "To share something you learned from the exhibit with us, click here to contact us and leave a message indicating what you found fascinating and a link to the section of the exhibit where the information came from.",
         "Works Cited",
