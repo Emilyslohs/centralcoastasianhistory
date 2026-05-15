@@ -3048,7 +3048,7 @@ window.CCAH_DATA = {
         "Estrada, Sheryl. “Pew: Asian, Black Individuals Say They Face Discrimination amid COVID-19.” HR Dive, 9 July 2020, www.hrdive.com/news/asian-black-individuals-say-they-face-discrimination-amid-covid-19-pew-su/581329/.",
         "Lang, Cady. “History and Asian American Response to Black Lives Matter.” Time, Time, 26 June 2020, time.com/5851792/asian-americans-black-solidarity-history/.",
         "Shoichet, Catherine E. “31% Of Asian Americans Say They've Been Subject to Racist Slurs or Jokes since the Coronavirus Pandemic Began.” CNN, Cable News Network, 1 July 2020, www.cnn.com/2020/07/01/us/coronavirus-discrimination-study/index.html.",
-        "image source: https://time.com/5851792/asian-americans-black-solidarity-history/"
+        "Image source: https://time.com/5851792/asian-americans-black-solidarity-history/"
       ],
       "source": "https://www.centralcoastasianhistory.org/post/black-asian-solidarity"
     },
