@@ -131,7 +131,7 @@ function paragraphize(lines = [], item = {}) {
 }
 
 function formatArticleText(text, item = {}) {
-  return applyArticleLinks(linkify(escapeHtml(text)), item);
+  return applyArticleLinks(linkify(applyBoldPhrases(escapeHtml(text), item)), item);
 }
 
 function applyArticleLinks(text, item = {}) {
@@ -139,6 +139,13 @@ function applyArticleLinks(text, item = {}) {
     const label = escapeHtml(link.text);
     const url = escapeHtml(link.url);
     return out.replaceAll(label, `<a href="${url}" target="_blank" rel="noopener">${label}</a>`);
+  }, text);
+}
+
+function applyBoldPhrases(text, item = {}) {
+  return (item.boldPhrases || []).reduce((out, phrase) => {
+    const label = escapeHtml(phrase);
+    return out.replaceAll(label, `<strong>${label}</strong>`);
   }, text);
 }
 
@@ -539,20 +546,26 @@ function renderPage(slug) {
     ? `<section class="section"><div class="section-header"><h2>Photo gallery</h2></div><div class="gallery">${page.gallery.map((src) => `<img src="${escapeHtml(src)}" alt="">`).join("")}</div></section>`
     : "";
   const sourceGallery = renderSourceGallery(page.sourceGallery);
-
-  app.innerHTML = html`
-    <section class="page-shell">
-      <div class="page-title">
-        <p class="eyebrow">Page</p>
-        <h1>${escapeHtml(page.title)}</h1>
-        ${slug === "about" ? "" : `<p class="lede">${escapeHtml(page.description || page.excerpt || "")}</p>`}
-      </div>
+  const lede = page.description || page.excerpt;
+  const article = page.image || page.body?.length
+    ? html`
       <article class="article">
         ${page.image ? `<img class="article-hero" src="${escapeHtml(page.image)}" alt="">` : ""}
         <div class="article-body">
           ${paragraphize(page.body, page)}
         </div>
       </article>
+    `
+    : "";
+
+  app.innerHTML = html`
+    <section class="page-shell">
+      <div class="page-title">
+        <p class="eyebrow">Page</p>
+        <h1>${escapeHtml(page.title)}</h1>
+        ${slug === "about" || !lede ? "" : `<p class="lede">${escapeHtml(lede)}</p>`}
+      </div>
+      ${article}
     </section>
     ${gallery}
     ${sourceGallery}
