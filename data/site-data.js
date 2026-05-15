@@ -3452,7 +3452,7 @@ window.CCAH_DATA = {
       "links": [
         {
           "text": "Check out the exhibit here",
-          "url": "https://sites.google.com/site/centralcoastroutesandroots/home"
+          "url": "https://sites.google.com/site/centralcoastroutesandroots/"
         }
       ],
       "body": [
