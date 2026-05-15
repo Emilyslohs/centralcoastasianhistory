@@ -508,7 +508,7 @@ function renderHistoryPage(page) {
 function renderStoryIndex(page) {
   const key = page.slug === "current" ? "community" : collectionKeyFromSlug(page.slug);
   const fallbackPosts = page.slug === "current"
-    ? data.posts.filter((post) => ["little-south-east-asia-api-voices-at-a-hispanic-majority-school", "young-asian-american-voices", "face-mask-inventor-dr-wu-lien-teh", "california-honors-filipino-farm-workers-labor-movement-on-larry-itliong-day", "chinese-american-wwii-veterans-honored-with-congressional-gold-medal", "black-asian-solidarity"].includes(post.slug))
+    ? data.posts.filter((post) => post.categoryKey === "current-events")
     : data.posts.filter((post) => post.categoryKey === key && !post.title.toLowerCase().includes("quick facts"));
   const posts = orderedPostsFromPageWithExtras(page, fallbackPosts);
   const bodyTitle = sanitizedPageLines(page).find((line) => /History: Stories|Current Events/.test(line));
