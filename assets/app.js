@@ -205,7 +205,7 @@ function renderArticleGallery(item) {
   `;
 }
 
-function renderSourceGallery(items = []) {
+function renderSourceGallery(items = [], title = "Photo gallery") {
   if (!items.length) return "";
 
   return html`
@@ -213,12 +213,11 @@ function renderSourceGallery(items = []) {
       <div class="section-header">
         <div>
           <p class="eyebrow">Photo archive</p>
-          <h2>Filipino American history photos</h2>
+          <h2>${escapeHtml(title)}</h2>
         </div>
       </div>
       <div class="source-gallery">
         ${items
-          .slice(0, 8)
           .map((item) => html`
             <article class="source-photo-card">
               <img src="${escapeHtml(item.image)}" alt=""${item.imagePosition ? ` style="object-position: ${escapeHtml(item.imagePosition)};"` : ""}>
@@ -545,7 +544,7 @@ function renderPage(slug) {
   const gallery = page.gallery?.length
     ? `<section class="section"><div class="section-header"><h2>Photo gallery</h2></div><div class="gallery">${page.gallery.map((src) => `<img src="${escapeHtml(src)}" alt="">`).join("")}</div></section>`
     : "";
-  const sourceGallery = renderSourceGallery(page.sourceGallery);
+  const sourceGallery = renderSourceGallery(page.sourceGallery, page.sourceGalleryTitle);
   const lede = page.description || page.excerpt;
   const article = page.image || page.body?.length
     ? html`

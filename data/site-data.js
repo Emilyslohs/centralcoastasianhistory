@@ -23,7 +23,7 @@ window.CCAH_DATA = {
         "This website was created after protests and paddle outs occurred all over the nation, following the death of George Floyd. The response to the murder of George Floyd has furthered the awareness of all Americans to the racism that is the “dirty secret” of this nation’s history.",
         "This website was started by Emily Pan, a second generation Chinese American born and raised in San Luis Obispo. She is now attending University of California, San Diego and studying Bioengineering: Biotechnology. She created this website to preserve the mark Asian Americans have left on the Central Coast over the years. Included in this website are videos, interviews with local historians and residents, photos of artifacts, and much more!",
         "This website was created with support by: Dr. Grace Yeh, Ethnic Studies, Cal Poly SLO; Dr. Daniel Krieger, Professor Emeritus of history, Cal Poly SLO; History Center of San Luis Obispo County; Elliot Gong; Jim Gregory; and Richard Waller. The funding for the domain and hosting of this website is made possible through the #HWPActionGrant, Cal Poly Ethnic Studies, and individual community donors.",
-        "Feel free to continue exploring the website, and contact us if you have any questions or information to share. Please note that some information was gathered from the internet. If you find any issues or corrections that should be made, please let us know by clicking on the contact button below."
+        "Feel free to continue exploring the website, and contact us if you have any questions or information to share. Please note that some information was gathered from the internet."
       ],
       "source": "https://www.centralcoastasianhistory.org/about"
     },
@@ -689,7 +689,8 @@ window.CCAH_DATA = {
           "title": "Carlos Bulosan",
           "description": "A formal portrait of Carlos Bulosan, whose writing documented Filipino immigrant life and labor struggles in America.",
           "image": "assets/images/carlos-bulosan-portrait-young.png",
-          "source": "https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/32/"
+          "source": "https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/32/",
+          "imagePosition": "50% 0%"
         },
         {
           "title": "Carlos Bulosan author of America is in the Heart",
@@ -715,7 +716,8 @@ window.CCAH_DATA = {
         }
       ],
       "body": [],
-      "source": "https://www.centralcoastasianhistory.org/filipino-american-photos"
+      "source": "https://www.centralcoastasianhistory.org/filipino-american-photos",
+      "sourceGalleryTitle": "Filipino American history photos"
     },
     {
       "slug": "filipino-american-stories",
@@ -972,68 +974,249 @@ window.CCAH_DATA = {
       "slug": "japanese-american-photos",
       "title": "Photos | Japanese History",
       "description": "",
-      "excerpt": "$ We gratefully acknowledge, respect, and thank yak titʸu titʸu yak tiłhini, Northern Chumash Tribe of San Luis Obispo County and Region in whose homelands we all are guests.",
+      "excerpt": "",
       "image": "",
       "gallery": [],
-      "body": [
-        "Safari Pinned Tab Icon",
-        "Segmenter Polyfill",
-        "Legacy Polyfills",
-        "Performance API Polyfills",
-        "Essential Viewer Model",
-        "Globals Definitions",
-        "BEGIN handleAccessTokens bundle",
-        "END handleAccessTokens bundle",
-        "BEGIN overrideGlobals bundle",
-        "END overrideGlobals bundle",
-        "Initial CSS",
-        "pageHtmlEmbeds.head start",
-        "pageHtmlEmbeds.head end",
-        "head performance data start",
-        "head performance data end",
-        "render-head end",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
-        "$ Japanese American History: Photos",
-        "$ /$",
-        "$ We gratefully acknowledge, respect, and thank yak titʸu titʸu yak tiłhini, Northern Chumash Tribe of San Luis Obispo County and Region in whose homelands we all are guests.",
-        "/$ $ &copy;2020 - 2026 by Central Coast Asian American History.",
-        "Polyfills check",
-        "initCustomElements # 1",
-        "preloading pre-scripts",
-        "sentryOnLoad Setup Script",
-        "Sentry Loader Script",
-        "Sentry's makeMultiplexedTransport",
-        "Sentry's moduleMetadataIntegration",
-        "Add the rest of the ViewerModel",
-        "renderIndicator",
-        "versionIndicator",
-        "used platform apis start",
-        "used platform apis end",
-        "Business Manager",
-        "initCustomElements #2",
-        "react",
-        "react-dom",
-        "lodash script",
-        "initial scripts",
-        "scriptTagsToPreload",
-        "Old Browsers Deprecation",
-        "bi",
-        "pageHtmlEmbeds.bodyEnd start",
-        "pageHtmlEmbeds.bodyEnd end",
-        "warmup data start",
-        "warmup data end",
-        "presets polyfill",
-        "detect browser zoom"
-      ],
-      "source": "https://www.centralcoastasianhistory.org/japanese-american-photos"
+      "body": [],
+      "source": "https://www.centralcoastasianhistory.org/japanese-american-photos",
+      "sourceGalleryTitle": "Japanese American history photos",
+      "sourceGallery": [
+        {
+          "title": "Gidra Collection",
+          "description": "A collection of photos, newspaper articles, and primary sources documenting Asian American activism and community history.",
+          "image": "https://static.wixstatic.com/media/f45b0f_93a0afb8f65744a4a8b8bb22f1f0405d~mv2.png/v1/fill/w_250,h_343,al_c,q_95/f45b0f_93a0afb8f65744a4a8b8bb22f1f0405d~mv2.png",
+          "source": "https://ddr.densho.org/ddr-densho-297/"
+        },
+        {
+          "title": "Four Japanese Girls at Grave",
+          "description": "Four Japanese girls at a grave, circa 1960, from the People & Portraits collection at the History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_33f90e1fee8f4ea88accd2fe3532c2c3~mv2.jpg/v1/fill/w_250,h_251,al_c,q_90/f45b0f_33f90e1fee8f4ea88accd2fe3532c2c3~mv2.jpg",
+          "source": "https://historycenterslo.pastperfectonline.com/photo/C1677B24-5173-49A9-9AA6-327397834510"
+        },
+        {
+          "title": "Kofuji Eto Fukunaga",
+          "description": "Kofuji Eto Fukunaga with her nephew Michael Shibata in November 1960, from the People & Portraits collection at the History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_40160b9249114e2785b33a083445377e~mv2.jpg/v1/fill/w_250,h_264,al_c,q_90/f45b0f_40160b9249114e2785b33a083445377e~mv2.jpg",
+          "source": "https://historycenterslo.pastperfectonline.com/photo/9DC0EA6D-C156-42FA-9E7E-115135553446"
+        },
+        {
+          "title": "Bedding Plants",
+          "description": "Bedding Plants at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_cf6e41f082a54d4a81884f14ea6d7e3c~mv2.png/v1/fill/w_250,h_198,al_c,q_95/f45b0f_cf6e41f082a54d4a81884f14ea6d7e3c~mv2.png"
+        },
+        {
+          "title": "Deep Plowing",
+          "description": "Deep Plowing at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_ff03a7cc0d654bf7aefba13d74552916~mv2.png/v1/fill/w_250,h_195,al_c,q_95/f45b0f_ff03a7cc0d654bf7aefba13d74552916~mv2.png"
+        },
+        {
+          "title": "Seeder",
+          "description": "Seeder at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_7a6d45acd06f44c0b0a78eae12e32fa0~mv2.png/v1/fill/w_250,h_165,al_c,q_95/f45b0f_7a6d45acd06f44c0b0a78eae12e32fa0~mv2.png"
+        },
+        {
+          "title": "Plowing",
+          "description": "Plowing at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_6da994af21174ddf9dc19b65701d6809~mv2.png/v1/fill/w_250,h_207,al_c,q_95/f45b0f_6da994af21174ddf9dc19b65701d6809~mv2.png"
+        },
+        {
+          "title": "Diking",
+          "description": "Diking at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_63296b16466e487cb03c8786e5073d34~mv2.png/v1/fill/w_250,h_133,al_c,q_95/f45b0f_63296b16466e487cb03c8786e5073d34~mv2.png"
+        },
+        {
+          "title": "Hand Cleaning Seeds",
+          "description": "Hand Cleaning Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_c437b1619fd14a1abf7227f0b907bba8~mv2.png/v1/fill/w_250,h_269,al_c,q_95/f45b0f_c437b1619fd14a1abf7227f0b907bba8~mv2.png"
+        },
+        {
+          "title": "Winnowing Seeds",
+          "description": "Winnowing Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_c35b20f5240d41f1ba643a179d6e4673~mv2.png/v1/fill/w_250,h_131,al_c,q_95/f45b0f_c35b20f5240d41f1ba643a179d6e4673~mv2.png"
+        },
+        {
+          "title": "Hand Threshing Seeds",
+          "description": "Hand Threshing Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_787af2a242eb48fe822fedd83aa5706d~mv2.png/v1/fill/w_250,h_132,al_c,q_95/f45b0f_787af2a242eb48fe822fedd83aa5706d~mv2.png"
+        },
+        {
+          "title": "Hand Threshing Seeds",
+          "description": "Hand Threshing Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_f860d35393f24ce18ee00525f938e6c1~mv2.png/v1/fill/w_250,h_189,al_c,q_95/f45b0f_f860d35393f24ce18ee00525f938e6c1~mv2.png"
+        },
+        {
+          "title": "Crushing Plants",
+          "description": "Crushing Plants at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_0f083e3cbf3a4c9fa287b9eedb158da9~mv2.png/v1/fill/w_250,h_118,al_c,q_95/f45b0f_0f083e3cbf3a4c9fa287b9eedb158da9~mv2.png"
+        },
+        {
+          "title": "Dragging Tarps Full of Sweet Peas",
+          "description": "Dragging Tarps Full of Sweet Peas at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_f5dee3b0846e4ade91cfc15a4b7b988d~mv2.png/v1/fill/w_250,h_90,al_c,q_95/f45b0f_f5dee3b0846e4ade91cfc15a4b7b988d~mv2.png"
+        },
+        {
+          "title": "Sweet Peas Ready for Tarps",
+          "description": "Sweet Peas Ready for Tarps at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_240514cd766843e59afd8a69c589e11f~mv2.png/v1/fill/w_250,h_89,al_c,q_95/f45b0f_240514cd766843e59afd8a69c589e11f~mv2.png"
+        },
+        {
+          "title": "Harvesting with Hand Sickle",
+          "description": "Harvesting with Hand Sickle at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_be7bfa13cbff40698a553e36def44310~mv2.png/v1/fill/w_250,h_124,al_c,q_95/f45b0f_be7bfa13cbff40698a553e36def44310~mv2.png"
+        },
+        {
+          "title": "Rouging",
+          "description": "Rouging at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_499d5ba0b6ee47d7ba3f18d7395990eb~mv2.png/v1/fill/w_250,h_134,al_c,q_95/f45b0f_499d5ba0b6ee47d7ba3f18d7395990eb~mv2.png"
+        },
+        {
+          "title": "Spraying",
+          "description": "Spraying at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_4aee282d06bc419d8928b6c369451e29~mv2.png/v1/fill/w_250,h_222,al_c,q_95/f45b0f_4aee282d06bc419d8928b6c369451e29~mv2.png"
+        },
+        {
+          "title": "Spraying",
+          "description": "Spraying at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_e3e00ebd348b4b3aaa5ed2d3a095b886~mv2.png/v1/fill/w_250,h_122,al_c,q_95/f45b0f_e3e00ebd348b4b3aaa5ed2d3a095b886~mv2.png"
+        },
+        {
+          "title": "Japanese Field Workers",
+          "description": "Japanese Field Workers at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_c10872e8a9444b2f925f64fad2253313~mv2.png/v1/fill/w_250,h_134,al_c,q_95/f45b0f_c10872e8a9444b2f925f64fad2253313~mv2.png"
+        },
+        {
+          "title": "Japanese Field Workers",
+          "description": "Japanese Field Workers at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_90dd8fb42c9a4e91ba2baa5be6aa603c~mv2.png/v1/fill/w_250,h_115,al_c,q_95/f45b0f_90dd8fb42c9a4e91ba2baa5be6aa603c~mv2.png"
+        },
+        {
+          "title": "Japanese Field Workers",
+          "description": "Japanese Field Workers at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_c43958df095c47009a4d97760dfc47e8~mv2.png/v1/fill/w_250,h_120,al_c,q_95/f45b0f_c43958df095c47009a4d97760dfc47e8~mv2.png"
+        },
+        {
+          "title": "Planting",
+          "description": "Planting at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_754c12c8251345509ad481676372e5b9~mv2.png/v1/fill/w_250,h_129,al_c,q_95/f45b0f_754c12c8251345509ad481676372e5b9~mv2.png"
+        },
+        {
+          "title": "Hand Seeders",
+          "description": "Hand Seeders at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_f3b7efe1594f4a8684cfd4153f0f6c64~mv2.png/v1/fill/w_250,h_97,al_c,q_95/f45b0f_f3b7efe1594f4a8684cfd4153f0f6c64~mv2.png"
+        },
+        {
+          "title": "Irrigating",
+          "description": "Irrigating at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_cd8e3c323c9141dfa40c0701fdd10923~mv2.png/v1/fill/w_250,h_122,al_c,q_95/f45b0f_cd8e3c323c9141dfa40c0701fdd10923~mv2.png"
+        },
+        {
+          "title": "Laying Irrigation Pipes",
+          "description": "Laying Irrigation Pipes at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_fc17891b317041aa85a0a68767789d9b~mv2.png/v1/fill/w_250,h_124,al_c,q_95/f45b0f_fc17891b317041aa85a0a68767789d9b~mv2.png"
+        },
+        {
+          "title": "Crushing Plants on Tarp",
+          "description": "Crushing Plants on Tarp at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_490a6f9f59554104bc0b57826c06d95f~mv2.png/v1/fill/w_250,h_130,al_c,q_95/f45b0f_490a6f9f59554104bc0b57826c06d95f~mv2.png"
+        },
+        {
+          "title": "Matched Team Cultivating",
+          "description": "Matched Team Cultivating at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_a4a15ac7b81f4c319ac176aff9d799dc~mv2.png/v1/fill/w_250,h_144,al_c,q_95/f45b0f_a4a15ac7b81f4c319ac176aff9d799dc~mv2.png"
+        },
+        {
+          "title": "Cultivating",
+          "description": "Cultivating at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_cfbd1a0f78cf487fb69e95df14706dc0~mv2.png/v1/fill/w_250,h_133,al_c,q_95/f45b0f_cfbd1a0f78cf487fb69e95df14706dc0~mv2.png"
+        },
+        {
+          "title": "Horse Team Wagon",
+          "description": "Horse Team Wagon at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_de4d83be4ab74744a0f4234439f94442~mv2.png/v1/fill/w_250,h_95,al_c,q_95/f45b0f_de4d83be4ab74744a0f4234439f94442~mv2.png"
+        },
+        {
+          "title": "Threshing Sweet Peas",
+          "description": "Threshing Sweet Peas at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "image": "https://static.wixstatic.com/media/f45b0f_50deee442a9248a8b31243983424c1de~mv2.png/v1/fill/w_250,h_135,al_c,q_95/f45b0f_50deee442a9248a8b31243983424c1de~mv2.png"
+        },
+        {
+          "title": "Nagano Family",
+          "description": "A Nagano family photo. Photo courtesy of History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_d8fd3260b054494c9723d8e721e26d4b~mv2.jpg/v1/fill/w_250,h_166,al_c,q_90/f45b0f_d8fd3260b054494c9723d8e721e26d4b~mv2.jpg"
+        },
+        {
+          "title": "Arroyo Grande Farmworker Sadami Fujita",
+          "description": "Arroyo Grande farmworker Sadami Fujita, left, served with the 442nd Regimental Combat Team and was killed in the Vosges Mountains in October 1944. 100th Infantry Battalion Veterans Education Program, from the Collection of Masami Hamakado.",
+          "image": "https://static.wixstatic.com/media/f45b0f_207c13b5c156465eb14409aeba7a4984~mv2.png/v1/fill/w_250,h_375,al_c,q_95/f45b0f_207c13b5c156465eb14409aeba7a4984~mv2.png"
+        },
+        {
+          "title": "Tanaka Family",
+          "description": "Tanaka family at Guadalupe Buddhist Church, October 15, 1933. Dawn Kamiya Collection, Re/Collecting Project.",
+          "image": "https://static.wixstatic.com/media/f45b0f_5f6e9cbffd0c4815a359613518cf547e~mv2.jpg/v1/fill/w_250,h_182,al_c,q_90/f45b0f_5f6e9cbffd0c4815a359613518cf547e~mv2.jpg",
+          "source": "http://reco.calpoly.edu/items/show/2300"
+        },
+        {
+          "title": "Guadalupe Grammar School",
+          "description": "Guadalupe Grammar School, circa 1920s. Dawn Kamiya Collection, Re/Collecting Project.",
+          "image": "https://static.wixstatic.com/media/f45b0f_1404ec05e7fa45028e6ff2592c666342~mv2.jpg/v1/fill/w_250,h_360,al_c,q_90/f45b0f_1404ec05e7fa45028e6ff2592c666342~mv2.jpg",
+          "source": "http://reco.calpoly.edu/items/show/2323"
+        },
+        {
+          "title": "Gila River Detention Camp",
+          "description": "A National Archives photograph connected to the Gila River detention camp.",
+          "image": "https://static.wixstatic.com/media/f45b0f_184c33f4ffb64862946d8394d2dc3a3e~mv2.jpg/v1/fill/w_250,h_140,al_c,q_90/f45b0f_184c33f4ffb64862946d8394d2dc3a3e~mv2.jpg"
+        },
+        {
+          "title": "Minami Family",
+          "description": "A Minami family photo connected to Yaemon Minami and the family history in Santa Maria.",
+          "image": "https://static.wixstatic.com/media/f45b0f_7faa83ce50614025b4c775041c71b685~mv2.jpg/v1/fill/w_250,h_193,al_c,q_90/f45b0f_7faa83ce50614025b4c775041c71b685~mv2.jpg",
+          "source": "https://santamariatimes.com/lifestyles/columnist/shirley_contreras/shirley-contreras-yaemon-minami-persevered-as-the-lettuce-king/article_9c7b6182-8e4f-5e27-b736-d1237017f881.html"
+        },
+        {
+          "title": "Japantown",
+          "description": "A map image documenting San Luis Obispo Japantown through the Japantown Atlas project.",
+          "image": "https://static.wixstatic.com/media/f45b0f_ebde9ee8c51546acaa10ce3209850fe7~mv2.jpg/v1/fill/w_250,h_418,al_c,q_90/f45b0f_ebde9ee8c51546acaa10ce3209850fe7~mv2.jpg",
+          "source": "http://japantownatlas.com/map-sanluis.html"
+        },
+        {
+          "title": "Japanese Picture Brides",
+          "description": "A National Archives photograph of Japanese picture brides.",
+          "image": "https://static.wixstatic.com/media/f45b0f_58f8c8e9ce52447292c19ddd0a2c6e81~mv2.jpg/v1/fill/w_250,h_188,al_c,q_90/f45b0f_58f8c8e9ce52447292c19ddd0a2c6e81~mv2.jpg"
+        },
+        {
+          "title": "Dohi Family",
+          "description": "A Dohi family photograph. Photo courtesy of the Pismo-Oceano Vegetable Exchange.",
+          "image": "https://static.wixstatic.com/media/f45b0f_8dba588b0dcb4d7bb282a2b6f6ac3fc1~mv2.jpg/v1/fill/w_250,h_338,al_c,q_90/f45b0f_8dba588b0dcb4d7bb282a2b6f6ac3fc1~mv2.jpg"
+        },
+        {
+          "title": "Tameji and Take Eto",
+          "description": "Tameji and Take Eto. Photo courtesy of History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_cd2afafeb3bc45c49d8023c903062ac1~mv2.jpg/v1/fill/w_250,h_319,al_c,q_90/f45b0f_cd2afafeb3bc45c49d8023c903062ac1~mv2.jpg"
+        },
+        {
+          "title": "Mr. and Mrs. Eto, After Becoming U.S. Citizens",
+          "description": "Mr. Tameji Eto, Mrs. Take Eto, and Mrs. Toyo Hayashi after becoming citizens of the United States, circa 1940s. Asian/Pacific - Americans on the Central Coast collection, Calisphere.",
+          "image": "https://static.wixstatic.com/media/a27d24_6c5f7075042f4366b1e974e0bc224cf4~mv2.jpg/v1/fill/w_250,h_174,al_c,q_90/a27d24_6c5f7075042f4366b1e974e0bc224cf4~mv2.jpg",
+          "source": "https://calisphere.org/item/928b20724946cf11e98bd0f714d4d692/"
+        },
+        {
+          "title": "Tameji Eto",
+          "description": "A portrait of Tameji Eto. Photo courtesy of History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_53a71707519c49b3a68e29dc64c813bf~mv2.png/v1/fill/w_250,h_315,al_c,q_95/f45b0f_53a71707519c49b3a68e29dc64c813bf~mv2.png"
+        },
+        {
+          "title": "Take Eto",
+          "description": "Mrs. Take Eto, who learned ikebana after her husband's death. Asian/Pacific - Americans on the Central Coast collection, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_ea10908f555545479c770deb471d1dc9~mv2.jpg/v1/fill/w_250,h_296,al_c,q_90/f45b0f_ea10908f555545479c770deb471d1dc9~mv2.jpg",
+          "source": "https://calisphere.org/item/ark:/13030/c83t9g0x/"
+        },
+        {
+          "title": "Japanese School",
+          "description": "Japanese School of San Luis Obispo located near Los Osos Road, 1928. Asian/Pacific - Americans on the Central Coast collection, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_fcca5d6a5dd7464ea05e903ffb78ea07~mv2.jpg/v1/fill/w_250,h_150,al_c,q_90/f45b0f_fcca5d6a5dd7464ea05e903ffb78ea07~mv2.jpg",
+          "source": "https://calisphere.org/item/ark:/13030/c8513x15/"
+        }
+      ]
     },
     {
       "slug": "japanese-american-stories",
@@ -1196,16 +1379,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/a27d24_215ea70062bc4460b674aca8bfe47660~mv2.jpg/v1/fill/w_900,h_464,al_c,q_85/a27d24_215ea70062bc4460b674aca8bfe47660~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 1, 2020",
         "2 min read",
@@ -1415,16 +1588,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_33f90e1fee8f4ea88accd2fe3532c2c3~mv2.jpg/v1/fill/w_294,h_295,al_c,lg_1,q_80/f45b0f_33f90e1fee8f4ea88accd2fe3532c2c3~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jun 1, 2021",
         "3 min read",
@@ -1464,16 +1627,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_a69a89d93ff84b7cba89c51c2c182b6c~mv2.jpg/v1/fill/w_864,h_638,al_c,q_85/f45b0f_a69a89d93ff84b7cba89c51c2c182b6c~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "May 31, 2021",
         "3 min read",
@@ -1871,16 +2024,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_c43958df095c47009a4d97760dfc47e8~mv2.png/v1/fill/w_1000,h_480,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_c43958df095c47009a4d97760dfc47e8~mv2.png",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 13, 2020",
         "2 min read",
@@ -1905,16 +2048,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/a27d24_215ea70062bc4460b674aca8bfe47660~mv2.jpg/v1/fill/w_900,h_464,al_c,q_85/a27d24_215ea70062bc4460b674aca8bfe47660~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 12, 2020",
         "3 min read",
@@ -1973,16 +2106,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_50deee442a9248a8b31243983424c1de~mv2.png/v1/fill/w_1000,h_543,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_50deee442a9248a8b31243983424c1de~mv2.png",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 10, 2020",
         "2 min read",
@@ -2115,16 +2238,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_fcca5d6a5dd7464ea05e903ffb78ea07~mv2.jpg/v1/fill/w_700,h_421,al_c,lg_1,q_80/f45b0f_fcca5d6a5dd7464ea05e903ffb78ea07~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 5, 2020",
         "1 min read",
@@ -2135,36 +2248,7 @@ window.CCAH_DATA = {
         "Gila River Detention Camp (National Archives)",
         "On February 19, 1942, President Franklin D. Roosevelt signed Executive Order 9066 , forcing 120,000 people of Japanese descent—even American citizens—who lived in the Western part of the United States to flee from their homes, separate from their families, and live in detention camps. Here are their stories.",
         "Image Source",
-        "[1] Japanese School of San Luis Obispo located near Los Osos Rd : 1928, 1928, photograph, Asian/Pacific - Americans on the Central Coast, Black Gold Cooperative Library System, Calisphere, https://calisphere.org/item/ark:/13030/c8513x15/.",
-        "$ We gratefully acknowledge, respect, and thank yak titʸu titʸu yak tiłhini, Northern Chumash Tribe of San Luis Obispo County and Region in whose homelands we all are guests.",
-        "/$ $ &copy;2020 - 2026 by Central Coast Asian American History.",
-        "Polyfills check",
-        "initCustomElements # 1",
-        "preloading pre-scripts",
-        "sentryOnLoad Setup Script",
-        "Sentry Loader Script",
-        "Sentry's makeMultiplexedTransport",
-        "Sentry's moduleMetadataIntegration",
-        "Add the rest of the ViewerModel",
-        "renderIndicator",
-        "versionIndicator",
-        "used platform apis start",
-        "used platform apis end",
-        "Business Manager",
-        "initCustomElements #2",
-        "react",
-        "react-dom",
-        "lodash script",
-        "initial scripts",
-        "scriptTagsToPreload",
-        "Old Browsers Deprecation",
-        "bi",
-        "pageHtmlEmbeds.bodyEnd start",
-        "pageHtmlEmbeds.bodyEnd end",
-        "warmup data start",
-        "warmup data end",
-        "presets polyfill",
-        "detect browser zoom"
+        "[1] Japanese School of San Luis Obispo located near Los Osos Rd : 1928, 1928, photograph, Asian/Pacific - Americans on the Central Coast, Black Gold Cooperative Library System, Calisphere, https://calisphere.org/item/ark:/13030/c8513x15/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/quick-facts-japanese-history-you-probably-didn-t-know"
     },
@@ -2180,16 +2264,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_d637359340c149589221f771a3240418~mv2.jpg/v1/fill/w_733,h_541,al_c,lg_1,q_85/f45b0f_d637359340c149589221f771a3240418~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 4, 2020",
         "3 min read",
@@ -2379,16 +2453,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_7faa83ce50614025b4c775041c71b685~mv2.jpg/v1/fill/w_1000,h_774,al_c,q_85,usm_0.66_1.00_0.01/f45b0f_7faa83ce50614025b4c775041c71b685~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 1, 2020",
         "2 min read",
@@ -2455,16 +2519,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_ebde9ee8c51546acaa10ce3209850fe7~mv2.jpg/v1/fill/w_598,h_1000,al_c,q_85,usm_0.66_1.00_0.01/f45b0f_ebde9ee8c51546acaa10ce3209850fe7~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jun 30, 2020",
         "1 min read",
@@ -2564,16 +2618,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_58f8c8e9ce52447292c19ddd0a2c6e81~mv2.jpg/v1/fill/w_361,h_273,al_c,lg_1,q_80/f45b0f_58f8c8e9ce52447292c19ddd0a2c6e81~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jun 29, 2020",
         "2 min read",
@@ -3154,16 +3198,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_93a0afb8f65744a4a8b8bb22f1f0405d~mv2.png/v1/fill/w_700,h_962,al_c,q_90/f45b0f_93a0afb8f65744a4a8b8bb22f1f0405d~mv2.png",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Apr 12, 2025",
         "1 min read",
@@ -3187,33 +3221,7 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_cb321e2ab8ec458dab84c50eec8de719~mv2.png/v1/fill/w_1000,h_694,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_cb321e2ab8ec458dab84c50eec8de719~mv2.png",
       "body": [
-        "Safari Pinned Tab Icon",
-        "Segmenter Polyfill",
-        "Legacy Polyfills",
-        "Performance API Polyfills",
-        "Essential Viewer Model",
-        "Globals Definitions",
-        "BEGIN handleAccessTokens bundle",
-        "END handleAccessTokens bundle",
-        "BEGIN overrideGlobals bundle",
-        "END overrideGlobals bundle",
-        "Initial CSS",
-        "pageHtmlEmbeds.head start",
-        "pageHtmlEmbeds.head end",
-        "head performance data start",
-        "head performance data end",
-        "render-head end",
         "He Lost His Wife to the Spanish Flu; Umekichi Tanaka's Fascinating Story",
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 5, 2020",
         "3 min read",
@@ -3278,16 +3286,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_d8fd3260b054494c9723d8e721e26d4b~mv2.jpg/v1/fill/w_1000,h_668,al_c,q_85,usm_0.66_1.00_0.01/f45b0f_d8fd3260b054494c9723d8e721e26d4b~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 9, 2020",
         "4 min read",
@@ -3327,16 +3325,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_6a042d9c2a294bd2b98813e549718ec8~mv2.jpg/v1/fill/w_906,h_649,al_c,q_85/f45b0f_6a042d9c2a294bd2b98813e549718ec8~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jul 5, 2020",
         "2 min read",
@@ -3435,7 +3423,7 @@ window.CCAH_DATA = {
         "Today, Chinatown in San Luis Obispo is only 1.5% of what it used to be. Back in the day, 3/4 of Palm Street was Chinatown , but today, only the Ah Louis Store and Chinatown mural stands as a reminder of the Chinatown San Luis Obispo once had.",
         "Reference: Dr. Daniel Krieger, Professor Emeritus, Cal Poly SLO",
         "Image Source",
-        "[1] Louis Brickyard, circa 1920, photograph, Louis Family Papers, California Polytechnic State University, San Luis Obispo, Calisphere, https://calisphere.org/item/01ac2d1e5ff8a900cdd53d8fc3c02564/.",
+        "[1] Louis Brickyard, circa 1920, photograph, Louis Family Papers, California Polytechnic State University, San Luis Obispo, Calisphere, https://calisphere.org/item/01ac2d1e5ff8a900cdd53d8fc3c02564/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/quick-facts-slo-chinese-history-you-probably-didn-t-know"
     },
@@ -3545,16 +3533,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_fad1b705297d4d48a771d23d64f4ee81~mv2.jpg/v1/fill/w_600,h_418,al_c,lg_1,q_80/f45b0f_fad1b705297d4d48a771d23d64f4ee81~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jun 27, 2020",
         "3 min read",
@@ -3591,33 +3569,7 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_cd2afafeb3bc45c49d8023c903062ac1~mv2.jpg/v1/fill/w_618,h_790,al_c,q_85/f45b0f_cd2afafeb3bc45c49d8023c903062ac1~mv2.jpg",
       "body": [
-        "Safari Pinned Tab Icon",
-        "Segmenter Polyfill",
-        "Legacy Polyfills",
-        "Performance API Polyfills",
-        "Essential Viewer Model",
-        "Globals Definitions",
-        "BEGIN handleAccessTokens bundle",
-        "END handleAccessTokens bundle",
-        "BEGIN overrideGlobals bundle",
-        "END overrideGlobals bundle",
-        "Initial CSS",
-        "pageHtmlEmbeds.head start",
-        "pageHtmlEmbeds.head end",
-        "head performance data start",
-        "head performance data end",
-        "render-head end",
         "Take Eto's Story up to World War II, Told by her Daughter",
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jun 27, 2020",
         "3 min read",
@@ -3647,16 +3599,6 @@ window.CCAH_DATA = {
       "category": "Japanese American",
       "image": "https://static.wixstatic.com/media/f45b0f_3d0a96dbd4dc44598f3a7075fc235a24~mv2.jpg/v1/fill/w_589,h_365,al_c,lg_1,q_80/f45b0f_3d0a96dbd4dc44598f3a7075fc235a24~mv2.jpg",
       "body": [
-        "Loadable Component TPAMultiSection_kbf9680l",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
         "Emily Pan",
         "Jun 27, 2020",
         "4 min read",
