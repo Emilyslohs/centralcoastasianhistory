@@ -1676,6 +1676,12 @@ window.CCAH_DATA = {
         "Filipino Immigrants could not obtain U.S. Citizenship",
         "250,000 Filipinos served in the U.S. Army"
       ],
+      "links": [
+        {
+          "text": "Routes and Roots exhibit done by Cal Poly students",
+          "url": "https://sites.google.com/site/centralcoastroutesandroots/"
+        }
+      ],
       "body": [
         "Filipino American history is grossly underrepresented in the U.S., and the information taught is often skewed and misrepresented. Here are some facts about Filipino American History on the Central Coast that you probably didn't know.",
         "Filipinos landed in Morro Bay as early as 1587",

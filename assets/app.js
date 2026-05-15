@@ -74,6 +74,11 @@ const inlineArticleImages = {
     alt: "Portrait of Dr. Wu Lien-teh",
     className: "is-large",
   },
+  "The Filipinos who first landed in Morrow Bay were described as “Luzones Indios” in the ship’s log, and they were sailors aboard a Spanish galleon that traveled between Mexico and Manila in the Philippines. The Central Coast Chapter of the Filipino American National Historical Society (FANHS) created a plaque in remembrance of the first recorded landing of Filipinos on American shores in 1995. Find out more in the Routes and Roots exhibit done by Cal Poly students.": {
+    src: "assets/images/routes-and-roots-screenshot.png",
+    alt: "Routes and Roots exhibit introduction page",
+    className: "is-wide",
+  },
 };
 
 function paragraphize(lines = [], item = {}) {
@@ -87,7 +92,7 @@ function paragraphize(lines = [], item = {}) {
         return html`
           <div class="article-inline-photo ${escapeHtml(inlineImage.className || "")}">
             <img src="${escapeHtml(inlineImage.src)}" alt="${escapeHtml(inlineImage.alt)}">
-            <p>${linkify(escapeHtml(line))}</p>
+            <p>${formatArticleText(line, item)}</p>
           </div>
         `;
       }
@@ -103,11 +108,23 @@ function paragraphize(lines = [], item = {}) {
         return `<h2>${escapeHtml(line)}</h2>`;
       }
       if (/^- [“"]/.test(line)) {
-        return `<p class="speaker-quote">${linkify(escapeHtml(line))}</p>`;
+        return `<p class="speaker-quote">${formatArticleText(line, item)}</p>`;
       }
-      return `<p>${linkify(escapeHtml(line))}</p>`;
+      return `<p>${formatArticleText(line, item)}</p>`;
     })
     .join("");
+}
+
+function formatArticleText(text, item = {}) {
+  return applyArticleLinks(linkify(escapeHtml(text)), item);
+}
+
+function applyArticleLinks(text, item = {}) {
+  return (item.links || []).reduce((out, link) => {
+    const label = escapeHtml(link.text);
+    const url = escapeHtml(link.url);
+    return out.replaceAll(label, `<a href="${url}" target="_blank" rel="noopener">${label}</a>`);
+  }, text);
 }
 
 function linkify(text) {

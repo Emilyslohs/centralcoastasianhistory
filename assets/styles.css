@@ -403,6 +403,10 @@ h3 {
   width: min(24rem, 56%);
 }
 
+.article-inline-photo.is-wide img {
+  width: min(28rem, 60%);
+}
+
 .article-body h2,
 .article-body h3 {
   margin: 1.5rem 0 0.7rem;
