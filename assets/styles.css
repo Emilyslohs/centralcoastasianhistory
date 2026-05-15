@@ -370,6 +370,19 @@ h3 {
   border-radius: 7px;
 }
 
+.article-gallery-inline {
+  display: block;
+  margin: 0;
+}
+
+.article-gallery-inline img {
+  float: right;
+  clear: right;
+  width: min(20rem, 48%);
+  height: auto;
+  margin: 0 0 1rem 1rem;
+}
+
 .article-body p {
   margin: 0 0 1rem;
 }

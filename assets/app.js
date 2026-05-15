@@ -161,6 +161,20 @@ function renderArticleMedia(item) {
 function renderArticleGallery(item) {
   if (!item.gallery?.length) return "";
 
+  if (item.wrapGalleryText) {
+    return html`
+      <div class="article-gallery article-gallery-inline">
+        ${item.gallery
+          .map((image) => {
+            const src = typeof image === "string" ? image : image.src;
+            const alt = typeof image === "string" ? "" : image.alt || "";
+            return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}">`;
+          })
+          .join("")}
+      </div>
+    `;
+  }
+
   return html`
     <div class="article-gallery">
       ${item.gallery

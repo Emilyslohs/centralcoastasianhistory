@@ -1241,6 +1241,10 @@ window.CCAH_DATA = {
       "categoryKey": "filipino",
       "category": "Filipino American",
       "image": "https://static.wixstatic.com/media/f45b0f_376c4d0959a74f9ba9915b98427cd830~mv2.jpg/v1/fill/w_560,h_335,al_c,lg_1,q_80/f45b0f_376c4d0959a74f9ba9915b98427cd830~mv2.jpg",
+      "sectionHeadings": [
+        "Works Cited"
+      ],
+      "wrapGalleryText": true,
       "body": [
         "The first Asians---the first Filipinos--landed in the United States for the first time in 1587 in Morro Bay, CA. They set sail from Manila, Philippines on July 12th, 1587 and landed on October 18th, 1587, over 30 years before the Pilgrims. Their arrival is recognized by a plaque on a special rock as shown.",
         "The Filipinos arrived during the Manila-Acapulco Galleon Trade Era from 1565 to 1815, when Spanish gallons traveled across the Pacific from the Philippines to Mexico. The Manila Galleon Nuestra Senora de Esperanza landed in Morro Bay during their journey to Mexico. Along the way, they stopped in Morro Bay for three days from October 18th-20th. Aboard the ship was commander Pedro de Unamuno, who sailed for Spain; Franciscan Father Martin Ignacio de Loyola, nephew of the founder of the Jesuit order; priests; soldiers; and eight \"Luzon Indios\"--Filipinos from the northern Philippines island of Luzon.",
