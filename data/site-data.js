@@ -349,68 +349,241 @@ window.CCAH_DATA = {
       "slug": "chinese-american-photos",
       "title": "Photos | Chinese History",
       "description": "",
-      "excerpt": "$ We gratefully acknowledge, respect, and thank yak titʸu titʸu yak tiłhini, Northern Chumash Tribe of San Luis Obispo County and Region in whose homelands we all are guests.",
+      "excerpt": "",
       "image": "",
       "gallery": [],
-      "body": [
-        "Safari Pinned Tab Icon",
-        "Segmenter Polyfill",
-        "Legacy Polyfills",
-        "Performance API Polyfills",
-        "Essential Viewer Model",
-        "Globals Definitions",
-        "BEGIN handleAccessTokens bundle",
-        "END handleAccessTokens bundle",
-        "BEGIN overrideGlobals bundle",
-        "END overrideGlobals bundle",
-        "Initial CSS",
-        "pageHtmlEmbeds.head start",
-        "pageHtmlEmbeds.head end",
-        "head performance data start",
-        "head performance data end",
-        "render-head end",
-        "pageHtmlEmbeds.bodyStart start",
-        "pageHtmlEmbeds.bodyStart end",
-        "domStoreHtml",
-        "$",
-        "$ Central Coast Asian American History",
-        "/$",
-        "/$ $",
-        "/$ $ Home",
-        "$ $",
-        "$ Chinese American History: Photos",
-        "$ /$",
-        "$ We gratefully acknowledge, respect, and thank yak titʸu titʸu yak tiłhini, Northern Chumash Tribe of San Luis Obispo County and Region in whose homelands we all are guests.",
-        "/$ $ &copy;2020 - 2026 by Central Coast Asian American History.",
-        "Polyfills check",
-        "initCustomElements # 1",
-        "preloading pre-scripts",
-        "sentryOnLoad Setup Script",
-        "Sentry Loader Script",
-        "Sentry's makeMultiplexedTransport",
-        "Sentry's moduleMetadataIntegration",
-        "Add the rest of the ViewerModel",
-        "renderIndicator",
-        "versionIndicator",
-        "used platform apis start",
-        "used platform apis end",
-        "Business Manager",
-        "initCustomElements #2",
-        "react",
-        "react-dom",
-        "lodash script",
-        "initial scripts",
-        "scriptTagsToPreload",
-        "Old Browsers Deprecation",
-        "bi",
-        "pageHtmlEmbeds.bodyEnd start",
-        "pageHtmlEmbeds.bodyEnd end",
-        "warmup data start",
-        "warmup data end",
-        "presets polyfill",
-        "detect browser zoom"
-      ],
-      "source": "https://www.centralcoastasianhistory.org/chinese-american-photos"
+      "body": [],
+      "source": "https://www.centralcoastasianhistory.org/chinese-american-photos",
+      "sourceGalleryTitle": "Chinese American history photos",
+      "sourceGallery": [
+        {
+          "title": "Wawona Hotel",
+          "description": "Chinese workers served as cooks and laundry men at the Wawona Hotel and helped construct roads through Wawona and Tioga Road. Source: NPS.",
+          "image": "https://static.wixstatic.com/media/f45b0f_9fcd43e907d5442e88c95c571869d413~mv2.png/v1/fill/w_250,h_242,al_c,q_95,enc_auto/f45b0f_9fcd43e907d5442e88c95c571869d413~mv2.png"
+        },
+        {
+          "title": "Dr. Wu Lien-Teh",
+          "description": "Photographic portrait of Dr. Wu Lien-Teh, director and chief medical officer of the Plague Prevention Service. Wellcome Collection.",
+          "image": "https://static.wixstatic.com/media/f45b0f_66ea7b076766466a812f8bf14bbb0c91~mv2.jpg/v1/fill/w_250,h_389,al_c,q_90,enc_auto/f45b0f_66ea7b076766466a812f8bf14bbb0c91~mv2.jpg",
+          "source": "https://wellcomecollection.org/works/aa6ety53"
+        },
+        {
+          "title": "Lu Chi Fa",
+          "description": "Lu Chi Fa owned the Coffee Pot Restaurant in Morro Bay and wrote about his childhood and journey to America in Double Luck: Memoirs of a Chinese Orphan. Photo Courtesy of Elliot Gong.",
+          "image": "https://static.wixstatic.com/media/f45b0f_781d5a31980746d1b2a5edf71e2ff371~mv2.png/v1/fill/w_250,h_177,al_c,q_95,enc_auto/f45b0f_781d5a31980746d1b2a5edf71e2ff371~mv2.png"
+        },
+        {
+          "title": "Photo I.D.",
+          "description": "Chinese residents were forced to carry certificates of residency and photo identification under exclusion-era laws.",
+          "image": "https://static.wixstatic.com/media/f45b0f_18a8b1c5991a48f5851829c0bea52041~mv2.png/v1/fill/w_250,h_299,al_c,q_95,enc_auto/f45b0f_18a8b1c5991a48f5851829c0bea52041~mv2.png",
+          "source": "https://blogs.chapman.edu/huell-howser-archives/1998/01/08/san-luis-obispo-chinatown-californias-gold-907/"
+        },
+        {
+          "title": "Chong's Candy Store Plaque",
+          "description": "Photo Courtesy of Emily Pan.",
+          "image": "https://static.wixstatic.com/media/f45b0f_439e6ed32d05459bb9466d6fa387293f~mv2.jpg/v1/fill/w_250,h_333,al_c,q_90,enc_auto/f45b0f_439e6ed32d05459bb9466d6fa387293f~mv2.jpg"
+        },
+        {
+          "title": "Ah Louis Store - National Register of Historic Places",
+          "description": "Photo Courtesy of Emily Pan.",
+          "image": "https://static.wixstatic.com/media/f45b0f_ec70376695384381a53691181a139986~mv2.jpg/v1/fill/w_250,h_187,al_c,q_90,enc_auto/f45b0f_ec70376695384381a53691181a139986~mv2.jpg"
+        },
+        {
+          "title": "Chinese Parade",
+          "description": "Photo Courtesy of History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_a55e001b2ffa473984b1d97bfed9dbc4~mv2.jpg/v1/fill/w_250,h_242,al_c,q_90,enc_auto/f45b0f_a55e001b2ffa473984b1d97bfed9dbc4~mv2.jpg"
+        },
+        {
+          "title": "San Luis Obispo Weekly Tribune Headline",
+          "description": "Community reactions to the Chinese Exclusion Bill. Image Courtesy of History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_6a1dbe9286494b29842e749634b3e1f7~mv2.png/v1/fill/w_250,h_325,al_c,q_95,enc_auto/f45b0f_6a1dbe9286494b29842e749634b3e1f7~mv2.png"
+        },
+        {
+          "title": "Laguna Lake before 1890",
+          "description": "Photo Courtesy of History Center of San Luis Obispo County.",
+          "image": "https://static.wixstatic.com/media/f45b0f_b0bc2bd298654868aa97ab9b5b6c61db~mv2.jpg/v1/fill/w_250,h_202,al_c,q_90,enc_auto/f45b0f_b0bc2bd298654868aa97ab9b5b6c61db~mv2.jpg"
+        },
+        {
+          "title": "Denis Kearney",
+          "description": "Portrait of Denis Kearney, a California labor contractor known for his racist views against Chinese immigrants. Bancroft Library, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_def373fbcd9e403ca190c8cc0aac3119~mv2.jpg/v1/fill/w_250,h_375,al_c,q_90,enc_auto/f45b0f_def373fbcd9e403ca190c8cc0aac3119~mv2.jpg",
+          "source": "https://calisphere.org/item/ark:/13030/tf8v19p3dv/"
+        },
+        {
+          "title": "Fred Louis in 1957",
+          "description": "Fred Louis, Ah Louis' son, circa 1957. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_c4aae8c51a39403098413be94c6070b3~mv2.jpg/v1/fill/w_250,h_318,al_c,q_90,enc_auto/f45b0f_c4aae8c51a39403098413be94c6070b3~mv2.jpg",
+          "source": "https://calisphere.org/item/b799441c206b8d8632ecb7351269cb01/"
+        },
+        {
+          "title": "Helen Louis in 1939",
+          "description": "Helen Wong Louis, Ah Louis' daughter, circa 1939. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_0434addd634c460b84d9720745cd1d80~mv2.jpg/v1/fill/w_250,h_305,al_c,q_90,enc_auto/f45b0f_0434addd634c460b84d9720745cd1d80~mv2.jpg",
+          "source": "https://calisphere.org/item/e12a133cf807cd2aa02b12fe3ed594c0/"
+        },
+        {
+          "title": "En Gon Ying Louis",
+          "description": "Gon Ying Louis, Ah Louis' wife. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_1de67373805140e2971e57675bde0362~mv2.jpg/v1/fill/w_250,h_344,al_c,q_90,enc_auto/f45b0f_1de67373805140e2971e57675bde0362~mv2.jpg",
+          "source": "https://calisphere.org/item/b8ef57d79f64ff2c2341c492deb60d2b/"
+        },
+        {
+          "title": "Letter of Recommendation from H. L. Kemper",
+          "description": "Letter of recommendation from H. L. Kemper to the Commissioner of Immigration and Naturalization, November 21, 1933. Louis Family Papers, Cal Poly.",
+          "image": "https://static.wixstatic.com/media/f45b0f_18500c6a092c431a8cdaff8efd9c8a75~mv2.png/v1/fill/w_250,h_171,al_c,q_95,enc_auto/f45b0f_18500c6a092c431a8cdaff8efd9c8a75~mv2.png",
+          "source": "https://digital.lib.calpoly.edu/rekl-9"
+        },
+        {
+          "title": "From Apr. 15, 1896 Publication of The Evening Breeze",
+          "description": "Petition against Chinese merchants published in the San Luis Obispo Breeze on April 15, 1896.",
+          "image": "https://static.wixstatic.com/media/f45b0f_a22909a974db4df59e694118ae1932ab~mv2.png/v1/fill/w_250,h_243,al_c,q_95,enc_auto/f45b0f_a22909a974db4df59e694118ae1932ab~mv2.png"
+        },
+        {
+          "title": "San Luis Obispo High School Football Team",
+          "description": "San Luis Obispo High School Football Team, 1931, with Paul Kurokawa third upper right and Coach Frank Holt at left. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_6cf651a1949d4e86bcef07d6d63417e4~mv2.jpg/v1/fill/w_250,h_164,al_c,q_90,enc_auto/f45b0f_6cf651a1949d4e86bcef07d6d63417e4~mv2.jpg",
+          "source": "https://calisphere.org/item/063796bb030ca71545bffa6e44c12a17/"
+        },
+        {
+          "title": "Chinese Congregational Church",
+          "description": "Chinese Congregational Church at 1006 Chapala Street in Santa Barbara, circa 1900s. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_23133e2be99a4ee1a6f0394f3e227a8a~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_23133e2be99a4ee1a6f0394f3e227a8a~mv2.jpg",
+          "source": "https://calisphere.org/item/ark:/13030/c8x9293t/"
+        },
+        {
+          "title": "Chinese Laborers Working on the Railroad",
+          "description": "Chinese laborers working on the railroad, circa 1860s-1870s. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_7551c0f3e0bd4ae48007d0595dfbb5a6~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_7551c0f3e0bd4ae48007d0595dfbb5a6~mv2.jpg",
+          "source": "https://calisphere.org/item/c0042f93e4e96023f1e68e5484ece03b/"
+        },
+        {
+          "title": "Chinese Workers at Limoneira Ranch in Santa Paula",
+          "description": "Chinese workers at Limoneira Ranch in Santa Paula, circa early 20th century. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_3d6e5147bd7f428fa028df66a4328860~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_3d6e5147bd7f428fa028df66a4328860~mv2.jpg",
+          "source": "https://calisphere.org/item/8775ec92b8ead76ed4daf0eee4d3db41/"
+        },
+        {
+          "title": "Chinese New Year in the Early 1900s",
+          "description": "Chinese New Year at the Joss House, 15 E. Canon Perdido, Santa Barbara, early 1900s. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_5933c00c5e15460f814d0028d219371e~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_5933c00c5e15460f814d0028d219371e~mv2.jpg",
+          "source": "https://calisphere.org/item/03db97d44532d4ba8a25e649711a1c82/"
+        },
+        {
+          "title": "Ah Louis",
+          "description": "Ah Louis of China, a highly respected San Luis Obispo citizen who died on December 16, 1936, at age 96. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_8d568c797c394ba59bcc984314139268~mv2.jpg/v1/fill/w_250,h_284,al_c,q_90,enc_auto/f45b0f_8d568c797c394ba59bcc984314139268~mv2.jpg",
+          "source": "https://calisphere.org/item/e4e5789d9b9bdf201a0a45a670d97b7f/"
+        },
+        {
+          "title": "Ventura Chinatown in 1890",
+          "description": "Early Ventura Chinatown in 1890. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_17550374ebd94350afb56497bfd65f16~mv2.jpg/v1/fill/w_250,h_144,al_c,q_90,enc_auto/f45b0f_17550374ebd94350afb56497bfd65f16~mv2.jpg",
+          "source": "https://calisphere.org/item/31ebc28216b1abac8f21fa08e017df35/"
+        },
+        {
+          "title": "Old Chinatown; Ventura Mission in Background",
+          "description": "Old Chinatown with Ventura Mission in the background, circa late 1880s. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_39dddc47ff17400a9ff2c26600156a5a~mv2.jpg/v1/fill/w_250,h_182,al_c,q_90,enc_auto/f45b0f_39dddc47ff17400a9ff2c26600156a5a~mv2.jpg",
+          "source": "https://calisphere.org/item/6f76997cf9757eac27ef3f0d63cd1991/"
+        },
+        {
+          "title": "Chinese Fire Company at the 4th of July Parade in Ventura",
+          "description": "Chinese Fire Company at the Ventura Parade on July 4, 1874. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_934e0b0430b54153b9febb5b425d0466~mv2.jpg/v1/fill/w_250,h_145,al_c,q_90,enc_auto/f45b0f_934e0b0430b54153b9febb5b425d0466~mv2.jpg",
+          "source": "https://calisphere.org/item/7c14bf651dec1f4b37907b2cad11d291/"
+        },
+        {
+          "title": "Chinese Laborer of Dudley Ranch in Ventura",
+          "description": "Chinese laborer at Dudley Ranch in Ventura. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_2d29f0fdd09e47fa9d5997451e335520~mv2.jpg/v1/fill/w_250,h_324,al_c,q_90,enc_auto/f45b0f_2d29f0fdd09e47fa9d5997451e335520~mv2.jpg",
+          "source": "https://calisphere.org/item/6b14262b0f3598d006515419fcda2864/"
+        },
+        {
+          "title": "Chinese Building the Railroad",
+          "description": "Chinese laborers building the railroad through difficult terrain between San Francisco and Los Angeles, circa 1900. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_00793bf68c64453f9b79498239a11f38~mv2.jpg/v1/fill/w_250,h_177,al_c,q_90,enc_auto/f45b0f_00793bf68c64453f9b79498239a11f38~mv2.jpg",
+          "source": "https://calisphere.org/item/ark:/13030/c8th8kgg/"
+        },
+        {
+          "title": "Chinese Couple, Head Cook of Ojai's Thacher School in 1906",
+          "description": "Chinese couple, including the head cook at Ojai's Thacher School, 1906. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_6be751358dd2436b859e4b9e1d9cac71~mv2.jpg/v1/fill/w_250,h_307,al_c,q_90,enc_auto/f45b0f_6be751358dd2436b859e4b9e1d9cac71~mv2.jpg",
+          "source": "https://calisphere.org/item/0ad38cda96f92e4b3aefd4cfa5263039/"
+        },
+        {
+          "title": "Original Shanghai Low Restuarant",
+          "description": "Original Shanghai Low Restaurant in San Luis Obispo Chinatown, photographed by Chris Jespen in 2010.",
+          "image": "https://static.wixstatic.com/media/f45b0f_968c9c1ad3b1436da4331bb588b0856c~mv2.jpg/v1/fill/w_250,h_215,al_c,q_90,enc_auto/f45b0f_968c9c1ad3b1436da4331bb588b0856c~mv2.jpg",
+          "source": "https://www.flickr.com/photos/traderchris/5019760294/in/photostream/"
+        },
+        {
+          "title": "Chong's Home Made Candies",
+          "description": "Richard Q. Chong, owner of Chong's Home Made Candies at Palm and Chorro Streets in Chinatown, circa 1950s-1960s. Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_e92967b72fad4234b58928de0c3b7340~mv2.jpg/v1/fill/w_250,h_318,al_c,q_90,enc_auto/f45b0f_e92967b72fad4234b58928de0c3b7340~mv2.jpg",
+          "source": "https://calisphere.org/item/ark:/13030/c8sq8z5r/"
+        },
+        {
+          "title": "Palm Street",
+          "description": "Ah Louis Store at 800 Palm Street, circa 1900-1910. Louis Family Papers, Cal Poly.",
+          "image": "https://static.wixstatic.com/media/f45b0f_bed17a8005224e4ba71c3806ec70f813~mv2.png/v1/fill/w_250,h_171,al_c,q_95,enc_auto/f45b0f_bed17a8005224e4ba71c3806ec70f813~mv2.png",
+          "source": "https://digital.lib.calpoly.edu/rekl-5702?solr_nav%5Bid%5D=762aee0d7e7d22bc610a&solr_nav%5Bpage%5D=0&solr_nav%5Boffset%5D=1"
+        },
+        {
+          "title": "Bell",
+          "description": "Bell photographed by Andrew Ranta in 2007.",
+          "image": "https://static.wixstatic.com/media/f45b0f_1b866c4405784d7cb01c01fe170d6ef2~mv2.jpg/v1/fill/w_250,h_188,al_c,q_90,enc_auto/f45b0f_1b866c4405784d7cb01c01fe170d6ef2~mv2.jpg",
+          "source": "https://www.flickr.com/photos/mrphancy/1155198694/in/album-72157600208667609/"
+        },
+        {
+          "title": "\"Gandy Dancers\" Iron Road Pioneers Statue",
+          "description": "Photo Courtesy of Emily Pan.",
+          "image": "https://static.wixstatic.com/media/a27d24_ad4aa68d3c324a7aaf3fe16de097984f~mv2.jpg/v1/fill/w_250,h_151,al_c,q_90,enc_auto/a27d24_ad4aa68d3c324a7aaf3fe16de097984f~mv2.jpg"
+        },
+        {
+          "title": "Ah Louis Store Today",
+          "description": "Photo Courtesy of Elliot Gong.",
+          "image": "https://static.wixstatic.com/media/f45b0f_9e8457178141477988ada47f5227c0c6~mv2.png/v1/fill/w_250,h_122,al_c,q_95,enc_auto/f45b0f_9e8457178141477988ada47f5227c0c6~mv2.png"
+        },
+        {
+          "title": "Chinatown Mural",
+          "description": "Photo Courtesy of Emily Pan.",
+          "image": "https://static.wixstatic.com/media/f45b0f_ee76f3e49c204a81b52c5b2c969d0cb1~mv2.jpg/v1/fill/w_250,h_146,al_c,q_90,enc_auto/f45b0f_ee76f3e49c204a81b52c5b2c969d0cb1~mv2.jpg"
+        },
+        {
+          "title": "Chinatown Historic District Sign",
+          "description": "Photo Courtesy of Elliot Gong.",
+          "image": "https://static.wixstatic.com/media/f45b0f_704ecb3661d74fef87aa799572fcf04f~mv2.png/v1/fill/w_250,h_235,al_c,q_95,enc_auto/f45b0f_704ecb3661d74fef87aa799572fcf04f~mv2.png"
+        },
+        {
+          "title": "California Historic Site No. 802: Ah Louis Store",
+          "description": "Photo Courtesy of Elliot Gong.",
+          "image": "https://static.wixstatic.com/media/f45b0f_971315285a494f37b94e7bbab6661076~mv2.png/v1/fill/w_250,h_124,al_c,q_95,enc_auto/f45b0f_971315285a494f37b94e7bbab6661076~mv2.png"
+        },
+        {
+          "title": "Ah Louis with his Son Howard Louis",
+          "description": "Ah Louis with Howard Louis. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_8ff9b525260a4d9882e4aef39972b6fe~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_8ff9b525260a4d9882e4aef39972b6fe~mv2.jpg",
+          "source": "https://calisphere.org/item/99c150bf5246138f007d947237b31250/"
+        },
+        {
+          "title": "Ah Louis Store: 1955",
+          "description": "Ah Louis Store in San Luis Obispo, circa 1955. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_c67a45f7b7e24c21b8c63523840cffd0~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_c67a45f7b7e24c21b8c63523840cffd0~mv2.jpg",
+          "source": "https://calisphere.org/item/e90d4cd308aff0b9d2b97fb90536211b/"
+        },
+        {
+          "title": "Ah Louis",
+          "description": "Ah Louis seated, circa 1933-1936. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_b56c462614ac4a47b09bf049f764d069~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_b56c462614ac4a47b09bf049f764d069~mv2.jpg",
+          "source": "https://calisphere.org/item/ae153a1b71c1673963cb948ca0a40d5b/"
+        },
+        {
+          "title": "Ah Louis' Brickyard: 1920",
+          "description": "Louis Brickyard, circa 1920. Louis Family Papers, Cal Poly, Calisphere.",
+          "image": "https://static.wixstatic.com/media/f45b0f_776ec1d592d34320841d3a0f2ed1705e~mv2.jpg/v1/fill/w_250,h_250,al_c,q_90,enc_auto/f45b0f_776ec1d592d34320841d3a0f2ed1705e~mv2.jpg",
+          "source": "https://calisphere.org/item/01ac2d1e5ff8a900cdd53d8fc3c02564/"
+        }
+      ]
     },
     {
       "slug": "chinese-american-stories",
@@ -1152,14 +1325,12 @@ window.CCAH_DATA = {
         {
           "title": "Tanaka Family",
           "description": "Tanaka family at Guadalupe Buddhist Church, October 15, 1933. Dawn Kamiya Collection, Re/Collecting Project.",
-          "image": "https://static.wixstatic.com/media/f45b0f_5f6e9cbffd0c4815a359613518cf547e~mv2.jpg/v1/fill/w_250,h_182,al_c,q_90/f45b0f_5f6e9cbffd0c4815a359613518cf547e~mv2.jpg",
-          "source": "http://reco.calpoly.edu/items/show/2300"
+          "image": "https://static.wixstatic.com/media/f45b0f_5f6e9cbffd0c4815a359613518cf547e~mv2.jpg/v1/fill/w_250,h_182,al_c,q_90/f45b0f_5f6e9cbffd0c4815a359613518cf547e~mv2.jpg"
         },
         {
           "title": "Guadalupe Grammar School",
           "description": "Guadalupe Grammar School, circa 1920s. Dawn Kamiya Collection, Re/Collecting Project.",
-          "image": "https://static.wixstatic.com/media/f45b0f_1404ec05e7fa45028e6ff2592c666342~mv2.jpg/v1/fill/w_250,h_360,al_c,q_90/f45b0f_1404ec05e7fa45028e6ff2592c666342~mv2.jpg",
-          "source": "http://reco.calpoly.edu/items/show/2323"
+          "image": "https://static.wixstatic.com/media/f45b0f_1404ec05e7fa45028e6ff2592c666342~mv2.jpg/v1/fill/w_250,h_360,al_c,q_90/f45b0f_1404ec05e7fa45028e6ff2592c666342~mv2.jpg"
         },
         {
           "title": "Gila River Detention Camp",
