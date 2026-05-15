@@ -116,7 +116,10 @@ function paragraphize(lines = [], item = {}) {
       if (sectionHeadings.has(line)) {
         return `<p class="article-section-title"><strong>${escapeHtml(line)}</strong></p>`;
       }
-      if (/^(Works Cited|Recent Posts|See All)$/i.test(line)) {
+      if (/^Works Cited$/i.test(line)) {
+        return `<p class="works-cited-heading">${escapeHtml(line)}</p>`;
+      }
+      if (/^(Recent Posts|See All)$/i.test(line)) {
         return `<h2>${escapeHtml(line)}</h2>`;
       }
       if (/^- [“"]/.test(line)) {
@@ -192,6 +195,36 @@ function renderArticleGallery(item) {
         })
         .join("")}
     </div>
+  `;
+}
+
+function renderSourceGallery(items = []) {
+  if (!items.length) return "";
+
+  return html`
+    <section class="section source-gallery-section">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Photo archive</p>
+          <h2>Filipino American history photos</h2>
+        </div>
+      </div>
+      <div class="source-gallery">
+        ${items
+          .slice(0, 8)
+          .map((item) => html`
+            <article class="source-photo-card">
+              <img src="${escapeHtml(item.image)}" alt="">
+              <div class="source-photo-body">
+                <h3>${escapeHtml(item.title)}</h3>
+                <p>${escapeHtml(item.description)}</p>
+                <a href="${escapeHtml(item.source)}" target="_blank" rel="noopener">Original source</a>
+              </div>
+            </article>
+          `)
+          .join("")}
+      </div>
+    </section>
   `;
 }
 
@@ -429,16 +462,11 @@ function orderedPostsFromPageWithExtras(page, fallbackPosts) {
 function renderHistoryPage(page) {
   const key = collectionKeyFromSlug(page.slug);
   const quickFact = data.posts.find((post) => post.categoryKey === key && post.title.toLowerCase().includes("quick facts"));
-  const storyCandidates = key === "filipino"
-    ? data.posts.filter((post) => post.categoryKey === key && post !== quickFact)
-    : data.posts.filter((post) => post !== quickFact);
-  const stories = (key === "filipino"
-    ? orderedPostsFromPageWithExtras(page, storyCandidates)
-    : orderedPostsFromPage(page, storyCandidates)
-  ).filter((post) => post !== quickFact).slice(0, key === "filipino" ? undefined : key === "chinese" ? 15 : 6);
+  const storyCandidates = data.posts.filter((post) => post.categoryKey === key && post !== quickFact);
+  const stories = orderedPostsFromPageWithExtras(page, storyCandidates).filter((post) => post !== quickFact);
   const storyPage = data.pages.find((item) => item.slug === `${key}-american-stories`);
   const photoPage = data.pages.find((item) => item.slug === `${key}-american-photos`);
-  const showStoryLinks = key !== "filipino";
+  const showStoryLinks = false;
 
   app.innerHTML = html`
     <section class="legacy-page">
@@ -475,8 +503,8 @@ function renderStoryIndex(page) {
   const key = page.slug === "current" ? "community" : collectionKeyFromSlug(page.slug);
   const fallbackPosts = page.slug === "current"
     ? data.posts.filter((post) => ["little-south-east-asia-api-voices-at-a-hispanic-majority-school", "young-asian-american-voices", "face-mask-inventor-dr-wu-lien-teh", "california-honors-filipino-farm-workers-labor-movement-on-larry-itliong-day", "chinese-american-wwii-veterans-honored-with-congressional-gold-medal", "black-asian-solidarity"].includes(post.slug))
-    : data.posts.filter((post) => !post.title.toLowerCase().includes("quick facts"));
-  const posts = page.slug === "current" ? orderedPostsFromPageWithExtras(page, fallbackPosts) : orderedPostsFromPage(page, fallbackPosts);
+    : data.posts.filter((post) => post.categoryKey === key && !post.title.toLowerCase().includes("quick facts"));
+  const posts = orderedPostsFromPageWithExtras(page, fallbackPosts);
   const bodyTitle = sanitizedPageLines(page).find((line) => /History: Stories|Current Events/.test(line));
 
   app.innerHTML = html`
@@ -510,6 +538,7 @@ function renderPage(slug) {
   const gallery = page.gallery?.length
     ? `<section class="section"><div class="section-header"><h2>Photo gallery</h2></div><div class="gallery">${page.gallery.map((src) => `<img src="${escapeHtml(src)}" alt="">`).join("")}</div></section>`
     : "";
+  const sourceGallery = renderSourceGallery(page.sourceGallery);
 
   app.innerHTML = html`
     <section class="page-shell">
@@ -526,6 +555,7 @@ function renderPage(slug) {
       </article>
     </section>
     ${gallery}
+    ${sourceGallery}
   `;
 }
 

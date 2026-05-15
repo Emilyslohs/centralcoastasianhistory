@@ -660,6 +660,56 @@ window.CCAH_DATA = {
       "excerpt": "$ We gratefully acknowledge, respect, and thank yak titʸu titʸu yak tiłhini, Northern Chumash Tribe of San Luis Obispo County and Region in whose homelands we all are guests.",
       "image": "",
       "gallery": [],
+      "sourceGallery": [
+        {
+          "title": "A Letter From Filipino Sailor Felix Estibal",
+          "description": "A wartime image connected to Arroyo Grande sailor Felix Estibal and the USS Walke.",
+          "image": "https://static.wixstatic.com/media/f45b0f_a8c61180da7446808d6c6127c363630a~mv2.jpg/v1/fill/w_883,h_457,al_c,lg_1,q_85/f45b0f_a8c61180da7446808d6c6127c363630a~mv2.jpg",
+          "source": "https://www.centralcoastasianhistory.org/post/a-letter-from-filipino-sailor-felix-estibal"
+        },
+        {
+          "title": "First Filipinos",
+          "description": "A visual record connected to the first recorded Filipino landing at Morro Bay in 1587.",
+          "image": "assets/images/morro-bay-rock.jpg",
+          "source": "https://www.centralcoastasianhistory.org/post/first-filipinos"
+        },
+        {
+          "title": "Filipino Landing Journal Page",
+          "description": "A journal-page image related to early Filipino presence on the Central Coast.",
+          "image": "assets/images/filipino-landing-journal-page.jpeg",
+          "source": "https://www.centralcoastasianhistory.org/post/first-filipinos"
+        },
+        {
+          "title": "Carlos Bulosan",
+          "description": "A portrait of Carlos Bulosan, Filipino writer, labor activist, and author of America Is in the Heart.",
+          "image": "assets/images/carlos-bulosan-edited.jpg",
+          "source": "https://www.centralcoastasianhistory.org/post/america-is-in-the-heart-a-testimony-of-life-in-america-part-iv"
+        },
+        {
+          "title": "The First Filipino Infantry Regiment",
+          "description": "A photograph connected to Filipino service in the U.S. Army during World War II.",
+          "image": "assets/images/robert-offley.jpg",
+          "source": "https://www.centralcoastasianhistory.org/post/the-first-filipino-infantry-regiment"
+        },
+        {
+          "title": "Routes and Roots",
+          "description": "A screenshot from the Cal Poly student project on Filipino American history on the Central Coast.",
+          "image": "assets/images/routes-and-roots-screenshot.png",
+          "source": "https://www.centralcoastasianhistory.org/post/routes-and-roots-cultivating-filipino-american-history-on-the-central-coast"
+        },
+        {
+          "title": "Filipino Love Stories",
+          "description": "An exhibit image from a project led by Dr. Grace Yeh and Cal Poly students.",
+          "image": "https://static.wixstatic.com/media/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png/v1/fill/w_1000,h_701,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png",
+          "source": "https://www.centralcoastasianhistory.org/post/filipino-love-stories"
+        },
+        {
+          "title": "Quick Facts: Filipino American History",
+          "description": "A visual overview from the Filipino American quick-facts article.",
+          "image": "https://static.wixstatic.com/media/f45b0f_3655be07708a4f18bdad9b88c8d90e09~mv2.png/v1/fill/w_1000,h_442,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_3655be07708a4f18bdad9b88c8d90e09~mv2.png",
+          "source": "https://www.centralcoastasianhistory.org/post/quick-facts-filipino-american-history-you-probably-didn-t-know"
+        }
+      ],
       "body": [
         "Safari Pinned Tab Icon",
         "Segmenter Polyfill",

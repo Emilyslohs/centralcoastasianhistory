@@ -391,6 +391,13 @@ h3 {
   margin-bottom: 0.35rem;
 }
 
+.article-body .works-cited-heading {
+  margin: 1.5rem 0 0.35rem;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+}
+
 .article-body .speaker-quote {
   margin-bottom: 2.35rem;
 }
@@ -457,6 +464,61 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 7px;
   background: #e9dfd1;
+}
+
+.source-gallery-section {
+  padding-top: 0;
+}
+
+.source-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 72rem;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.source-photo-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 1px 0 rgba(35, 28, 22, 0.04);
+}
+
+.source-photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #e9dfd1;
+}
+
+.source-photo-body {
+  display: grid;
+  align-content: start;
+  gap: 0.6rem;
+  padding: 1rem;
+}
+
+.source-photo-body h3 {
+  line-height: 1.2;
+}
+
+.source-photo-body p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.source-photo-body a {
+  align-self: end;
+  color: var(--red);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
 }
 
 .stats {
@@ -662,7 +724,8 @@ h3 {
   }
 
   .grid.cards,
-  .stats {
+  .stats,
+  .source-gallery {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -686,7 +749,8 @@ h3 {
   }
 
   .grid.cards,
-  .stats {
+  .stats,
+  .source-gallery {
     grid-template-columns: 1fr;
   }
 
