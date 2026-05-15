@@ -662,52 +662,56 @@ window.CCAH_DATA = {
       "gallery": [],
       "sourceGallery": [
         {
-          "title": "A Letter From Filipino Sailor Felix Estibal",
-          "description": "A wartime image connected to Arroyo Grande sailor Felix Estibal and the USS Walke.",
-          "image": "https://static.wixstatic.com/media/f45b0f_a8c61180da7446808d6c6127c363630a~mv2.jpg/v1/fill/w_883,h_457,al_c,lg_1,q_85/f45b0f_a8c61180da7446808d6c6127c363630a~mv2.jpg",
-          "source": "https://www.centralcoastasianhistory.org/post/a-letter-from-filipino-sailor-felix-estibal"
+          "title": "USS Walke",
+          "description": "Arroyo Grande sailor Felix Estibal served on the destroyer USS Walke; seen leaving Mare Island in San Francisco on its final voyage, in August 1942. Department of the Navy, Naval History and Heritage Command.",
+          "image": "https://static.wixstatic.com/media/f45b0f_a8c61180da7446808d6c6127c363630a~mv2.jpg/v1/fill/w_883,h_457,al_c,lg_1,q_85/f45b0f_a8c61180da7446808d6c6127c363630a~mv2.jpg"
         },
         {
-          "title": "First Filipinos",
-          "description": "A visual record connected to the first recorded Filipino landing at Morro Bay in 1587.",
-          "image": "assets/images/morro-bay-rock.jpg",
-          "source": "https://www.centralcoastasianhistory.org/post/first-filipinos"
-        },
-        {
-          "title": "Filipino Landing Journal Page",
+          "title": "The Filipino Landing in Morro Bay in 1587",
           "description": "A journal-page image related to early Filipino presence on the Central Coast.",
           "image": "assets/images/filipino-landing-journal-page.jpeg",
-          "source": "https://www.centralcoastasianhistory.org/post/first-filipinos"
+          "source": "https://muse.jhu.edu/pub/5/article/908214/pdf"
+        },
+        {
+          "title": "Filipino Landing Historic Site",
+          "description": "The first Filipinos landed in Morro Bay in 1587.",
+          "image": "assets/images/filipino-landing-marker-thumb.jpg",
+          "source": "https://noehill.com/sanluisobispo/poi_filipino_landing.asp"
         },
         {
           "title": "Carlos Bulosan",
           "description": "A portrait of Carlos Bulosan, Filipino writer, labor activist, and author of America Is in the Heart.",
           "image": "assets/images/carlos-bulosan-edited.jpg",
-          "source": "https://www.centralcoastasianhistory.org/post/america-is-in-the-heart-a-testimony-of-life-in-america-part-iv"
+          "imagePosition": "50% 18%",
+          "source": "https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/33/rec/6"
+        },
+        {
+          "title": "Carlos Bulosan",
+          "description": "A formal portrait of Carlos Bulosan, whose writing documented Filipino immigrant life and labor struggles in America.",
+          "image": "assets/images/carlos-bulosan-portrait-young.png",
+          "source": "https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/32/"
+        },
+        {
+          "title": "Carlos Bulosan author of America is in the Heart",
+          "description": "Carlos Bulosan at work as a writer, shown with a typewriter and manuscript pages.",
+          "image": "assets/images/carlos-bulosan-author.jpg",
+          "source": "https://cdm16786.contentdm.oclc.org/digital/collection/portraits/id/34/rec/55"
+        },
+        {
+          "title": "Carlos Bulosan with Union Workers",
+          "description": "Carlos Bulosan gathered with fellow labor organizers and union workers.",
+          "image": "assets/images/carlos-bulosan-union-workers.jpg",
+          "source": "https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/1458/rec/11"
         },
         {
           "title": "The First Filipino Infantry Regiment",
-          "description": "A photograph connected to Filipino service in the U.S. Army during World War II.",
-          "image": "assets/images/robert-offley.jpg",
-          "source": "https://www.centralcoastasianhistory.org/post/the-first-filipino-infantry-regiment"
-        },
-        {
-          "title": "Routes and Roots",
-          "description": "A screenshot from the Cal Poly student project on Filipino American history on the Central Coast.",
-          "image": "assets/images/routes-and-roots-screenshot.png",
-          "source": "https://www.centralcoastasianhistory.org/post/routes-and-roots-cultivating-filipino-american-history-on-the-central-coast"
+          "description": "A photograph connected to Filipino service in the U.S. Army during World War II. Lt. Col Robert Offley, the First Filipino Regiment's commander, seen at front left.",
+          "image": "assets/images/robert-offley.jpg"
         },
         {
           "title": "Filipino Love Stories",
           "description": "An exhibit image from a project led by Dr. Grace Yeh and Cal Poly students.",
-          "image": "https://static.wixstatic.com/media/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png/v1/fill/w_1000,h_701,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png",
-          "source": "https://www.centralcoastasianhistory.org/post/filipino-love-stories"
-        },
-        {
-          "title": "Quick Facts: Filipino American History",
-          "description": "A visual overview from the Filipino American quick-facts article.",
-          "image": "https://static.wixstatic.com/media/f45b0f_3655be07708a4f18bdad9b88c8d90e09~mv2.png/v1/fill/w_1000,h_442,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_3655be07708a4f18bdad9b88c8d90e09~mv2.png",
-          "source": "https://www.centralcoastasianhistory.org/post/quick-facts-filipino-american-history-you-probably-didn-t-know"
+          "image": "https://static.wixstatic.com/media/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png/v1/fill/w_1000,h_701,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png"
         }
       ],
       "body": [],

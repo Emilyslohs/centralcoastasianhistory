@@ -221,11 +221,11 @@ function renderSourceGallery(items = []) {
           .slice(0, 8)
           .map((item) => html`
             <article class="source-photo-card">
-              <img src="${escapeHtml(item.image)}" alt="">
+              <img src="${escapeHtml(item.image)}" alt=""${item.imagePosition ? ` style="object-position: ${escapeHtml(item.imagePosition)};"` : ""}>
               <div class="source-photo-body">
                 <h3>${escapeHtml(item.title)}</h3>
                 <p>${escapeHtml(item.description)}</p>
-                <a href="${escapeHtml(item.source)}" target="_blank" rel="noopener">Original source</a>
+                ${item.source ? `<a href="${escapeHtml(item.source)}" target="_blank" rel="noopener">Original source</a>` : ""}
               </div>
             </article>
           `)
