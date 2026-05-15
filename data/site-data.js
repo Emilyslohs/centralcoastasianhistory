@@ -1001,147 +1001,147 @@ window.CCAH_DATA = {
         },
         {
           "title": "Bedding Plants",
-          "description": "Bedding Plants at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_cf6e41f082a54d4a81884f14ea6d7e3c~mv2.png/v1/fill/w_250,h_198,al_c,q_95/f45b0f_cf6e41f082a54d4a81884f14ea6d7e3c~mv2.png"
         },
         {
           "title": "Deep Plowing",
-          "description": "Deep Plowing at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_ff03a7cc0d654bf7aefba13d74552916~mv2.png/v1/fill/w_250,h_195,al_c,q_95/f45b0f_ff03a7cc0d654bf7aefba13d74552916~mv2.png"
         },
         {
           "title": "Seeder",
-          "description": "Seeder at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_7a6d45acd06f44c0b0a78eae12e32fa0~mv2.png/v1/fill/w_250,h_165,al_c,q_95/f45b0f_7a6d45acd06f44c0b0a78eae12e32fa0~mv2.png"
         },
         {
           "title": "Plowing",
-          "description": "Plowing at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_6da994af21174ddf9dc19b65701d6809~mv2.png/v1/fill/w_250,h_207,al_c,q_95/f45b0f_6da994af21174ddf9dc19b65701d6809~mv2.png"
         },
         {
           "title": "Diking",
-          "description": "Diking at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_63296b16466e487cb03c8786e5073d34~mv2.png/v1/fill/w_250,h_133,al_c,q_95/f45b0f_63296b16466e487cb03c8786e5073d34~mv2.png"
         },
         {
           "title": "Hand Cleaning Seeds",
-          "description": "Hand Cleaning Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_c437b1619fd14a1abf7227f0b907bba8~mv2.png/v1/fill/w_250,h_269,al_c,q_95/f45b0f_c437b1619fd14a1abf7227f0b907bba8~mv2.png"
         },
         {
           "title": "Winnowing Seeds",
-          "description": "Winnowing Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_c35b20f5240d41f1ba643a179d6e4673~mv2.png/v1/fill/w_250,h_131,al_c,q_95/f45b0f_c35b20f5240d41f1ba643a179d6e4673~mv2.png"
         },
         {
           "title": "Hand Threshing Seeds",
-          "description": "Hand Threshing Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_787af2a242eb48fe822fedd83aa5706d~mv2.png/v1/fill/w_250,h_132,al_c,q_95/f45b0f_787af2a242eb48fe822fedd83aa5706d~mv2.png"
         },
         {
           "title": "Hand Threshing Seeds",
-          "description": "Hand Threshing Seeds at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_f860d35393f24ce18ee00525f938e6c1~mv2.png/v1/fill/w_250,h_189,al_c,q_95/f45b0f_f860d35393f24ce18ee00525f938e6c1~mv2.png"
         },
         {
           "title": "Crushing Plants",
-          "description": "Crushing Plants at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_0f083e3cbf3a4c9fa287b9eedb158da9~mv2.png/v1/fill/w_250,h_118,al_c,q_95/f45b0f_0f083e3cbf3a4c9fa287b9eedb158da9~mv2.png"
         },
         {
           "title": "Dragging Tarps Full of Sweet Peas",
-          "description": "Dragging Tarps Full of Sweet Peas at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_f5dee3b0846e4ade91cfc15a4b7b988d~mv2.png/v1/fill/w_250,h_90,al_c,q_95/f45b0f_f5dee3b0846e4ade91cfc15a4b7b988d~mv2.png"
         },
         {
           "title": "Sweet Peas Ready for Tarps",
-          "description": "Sweet Peas Ready for Tarps at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_240514cd766843e59afd8a69c589e11f~mv2.png/v1/fill/w_250,h_89,al_c,q_95/f45b0f_240514cd766843e59afd8a69c589e11f~mv2.png"
         },
         {
           "title": "Harvesting with Hand Sickle",
-          "description": "Harvesting with Hand Sickle at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_be7bfa13cbff40698a553e36def44310~mv2.png/v1/fill/w_250,h_124,al_c,q_95/f45b0f_be7bfa13cbff40698a553e36def44310~mv2.png"
         },
         {
           "title": "Rouging",
-          "description": "Rouging at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_499d5ba0b6ee47d7ba3f18d7395990eb~mv2.png/v1/fill/w_250,h_134,al_c,q_95/f45b0f_499d5ba0b6ee47d7ba3f18d7395990eb~mv2.png"
         },
         {
           "title": "Spraying",
-          "description": "Spraying at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_4aee282d06bc419d8928b6c369451e29~mv2.png/v1/fill/w_250,h_222,al_c,q_95/f45b0f_4aee282d06bc419d8928b6c369451e29~mv2.png"
         },
         {
           "title": "Spraying",
-          "description": "Spraying at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_e3e00ebd348b4b3aaa5ed2d3a095b886~mv2.png/v1/fill/w_250,h_122,al_c,q_95/f45b0f_e3e00ebd348b4b3aaa5ed2d3a095b886~mv2.png"
         },
         {
           "title": "Japanese Field Workers",
-          "description": "Japanese Field Workers at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_c10872e8a9444b2f925f64fad2253313~mv2.png/v1/fill/w_250,h_134,al_c,q_95/f45b0f_c10872e8a9444b2f925f64fad2253313~mv2.png"
         },
         {
           "title": "Japanese Field Workers",
-          "description": "Japanese Field Workers at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_90dd8fb42c9a4e91ba2baa5be6aa603c~mv2.png/v1/fill/w_250,h_115,al_c,q_95/f45b0f_90dd8fb42c9a4e91ba2baa5be6aa603c~mv2.png"
         },
         {
           "title": "Japanese Field Workers",
-          "description": "Japanese Field Workers at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_c43958df095c47009a4d97760dfc47e8~mv2.png/v1/fill/w_250,h_120,al_c,q_95/f45b0f_c43958df095c47009a4d97760dfc47e8~mv2.png"
         },
         {
           "title": "Planting",
-          "description": "Planting at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_754c12c8251345509ad481676372e5b9~mv2.png/v1/fill/w_250,h_129,al_c,q_95/f45b0f_754c12c8251345509ad481676372e5b9~mv2.png"
         },
         {
           "title": "Hand Seeders",
-          "description": "Hand Seeders at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_f3b7efe1594f4a8684cfd4153f0f6c64~mv2.png/v1/fill/w_250,h_97,al_c,q_95/f45b0f_f3b7efe1594f4a8684cfd4153f0f6c64~mv2.png"
         },
         {
           "title": "Irrigating",
-          "description": "Irrigating at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_cd8e3c323c9141dfa40c0701fdd10923~mv2.png/v1/fill/w_250,h_122,al_c,q_95/f45b0f_cd8e3c323c9141dfa40c0701fdd10923~mv2.png"
         },
         {
           "title": "Laying Irrigation Pipes",
-          "description": "Laying Irrigation Pipes at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_fc17891b317041aa85a0a68767789d9b~mv2.png/v1/fill/w_250,h_124,al_c,q_95/f45b0f_fc17891b317041aa85a0a68767789d9b~mv2.png"
         },
         {
           "title": "Crushing Plants on Tarp",
-          "description": "Crushing Plants on Tarp at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_490a6f9f59554104bc0b57826c06d95f~mv2.png/v1/fill/w_250,h_130,al_c,q_95/f45b0f_490a6f9f59554104bc0b57826c06d95f~mv2.png"
         },
         {
           "title": "Matched Team Cultivating",
-          "description": "Matched Team Cultivating at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_a4a15ac7b81f4c319ac176aff9d799dc~mv2.png/v1/fill/w_250,h_144,al_c,q_95/f45b0f_a4a15ac7b81f4c319ac176aff9d799dc~mv2.png"
         },
         {
           "title": "Cultivating",
-          "description": "Cultivating at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_cfbd1a0f78cf487fb69e95df14706dc0~mv2.png/v1/fill/w_250,h_133,al_c,q_95/f45b0f_cfbd1a0f78cf487fb69e95df14706dc0~mv2.png"
         },
         {
           "title": "Horse Team Wagon",
-          "description": "Horse Team Wagon at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_de4d83be4ab74744a0f4234439f94442~mv2.png/v1/fill/w_250,h_95,al_c,q_95/f45b0f_de4d83be4ab74744a0f4234439f94442~mv2.png"
         },
         {
           "title": "Threshing Sweet Peas",
-          "description": "Threshing Sweet Peas at the Waller Seed Company. Photo courtesy of Richard Waller Family Archives.",
+          "description": "Photo courtesy of Richard Waller Family Archives.",
           "image": "https://static.wixstatic.com/media/f45b0f_50deee442a9248a8b31243983424c1de~mv2.png/v1/fill/w_250,h_135,al_c,q_95/f45b0f_50deee442a9248a8b31243983424c1de~mv2.png"
         },
         {
           "title": "Nagano Family",
-          "description": "A Nagano family photo. Photo courtesy of History Center of San Luis Obispo County.",
+          "description": "Photo courtesy of History Center of San Luis Obispo County.",
           "image": "https://static.wixstatic.com/media/f45b0f_d8fd3260b054494c9723d8e721e26d4b~mv2.jpg/v1/fill/w_250,h_166,al_c,q_90/f45b0f_d8fd3260b054494c9723d8e721e26d4b~mv2.jpg"
         },
         {
@@ -1185,12 +1185,12 @@ window.CCAH_DATA = {
         },
         {
           "title": "Dohi Family",
-          "description": "A Dohi family photograph. Photo courtesy of the Pismo-Oceano Vegetable Exchange.",
+          "description": "Photo courtesy of the Pismo-Oceano Vegetable Exchange.",
           "image": "https://static.wixstatic.com/media/f45b0f_8dba588b0dcb4d7bb282a2b6f6ac3fc1~mv2.jpg/v1/fill/w_250,h_338,al_c,q_90/f45b0f_8dba588b0dcb4d7bb282a2b6f6ac3fc1~mv2.jpg"
         },
         {
           "title": "Tameji and Take Eto",
-          "description": "Tameji and Take Eto. Photo courtesy of History Center of San Luis Obispo County.",
+          "description": "Photo courtesy of History Center of San Luis Obispo County.",
           "image": "https://static.wixstatic.com/media/f45b0f_cd2afafeb3bc45c49d8023c903062ac1~mv2.jpg/v1/fill/w_250,h_319,al_c,q_90/f45b0f_cd2afafeb3bc45c49d8023c903062ac1~mv2.jpg"
         },
         {
@@ -1201,7 +1201,7 @@ window.CCAH_DATA = {
         },
         {
           "title": "Tameji Eto",
-          "description": "A portrait of Tameji Eto. Photo courtesy of History Center of San Luis Obispo County.",
+          "description": "Photo courtesy of History Center of San Luis Obispo County.",
           "image": "https://static.wixstatic.com/media/f45b0f_53a71707519c49b3a68e29dc64c813bf~mv2.png/v1/fill/w_250,h_315,al_c,q_95/f45b0f_53a71707519c49b3a68e29dc64c813bf~mv2.png"
         },
         {
