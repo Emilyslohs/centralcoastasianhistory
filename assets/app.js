@@ -417,6 +417,7 @@ function renderHistoryPage(page) {
   ).filter((post) => post !== quickFact).slice(0, key === "filipino" ? undefined : key === "chinese" ? 15 : 6);
   const storyPage = data.pages.find((item) => item.slug === `${key}-american-stories`);
   const photoPage = data.pages.find((item) => item.slug === `${key}-american-photos`);
+  const showStoryLinks = key !== "filipino";
 
   app.innerHTML = html`
     <section class="legacy-page">
@@ -424,7 +425,7 @@ function renderHistoryPage(page) {
         <h1>${escapeHtml(page.title)}</h1>
         <div class="legacy-copy">${paragraphize(cleanPageBody(page).slice(0, 3))}</div>
         <div class="actions">
-          ${storyPage ? `<a class="button primary" href="${routeHash(storyPage.slug)}">Stories</a>` : ""}
+          ${showStoryLinks && storyPage ? `<a class="button primary" href="${routeHash(storyPage.slug)}">Stories</a>` : ""}
           ${photoPage ? `<a class="button" href="${routeHash(photoPage.slug)}">Photos</a>` : ""}
         </div>
       </div>
@@ -444,7 +445,7 @@ function renderHistoryPage(page) {
         <h2>${escapeHtml(key === "chinese" ? "Chinese Stories" : key === "japanese" ? "Japanese History" : "Filipino History")}</h2>
       </div>
       <div class="story-list">${storyList(stories)}</div>
-      ${storyPage ? `<div class="legacy-more"><a class="button" href="${routeHash(storyPage.slug)}">${escapeHtml(storyPage.title.replace(": Stories", " Stories"))}</a></div>` : ""}
+      ${showStoryLinks && storyPage ? `<div class="legacy-more"><a class="button" href="${routeHash(storyPage.slug)}">${escapeHtml(storyPage.title.replace(": Stories", " Stories"))}</a></div>` : ""}
     </section>
   `;
 }
