@@ -412,11 +412,26 @@ h3 {
   background: #f1ece4;
 }
 
+.article-inline-caption {
+  float: right;
+  clear: right;
+  width: min(9.5rem, 40%);
+  margin: -0.45rem 0 0.75rem 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
 .article-inline-photo.is-large img {
   width: min(24rem, 56%);
 }
 
 .article-inline-photo.is-wide img {
+  width: min(28rem, 60%);
+}
+
+.article-inline-photo.is-wide .article-inline-caption {
   width: min(28rem, 60%);
 }
 

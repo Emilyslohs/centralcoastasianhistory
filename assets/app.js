@@ -83,6 +83,7 @@ const inlineArticleImages = {
     src: "assets/images/robert-offley.jpg",
     alt: "Filipino soldiers and U.S. Army officers during World War II",
     className: "is-wide",
+    caption: "The First Filipino Regiment (U.S. Army Photograph)",
   },
 };
 
@@ -97,6 +98,7 @@ function paragraphize(lines = [], item = {}) {
         return html`
           <div class="article-inline-photo ${escapeHtml(inlineImage.className || "")}">
             <img src="${escapeHtml(inlineImage.src)}" alt="${escapeHtml(inlineImage.alt)}">
+            ${inlineImage.caption ? `<span class="article-inline-caption">${escapeHtml(inlineImage.caption)}</span>` : ""}
             <p>${formatArticleText(line, item)}</p>
           </div>
         `;
