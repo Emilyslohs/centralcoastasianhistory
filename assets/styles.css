@@ -374,6 +374,10 @@ h3 {
   margin: 0 0 1rem;
 }
 
+.article-body .article-section-title {
+  margin-bottom: 0.35rem;
+}
+
 .article-body .speaker-quote {
   margin-bottom: 2.35rem;
 }

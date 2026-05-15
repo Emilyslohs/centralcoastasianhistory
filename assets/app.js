@@ -76,7 +76,9 @@ const inlineArticleImages = {
   },
 };
 
-function paragraphize(lines = []) {
+function paragraphize(lines = [], item = {}) {
+  const sectionHeadings = new Set(item.sectionHeadings || []);
+
   return lines
     .filter(Boolean)
     .map((line) => {
@@ -94,6 +96,9 @@ function paragraphize(lines = []) {
         return `<p>${escapeHtml(line.replace("body-label:", ""))}</p>`;
       }
 
+      if (sectionHeadings.has(line)) {
+        return `<p class="article-section-title"><strong>${escapeHtml(line)}</strong></p>`;
+      }
       if (/^(Works Cited|Recent Posts|See All)$/i.test(line)) {
         return `<h2>${escapeHtml(line)}</h2>`;
       }
@@ -466,7 +471,7 @@ function renderPage(slug) {
       <article class="article">
         ${page.image ? `<img class="article-hero" src="${escapeHtml(page.image)}" alt="">` : ""}
         <div class="article-body">
-          ${paragraphize(page.body)}
+          ${paragraphize(page.body, page)}
         </div>
       </article>
     </section>
@@ -492,7 +497,7 @@ function renderPost(slug) {
         ${renderArticleMedia(post)}
         <div class="article-body">
           ${renderArticleGallery(post)}
-          ${paragraphize(post.body)}
+          ${paragraphize(post.body, post)}
         </div>
       </article>
     </section>
