@@ -74,7 +74,7 @@ const inlineArticleImages = {
     alt: "Portrait of Dr. Wu Lien-teh",
     className: "is-large",
   },
-  "The Filipinos who first landed in Morrow Bay were described as “Luzones Indios” in the ship’s log, and they were sailors aboard a Spanish galleon that traveled between Mexico and Manila in the Philippines. The Central Coast Chapter of the Filipino American National Historical Society (FANHS) created a plaque in remembrance of the first recorded landing of Filipinos on American shores in 1995. Find out more in the Routes and Roots exhibit done by Cal Poly students.": {
+  "The Filipinos who first landed in Morrow Bay were described as “Luzones Indios” in the ship’s log, and they were sailors aboard a Spanish galleon that traveled between Mexico and Manila in the Philippines. The Central Coast Chapter of the Filipino American National Historical Society (FANHS) created a plaque in remembrance of the first recorded landing of Filipinos on American shores in 1995. Find out more about Routes and Roots exhibit done by Cal Poly students.": {
     src: "assets/images/routes-and-roots-screenshot.png",
     alt: "Routes and Roots exhibit introduction page",
     className: "is-wide",

@@ -1678,14 +1678,14 @@ window.CCAH_DATA = {
       ],
       "links": [
         {
-          "text": "Routes and Roots exhibit done by Cal Poly students",
+          "text": "Find out more about Routes and Roots exhibit done by Cal Poly students",
           "url": "https://sites.google.com/site/centralcoastroutesandroots/"
         }
       ],
       "body": [
         "Filipino American history is grossly underrepresented in the U.S., and the information taught is often skewed and misrepresented. Here are some facts about Filipino American History on the Central Coast that you probably didn't know.",
         "Filipinos landed in Morro Bay as early as 1587",
-        "The Filipinos who first landed in Morrow Bay were described as “Luzones Indios” in the ship’s log, and they were sailors aboard a Spanish galleon that traveled between Mexico and Manila in the Philippines. The Central Coast Chapter of the Filipino American National Historical Society (FANHS) created a plaque in remembrance of the first recorded landing of Filipinos on American shores in 1995. Find out more in the Routes and Roots exhibit done by Cal Poly students.",
+        "The Filipinos who first landed in Morrow Bay were described as “Luzones Indios” in the ship’s log, and they were sailors aboard a Spanish galleon that traveled between Mexico and Manila in the Philippines. The Central Coast Chapter of the Filipino American National Historical Society (FANHS) created a plaque in remembrance of the first recorded landing of Filipinos on American shores in 1995. Find out more about Routes and Roots exhibit done by Cal Poly students.",
         "Filipino Immigrants could not obtain U.S. Citizenship",
         "Thousands of Filipino Immigrants came to the United States because they were attracted to its legendary ideals and in search of a better life. Yet, the naturalization act of 1790 prohibited Filipino immigrants from obtaining U.S. citizenship. It wasn't until 1946 that Filipinos could apply for U.S. citizenship.",
         "250,000 Filipinos served in the U.S. Army",
