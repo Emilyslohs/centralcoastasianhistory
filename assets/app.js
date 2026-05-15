@@ -386,7 +386,13 @@ function orderedPostsFromPageWithExtras(page, fallbackPosts) {
 function renderHistoryPage(page) {
   const key = collectionKeyFromSlug(page.slug);
   const quickFact = data.posts.find((post) => post.categoryKey === key && post.title.toLowerCase().includes("quick facts"));
-  const stories = orderedPostsFromPage(page, data.posts.filter((post) => post !== quickFact)).filter((post) => post !== quickFact).slice(0, key === "chinese" ? 15 : 6);
+  const storyCandidates = key === "filipino"
+    ? data.posts.filter((post) => post.categoryKey === key && post !== quickFact)
+    : data.posts.filter((post) => post !== quickFact);
+  const stories = (key === "filipino"
+    ? orderedPostsFromPageWithExtras(page, storyCandidates)
+    : orderedPostsFromPage(page, storyCandidates)
+  ).filter((post) => post !== quickFact).slice(0, key === "filipino" ? undefined : key === "chinese" ? 15 : 6);
   const storyPage = data.pages.find((item) => item.slug === `${key}-american-stories`);
   const photoPage = data.pages.find((item) => item.slug === `${key}-american-photos`);
 
