@@ -337,6 +337,14 @@ h3 {
   object-fit: cover;
 }
 
+.article-hero.is-contained {
+  width: min(100%, 44rem);
+  max-height: none;
+  margin: 0 auto;
+  object-fit: contain;
+  background: #f1ece4;
+}
+
 .video-frame {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -385,6 +393,12 @@ h3 {
 
 .article-body p {
   margin: 0 0 1rem;
+}
+
+.article-body .article-small-text {
+  color: #514a42;
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
 .article-body .article-section-title {

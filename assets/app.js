@@ -94,6 +94,7 @@ const inlineArticleImages = {
 
 function paragraphize(lines = [], item = {}) {
   const sectionHeadings = new Set(item.sectionHeadings || []);
+  const smallText = new Set(item.smallText || []);
 
   return lines
     .filter(Boolean)
@@ -125,17 +126,18 @@ function paragraphize(lines = [], item = {}) {
       if (/^- [“"]/.test(line)) {
         return `<p class="speaker-quote">${formatArticleText(line, item)}</p>`;
       }
-      return `<p>${formatArticleText(line, item)}</p>`;
+      return `<p${smallText.has(line) ? ` class="article-small-text"` : ""}>${formatArticleText(line, item)}</p>`;
     })
     .join("");
 }
 
 function formatArticleText(text, item = {}) {
-  return applyArticleLinks(linkify(applyBoldPhrases(escapeHtml(text), item)), item);
+  return applyArticleLinks(linkify(applyBoldPhrases(escapeHtml(text), item)), item, text);
 }
 
-function applyArticleLinks(text, item = {}) {
+function applyArticleLinks(text, item = {}, sourceText = "") {
   return (item.links || []).reduce((out, link) => {
+    if (link.line && link.line !== sourceText) return out;
     const label = escapeHtml(link.text);
     const url = escapeHtml(link.url);
     return out.replaceAll(label, `<a href="${url}" target="_blank" rel="noopener">${label}</a>`);
@@ -172,7 +174,8 @@ function renderArticleMedia(item) {
     `;
   }
 
-  return item.image ? `<img class="article-hero" src="${escapeHtml(item.image)}" alt="">` : "";
+  const imageClass = item.heroImageClass ? ` ${escapeHtml(item.heroImageClass)}` : "";
+  return item.image ? `<img class="article-hero${imageClass}" src="${escapeHtml(item.image)}" alt="">` : "";
 }
 
 function renderArticleGallery(item) {
