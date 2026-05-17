@@ -92,6 +92,20 @@ const inlineArticleImages = {
     caption: "Gila River Detention Camp (National Archives)",
     hideText: true,
   },
+  "Dohi Family Photo courtesy of the Pismo-Oceano Vegetable Exchange.": {
+    src: "assets/images/dohi-family.jpg",
+    alt: "Dohi family portrait",
+    className: "is-large-portrait",
+    caption: "Dohi Family Photo courtesy of the Pismo-Oceano Vegetable Exchange.",
+    hideText: true,
+  },
+  "91 year old Haruo Hayashi": {
+    src: "assets/images/haruo-hayashi-91.avif",
+    alt: "91 year old Haruo Hayashi",
+    className: "is-large-portrait",
+    caption: "91 year old Haruo Hayashi",
+    hideText: true,
+  },
   "Carlos Bulosan's semi-autobiographical novel tells his story in the Philippines (part I), his journey in America (Part II), his work in the Filipino labor movement (Part III), and his later days as a writer. Bulosan, at the age of 17, bought a steerage ticket to America in search of new opportunities. Here, we will give a brief description of Bulosan's life in America and the Filipino struggle for representation, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his feelings and experiences being an immigrant in a foreign land.": {
     src: "assets/images/carlos-bulosan-edited.jpg",
     alt: "Carlos Bulosan standing in a suit and hat",

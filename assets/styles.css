@@ -497,6 +497,11 @@ h3 {
   width: min(20rem, 46%);
 }
 
+.article-inline-photo.is-large-portrait img,
+.article-inline-photo.is-large-portrait .article-inline-caption {
+  width: min(22rem, 52%);
+}
+
 .article-body h2,
 .article-body h3 {
   margin: 1.5rem 0 0.7rem;
