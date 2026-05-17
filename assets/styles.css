@@ -493,6 +493,33 @@ h3 {
   background: #e9dfd1;
 }
 
+.photo-zoom {
+  display: block;
+  width: 100%;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  cursor: zoom-in;
+  font: inherit;
+  text-align: left;
+}
+
+.photo-zoom img {
+  transition: transform 160ms ease, filter 160ms ease;
+}
+
+.photo-zoom:hover img,
+.photo-zoom:focus-visible img {
+  filter: brightness(0.94);
+  transform: scale(1.015);
+}
+
+.photo-zoom:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
 .source-gallery-section {
   padding-top: 0;
 }
@@ -515,11 +542,84 @@ h3 {
   box-shadow: 0 1px 0 rgba(35, 28, 22, 0.04);
 }
 
-.source-photo-card img {
+.source-photo-card .photo-zoom img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   background: #e9dfd1;
+}
+
+.has-lightbox {
+  overflow: hidden;
+}
+
+.photo-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: none;
+  place-items: center;
+  padding: clamp(1rem, 3vw, 2rem);
+  background: rgba(25, 22, 19, 0.86);
+}
+
+.photo-lightbox.is-open {
+  display: grid;
+}
+
+.photo-lightbox-frame {
+  display: grid;
+  max-width: min(76rem, 100%);
+  max-height: 92vh;
+  gap: 0.8rem;
+}
+
+.photo-lightbox-frame img {
+  width: 100%;
+  max-height: calc(92vh - 7rem);
+  object-fit: contain;
+  background: #111;
+  border-radius: 7px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+}
+
+.photo-lightbox-copy {
+  max-width: 54rem;
+  color: #fff;
+}
+
+.photo-lightbox-copy h2 {
+  margin: 0 0 0.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.photo-lightbox-copy p {
+  margin: 0;
+  color: #eee7dc;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.photo-lightbox-close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.75rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 5px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+}
+
+.photo-lightbox-close:hover,
+.photo-lightbox-close:focus-visible {
+  background: rgba(0, 0, 0, 0.72);
 }
 
 .source-photo-body {

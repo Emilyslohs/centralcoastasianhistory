@@ -85,6 +85,11 @@ const inlineArticleImages = {
     className: "is-wide",
     caption: "The First Filipino Regiment (U.S. Army Photograph)",
   },
+  "Gila River Detention Camp (National Archives)": {
+    src: "assets/images/gila-river-detention-camp.jpg",
+    alt: "Gila River detention camp in Arizona",
+    className: "is-wide",
+  },
   "Carlos Bulosan's semi-autobiographical novel tells his story in the Philippines (part I), his journey in America (Part II), his work in the Filipino labor movement (Part III), and his later days as a writer. Bulosan, at the age of 17, bought a steerage ticket to America in search of new opportunities. Here, we will give a brief description of Bulosan's life in America and the Filipino struggle for representation, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his feelings and experiences being an immigrant in a foreign land.": {
     src: "assets/images/carlos-bulosan-edited.jpg",
     alt: "Carlos Bulosan standing in a suit and hat",
@@ -233,7 +238,16 @@ function renderSourceGallery(items = [], title = "Photo gallery") {
         ${items
           .map((item) => html`
             <article class="source-photo-card">
-              <img src="${escapeHtml(item.image)}" alt=""${item.imagePosition ? ` style="object-position: ${escapeHtml(item.imagePosition)};"` : ""}>
+              <button
+                class="photo-zoom"
+                type="button"
+                data-lightbox-src="${escapeHtml(item.image)}"
+                data-lightbox-title="${escapeHtml(item.title)}"
+                data-lightbox-description="${escapeHtml(item.description)}"
+                aria-label="Enlarge ${escapeHtml(item.title)}"
+              >
+                <img src="${escapeHtml(item.image)}" alt=""${item.imagePosition ? ` style="object-position: ${escapeHtml(item.imagePosition)};"` : ""}>
+              </button>
               <div class="source-photo-body">
                 <h3>${escapeHtml(item.title)}</h3>
                 <p>${escapeHtml(item.description)}</p>
@@ -245,6 +259,48 @@ function renderSourceGallery(items = [], title = "Photo gallery") {
       </div>
     </section>
   `;
+}
+
+function openLightbox({ src, title = "", description = "" }) {
+  let lightbox = document.querySelector("#photoLightbox");
+  if (!lightbox) {
+    lightbox = document.createElement("div");
+    lightbox.id = "photoLightbox";
+    lightbox.className = "photo-lightbox";
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.innerHTML = html`
+      <button class="photo-lightbox-close" type="button" aria-label="Close enlarged photo">Close</button>
+      <div class="photo-lightbox-frame">
+        <img alt="">
+        <div class="photo-lightbox-copy">
+          <h2></h2>
+          <p></p>
+        </div>
+      </div>
+    `;
+    document.body.append(lightbox);
+  }
+
+  const image = lightbox.querySelector("img");
+  const heading = lightbox.querySelector("h2");
+  const copy = lightbox.querySelector("p");
+  image.src = src;
+  image.alt = title;
+  heading.textContent = title;
+  copy.textContent = description;
+  heading.hidden = !title;
+  copy.hidden = !description;
+  lightbox.classList.add("is-open");
+  document.body.classList.add("has-lightbox");
+  lightbox.querySelector(".photo-lightbox-close").focus();
+}
+
+function closeLightbox() {
+  const lightbox = document.querySelector("#photoLightbox");
+  if (!lightbox) return;
+  lightbox.classList.remove("is-open");
+  document.body.classList.remove("has-lightbox");
 }
 
 function imageFor(item) {
@@ -555,7 +611,11 @@ function renderPage(slug) {
   }
 
   const gallery = page.gallery?.length
-    ? `<section class="section"><div class="section-header"><h2>Photo gallery</h2></div><div class="gallery">${page.gallery.map((src) => `<img src="${escapeHtml(src)}" alt="">`).join("")}</div></section>`
+    ? `<section class="section"><div class="section-header"><h2>Photo gallery</h2></div><div class="gallery">${page.gallery.map((src) => html`
+      <button class="photo-zoom" type="button" data-lightbox-src="${escapeHtml(src)}" aria-label="Enlarge photo">
+        <img src="${escapeHtml(src)}" alt="">
+      </button>
+    `).join("")}</div></section>`
     : "";
   const sourceGallery = renderSourceGallery(page.sourceGallery, page.sourceGalleryTitle);
   const lede = page.description || page.excerpt;
@@ -627,4 +687,23 @@ function router() {
 }
 
 window.addEventListener("hashchange", router);
+app.addEventListener("click", (event) => {
+  const trigger = event.target.closest("[data-lightbox-src]");
+  if (!trigger) return;
+  openLightbox({
+    src: trigger.dataset.lightboxSrc,
+    title: trigger.dataset.lightboxTitle || "",
+    description: trigger.dataset.lightboxDescription || "",
+  });
+});
+document.addEventListener("click", (event) => {
+  const lightbox = event.target.closest("#photoLightbox");
+  if (!lightbox) return;
+  if (event.target === lightbox || event.target.closest(".photo-lightbox-close")) {
+    closeLightbox();
+  }
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeLightbox();
+});
 router();
