@@ -345,6 +345,15 @@ h3 {
   background: #f1ece4;
 }
 
+.article-hero-caption {
+  margin: 0;
+  padding: 0.45rem clamp(1.2rem, 4vw, 2.5rem) 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
 .video-frame {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -399,6 +408,10 @@ h3 {
   color: #514a42;
   font-size: 0.9rem;
   line-height: 1.55;
+}
+
+.article-body .article-italic-text {
+  font-style: italic;
 }
 
 .article-body .article-section-title {

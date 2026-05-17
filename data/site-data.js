@@ -1487,43 +1487,28 @@ window.CCAH_DATA = {
           "line": "An expedition located Felix's ship, USS \"Walke,\" off Guadalcanal in 2025. The first ever explroation of the USS \"Walke\" can be viewed here."
         }
       ],
+      "italicText": [
+        "I hear the boatswain’s mate passing a rumor that mail will leave in the near future, so I will include a brief report on myself. I am filled with good intentions to write you more often, but am fuller of good excuses.",
+        "During the rare occasions when the weather is bad, I don’t write on account of the bad weather. When it is fair, the hot sun enhances my natural inclinations to be lazy and sleepy. My eight hours a day on watch add the finishing touches. I watch mostly for the little men who aren’t there, but the Captain insists that they may be there any time. Anyway when [the members of the crew of his ship, the Walke, her named struck out by the censor] see them then they won’t be there long.",
+        "Notwithstanding all this I frequently get out my papers and pen and drape my elbows over a mess table in a threatening manner. I think of you and wonder what you’re doing. I reflect that this is a big wet ocean, and that we’ve been at sea so long that the salt is caking in my hair, that this business about mermaids is a lot of baloney, that seeing the world would be nicer if it wasn’t all water, that mail and Christmas come with about the same frequency, and that the war will over in six months to 10 years.",
+        "I day dream about shore liberty in a good old U.S.A. port where there are a hundred pretty girls to one sailor, nothing costs over a dime, and me with three months’ pay on the books. Oh Boy!",
+        "About that time my literary efforts are interrupted by that leather-lunged whistle blower, the Boatswains’ Mate, yelling that it’s time for drill, battle stations, chow, target practice, movies, inspection, field day, air bedding, sweep down, peel spuds, scrub decks, fuel ship, carry stores, dump garbage, darken ship, pump bilges, blow tubes, pipe down, relieve the watch, or what have you.",
+        "Whereupon I sheath my pen and go to work, eat or sleep, as the case may be, without having written a word to you. It may be just as well, as the censor would probably have cropped them out anyway.",
+        "The Navy is a great life alright [sic]. I’m getting so used to living with 200 men in enough space for two that when I get out I can use a telephone booth for a house and lot. However, it could be worse. We have good weather, good chow, good health, good guns, good digestion, good appetites, and may Heaven forgive that leather lunged whistle blower, the boatswain’s mate.",
+        "While I can’t exactly say I’m having a good time and wish you were here, I hope you are well and wish I was there. In the meantime, don’t worry about me as I can take good care of myself and the other guys and I’m doing all right. At least I’m well and O.K.",
+        "Say Hello to all of your friends and the most to you."
+      ],
       "body": [
         "Arroyo Grande sailor Felix Estibal served on the destroyer USS Walke; seen leaving Mare Island in San Francisco on its final voyage, in August 1942.",
         "Felix Estibal, a Filipino American, was a servant in the U.S. Navy in World War II, because that was the only job that Filipino Americans could pursue. Before the war, he worked at the at the Waller-Franklin Seed Company in the Arroyo Grande Valley, and below is a letter he wrote to his foreman, Javier Pantaleon, just five weeks before Felix's death. On November 15, 1942, Felix died in one of the pa naval battles after a deadly torpedo hit his ship, the USS Walke. Over eighty people aboard died, Felix included. But his words before his death, showcasing life as a Filipino American in the navy, are still preserved today. Take a read:",
-        "I hear the boatswain’s mate passing a rumor that mail will leave in the near future, so I",
-        "will include a brief report on myself. I am filled with good intentions to write you more",
-        "often, but am fuller of good excuses.",
-        "During the rare occasions when the weather is bad, I don’t write on account of the bad",
-        "weather. When it is fair, the hot sun enhances my natural inclinations to be lazy and",
-        "sleepy. My eight hours a day on watch add the finishing touches. I watch mostly for the",
-        "little men who aren’t there, but the Captain insists that they may be there any time.",
-        "Anyway when [the members of the crew of his ship, the Walke, her named struck out by",
-        "the censor] see them then they won’t be there long.",
-        "Notwithstanding all this I frequently get out my papers and pen and drape my elbows",
-        "over a mess table in a threatening manner. I think of you and wonder what you’re doing.",
-        "I reflect that this is a big wet ocean, and that we’ve been at sea so long that the salt is",
-        "caking in my hair, that this business about mermaids is a lot of baloney, that seeing the",
-        "world would be nicer if it wasn’t all water, that mail and Christmas come with about the",
-        "same frequency, and that the war will over in six months to 10 years.",
-        "I day dream about shore liberty in a good old U.S.A. port where there are a hundred",
-        "pretty girls to one sailor, nothing costs over a dime, and me with three months’ pay on",
-        "the books. Oh Boy!",
-        "About that time my literary efforts are interrupted by that leather-lunged whistle",
-        "blower, the Boatswains’ Mate, yelling that it’s time for drill, battle stations, chow, target",
-        "practice, movies, inspection, field day, air bedding, sweep down, peel spuds, scrub decks,",
-        "fuel ship, carry stores, dump garbage, darken ship, pump bilges, blow tubes, pipe down,",
-        "relieve the watch, or what have you.",
-        "Whereupon I sheath my pen and go to work, eat or sleep, as the case may be, without",
-        "having written a word to you. It may be just as well, as the censor would probably have",
-        "cropped them out anyway.",
-        "The Navy is a great life alright [sic]. I’m getting so used to living with 200 men in",
-        "enough space for two that when I get out I can use a telephone booth for a house and lot.",
-        "However, it could be worse. We have good weather, good chow, good health, good guns,",
-        "good digestion, good appetites, and may Heaven forgive that leather lunged whistle",
-        "blower, the boatswain’s mate.",
-        "While I can’t exactly say I’m having a good time and wish you were here, I hope you",
-        "are well and wish I was there. In the meantime, don’t worry about me as I can take good",
-        "care of myself and the other guys and I’m doing all right. At least I’m well and O.K.",
+        "I hear the boatswain’s mate passing a rumor that mail will leave in the near future, so I will include a brief report on myself. I am filled with good intentions to write you more often, but am fuller of good excuses.",
+        "During the rare occasions when the weather is bad, I don’t write on account of the bad weather. When it is fair, the hot sun enhances my natural inclinations to be lazy and sleepy. My eight hours a day on watch add the finishing touches. I watch mostly for the little men who aren’t there, but the Captain insists that they may be there any time. Anyway when [the members of the crew of his ship, the Walke, her named struck out by the censor] see them then they won’t be there long.",
+        "Notwithstanding all this I frequently get out my papers and pen and drape my elbows over a mess table in a threatening manner. I think of you and wonder what you’re doing. I reflect that this is a big wet ocean, and that we’ve been at sea so long that the salt is caking in my hair, that this business about mermaids is a lot of baloney, that seeing the world would be nicer if it wasn’t all water, that mail and Christmas come with about the same frequency, and that the war will over in six months to 10 years.",
+        "I day dream about shore liberty in a good old U.S.A. port where there are a hundred pretty girls to one sailor, nothing costs over a dime, and me with three months’ pay on the books. Oh Boy!",
+        "About that time my literary efforts are interrupted by that leather-lunged whistle blower, the Boatswains’ Mate, yelling that it’s time for drill, battle stations, chow, target practice, movies, inspection, field day, air bedding, sweep down, peel spuds, scrub decks, fuel ship, carry stores, dump garbage, darken ship, pump bilges, blow tubes, pipe down, relieve the watch, or what have you.",
+        "Whereupon I sheath my pen and go to work, eat or sleep, as the case may be, without having written a word to you. It may be just as well, as the censor would probably have cropped them out anyway.",
+        "The Navy is a great life alright [sic]. I’m getting so used to living with 200 men in enough space for two that when I get out I can use a telephone booth for a house and lot. However, it could be worse. We have good weather, good chow, good health, good guns, good digestion, good appetites, and may Heaven forgive that leather lunged whistle blower, the boatswain’s mate.",
+        "While I can’t exactly say I’m having a good time and wish you were here, I hope you are well and wish I was there. In the meantime, don’t worry about me as I can take good care of myself and the other guys and I’m doing all right. At least I’m well and O.K.",
         "Say Hello to all of your friends and the most to you.",
         "FELIX",
         "An expedition located Felix's ship, USS \"Walke,\" off Guadalcanal in 2025. The first ever explroation of the USS \"Walke\" can be viewed here.",
@@ -1773,7 +1758,7 @@ window.CCAH_DATA = {
         "The traditional Obon dance is the bogy body dance.",
         "Works Cited",
         "Obon Festival, oral history transcript on master tape #11 , Interviewer: Lillian Wadhams. History Center of San Luis Obispo County, 31 July 1965.",
-        "Image Source",
+        "Image Source:",
         "Four Japanese girls at grave, 1960 ca., photograph, People & Portraits, 2002.010.052, History Center of San Luis Obispo County, https://historycenterslo.pastperfectonline.com/photo/C1677B24-5173-49A9-9AA6-327397834510.",
         "1978_006_030-Obon(1) .pdf",
         "Download PDF • 5.38MB"
@@ -1806,7 +1791,7 @@ window.CCAH_DATA = {
         "\"It is a wonderful opportunity for young boys to understand America better and our way of life here. We are proud that his efforts as a pioneer producer and his service to the community was recognized in the history books of San Luis Obispo County written by our former senator Chris Jesperson in 1939. The City of San Luis Obispo honored him by giving one of its streets, his name, but it is regretful, his name was removed during World War II. He took keen interest in community welfare and always was one of the organizers of various Japanese Associations. And every opportunity he found, he gave his time to promote better understanding of America in Japan. His efforts were recognized by the Japanese Government and he was awarded the Ucral Medal in 1954. In 1953, his lifelong wish was finally granted; he became an American citizen.\"",
         "Works Cited",
         "Fukunaga, Kofuji. Oral history on master tape #3 transcript. History Center of San Luis Obispo County, 17 April 1964.",
-        "Image Source",
+        "Image Source:",
         "Photo Courtesy of History Center of San Luis Obispo County",
         "Related articles:",
         "Take Eto's Story up to World War II, Told by her Daughter",
@@ -1880,7 +1865,7 @@ window.CCAH_DATA = {
         "\"It came to me that no man - no one at all - could destroy my faith in America again. It was something that had grown our of my defeats and successes, something shaped by my struggles for a place in this vast land, digging my hands into the rich soil here and there, catching a freight to the north and to the south, seeking free meals in dingy gambling houses, reading a book that opened up worlds of heroic thoughts. It was something that grew out of the sacrifices and loneliness of my friends, of my brothers in America and my family in the Philippines - something that grew out of our desire to know America, and to become a part of her great tradition, and to contribute something toward her final fulfillment. I knew that no man could destroy my faith in America that had sprung from all our hopes and aspirations, ever.\"",
         "Works Cited",
         "Bulosan, Carlos. America is in the Heart: A Personal History. University of Washington Press, 1973.",
-        "Image Source",
+        "Image Source:",
         "Carlos Bulosan, ca. 1940s, circa 1945, photograph, Portraits Collection, University of Washington Libraries, Special Collections, POR0018, University of Washington Libraries, Special Collections, https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/33/rec/6."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/america-is-in-the-heart-a-testimony-of-life-in-america-part-iv"
@@ -2018,10 +2003,10 @@ window.CCAH_DATA = {
         "\"We must live in America where there is freedom for all regardless of color, station and beliefs. Great Americans worked with unselfish devotion toward one goal, that is, to use the power of the myriad peoples in the service of America's freedom. They made it their guiding principle. In this we are the same; we must also fight for an America where a man should be given unconditional opportunities to cultivate his potentialities and to restore him to his rightful dignity.",
         "\"It is but fair to say that America is not a land of one race or one class of men. We are all Americans that have toiled and suffered and known oppression and defeat, from the first Indian that offered peace in Manhattan to the last Filipino pea pickers. America is not bound by geographical latitudes. America is not merely a land or an institution. America is in the hearts of men that died for freedom; it is also in the eyes of men that are building a new world. America is a prophecy of a new society of men: of a system that knows no sorrow or strife or suffering. America is a warning to those who would try to falsify the ideals of freedom.",
         "\"America is also the nameless foreigner, the homeless refugee, the hungry boy begging for a job and the black body dangling on a tree. America is the illiterate immigrant who is ashamed that the world of books and intellectual opportunities is closed to him. We are all that nameless foreigner, that homeless refugee, that hungry boy, that illiterate immigrant and that lynched black body. All of us, from the first Adams to the last Filipino, native born or alien, educated or illiterate - We are America!\"",
-        "Indeed, it was this sentiment that attracted to many people to America. And we will continue exploring Carlos Bulosan's ideas of America and his experiences within this land in Part IV .",
+        "Indeed, it was this sentiment that attracted to many people to America. And we will continue exploring Carlos Bulosan's ideas of America and his experiences within this land in Part IV.",
         "Works Cited",
         "Bulosan, Carlos. America is in the Heart: A Personal History. University of Washington Press, 1973.",
-        "Image Source",
+        "Image Source:",
         "Carlos Bulosan, ca. 1950s, circa 1955, photograph, Portraits Collection, University of Washington Libraries, Special Collections POR0020, University of Washington Libraries, Special Collections , https://cdm16786.contentdm.oclc.org/digital/collection/portraits/id/34/rec/55."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/america-is-in-the-heart-fighting-for-representation-part-iii"
@@ -2037,6 +2022,16 @@ window.CCAH_DATA = {
       "categoryKey": "filipino",
       "category": "Filipino American",
       "image": "https://static.wixstatic.com/media/f45b0f_963d4948c91948939a13361db3a32b03~mv2.jpg/v1/fill/w_876,h_571,al_c,lg_1,q_85/f45b0f_963d4948c91948939a13361db3a32b03~mv2.jpg",
+      "smallText": [
+        "From San Diego, Jose and I traveled by freight train to the south. We were told, when we reached the little desert town of Calipatria, that local whites were hunting Filipinos at night with shotguns. A countryman offered to take us in his loading truck to Brawley, but we decided it was too dangerous. We walked to Holtville where we found a Japanese farmer who hired us to pick winter peas...",
+        "Then, from nearby El Centro, the center of Filipino population in the Imperial Valley, news came that a Filipino labor organizer had been found dead in a ditch.",
+        "I wanted to leave Holtville, but Jose insisted that we world through the season. I worked but made myself inconspicuous. At night I slept with a long knife under my pillow...",
+        "One day a Filipino came to Holtville with his American wife and their child. It was blazing noon and the child was hungry. The strangers went to a little restaurant and sat down at a table. When they were refused service, they stayed on, hoping for some consideration. But it was no use. Bewildered, they walked outside; suddenly the child began to cry with hunger. The Filipino went back to the restaurant and asked if he could buy a bottle of milk for his child.",
+        "\"It is only for my baby,\" he said humbly.",
+        "The proprietor came out from behind the counter. \"For your baby?\" he shouted.",
+        "\"Yes, sir,\" said the Filipino.",
+        "The proprietor pushed him violently outside. \"If you say that again in my place, I'll bash in your head!\" he shouted aloud so that he would attract attention. \"You goddamn brown monkeys have your nerve, marrying our women. Now get out of this town!\""
+      ],
       "body": [
         "Carlos Bulosan's semi-autobiographical novel tells his story in the Philippines (see Part I ) and his journey in America. Bulosan, at the age of 17, bought a steerage ticket to America in search of new opportunities. Here, we will give a brief description of Bulosan's life in America, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart , which so vividly describes his feelings and experiences being an immigrant in a foreign land.",
         "Bulosan came to America during the Great Depression to escape his bitter life in the Philippines as a peasant, but little did he know that he would be treated as \"a criminal in a strange and alien society\". His first encounter is on the ship to America when angry voices shouted to the Filipinos on board, \" Why don't they ship those monkeys back where they came from?\" (99). And this sentiment will continue to dominate Bulosan's story. He initially lands in Seattle where he is then sold for five dollars to work in the fish canneries in Alaska, and that was \"the beginning of my life in America, the beginning of a long flight that carried me down the years, fighting desperately to find peace in some corner of life\" (101). After working the entire fishing season, Carlos finds out that he had made only thirteen dollars, which leads him to want to go to California to find his two brothers. Carlos would experience California for himself, despite warning from his comrade who remarked, \"It is hard to be a Filipino in California\" (112).",
@@ -2054,11 +2049,10 @@ window.CCAH_DATA = {
         "In another instance, Carlos was eating in a restaurant when he is dragged away by two policemen who ask him if he is Filipino. When he answers yes, he is placed in a cell where he is beat so that the policemen could rob him of his money, showing the racist actions towards Filipino Americans.",
         "But Carlos Bulosan would never let the prejudice he faced stop him from sharing his experiences to the world, through his words. He realizes this one day when he has only five dollars left and decides to buy a bus ticket to San Luis Obispo. And San Luis Obispo would mark the beginning of another chapter of his life. Slowly, he sat down to write a letter about his life to his brother Macario, whose address he had received from a friend, and miraculously, the Carlos he once was, who came to America understanding little English, was able to write fluently in English.",
         "And with this realization, the next day, Carlos awoke with a newfound dream - to become a writer! Carlos tried his hand at journalism for the first time when he ran into his comrades Jose and Gazamen in the home of Pascual, a Filipino, who ran a small newspaper. Carlos came to learn that Pascual had started a newspaper in Stockton but were driven to San Luis Obispo when a rival newspaper came out. They supported Filipino agricultural workers who were voiceless, workers who wanted unity but were excluded from established worker unions. And with that, Jose and other Filipinos created an independent workers union in San Luis Obispo and that was the beginning of \"the social awakening of Filipinos in California\" (183). Carlos worked with the Filipino newspaper, editing, advertising, and distributing papers, and he wrote lengthy articles about his personal reactions to the union movement.",
-        "Bulosan with Union Workers",
-        "When Pascual's days came to a close, his parting words were \"It is for the workers that we must write. We must interpret their hopes as a people desiring the fullest fulfillment of their potentialities. We must be strong of voice, objective of criticism, protest and challenge. There is no other way to combat any attempts to suppress individual liberty\" (187). And with that, Carlos left for Los Angeles where his brother Macario and Jose's brother Nick had started a literary magazine with Felix Razon. But in his heart, he knew, \"They can't silence me any more! I'll tell the world what they have done to me!\" (180). His story about fighting for workers' liberty continues in Part III .",
+        "When Pascual's days came to a close, his parting words were \"It is for the workers that we must write. We must interpret their hopes as a people desiring the fullest fulfillment of their potentialities. We must be strong of voice, objective of criticism, protest and challenge. There is no other way to combat any attempts to suppress individual liberty\" (187). And with that, Carlos left for Los Angeles where his brother Macario and Jose's brother Nick had started a literary magazine with Felix Razon. But in his heart, he knew, \"They can't silence me any more! I'll tell the world what they have done to me!\" (180). His story about fighting for workers' liberty continues in Part III.",
         "Works Cited",
         "Bulosan, Carlos. America is in the Heart: A Personal History. University of Washington Press, 1973.",
-        "Image Source",
+        "Image Source:",
         "Carlos Bulosan and Chris Mensalvas with Union workers, ca. 1950s, circa 1955, photograph, Portraits Collection, University of Washington Libraries, Special Collections, POR1432, University of Washington Libraries, Special Collections, https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/1458/rec/11."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/america-is-in-the-heart-alienated-in-america-part-ii"
@@ -2070,12 +2064,34 @@ window.CCAH_DATA = {
       "date": "Dec 31, 2020",
       "readTime": "6 min read",
       "description": "Carlos Bulosan is a Filipino immigrant known for his semi-autobiography, America is in the Heart: A Personal History, which tells the story of his childhood and journey in America. Bulosan was born in 1913 in Binalonan in the Philippines to a peasant and at the age of 17, he bought a voyage to America in hopes of giving up his peasant life. Here, we will give a brief description of Bulosan's story, but no one could tell his story as well as himself, whose words are forever contained in his novel",
-      "excerpt": "Carlos Bulosan is a Filipino immigrant known for his semi-autobiography, America is in the Heart: A Personal History, which tells the story of his childhood and journey in America. Bulosan was born in 1913 in Binalonan in the Philippines to a peasant and at the age of 17, he bought a voyage to America in hopes of giving up his peasant life. Here, we will give a brief description of Bulosan's story, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart , which so vividly describes his life.",
+      "excerpt": "Carlos Bulosan is a Filipino immigrant known for his semi-autobiography, America is in the Heart: A Personal History, which tells the story of his childhood and journey in America. Bulosan was born in 1913 in Binalonan in the Philippines to a peasant and at the age of 17, he bought a voyage to America in hopes of giving up his peasant life. Here, we will give a brief description of Bulosan's story, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his life.",
       "categoryKey": "filipino",
       "category": "Filipino American",
       "image": "https://static.wixstatic.com/media/f45b0f_139f8b180089431eaf49b0120cea35f8~mv2.png/v1/fill/w_490,h_635,al_c,lg_1,q_85/f45b0f_139f8b180089431eaf49b0120cea35f8~mv2.png",
+      "smallText": [
+        "\"It belongs to a man in Manila now. We will have to look for another land tomorrow.\"",
+        "I could not understand why. \"You mean the land does not belong to us any more? I asked.",
+        "\"The land never did belong to us,\" said my father. \"It belonged to the church. But now it belongs to a rich man in Manila.\"",
+        "\"What about our corn?\" I asked.",
+        "\"They paid me for the corn, son,\" said my father. \"But it is not enough to cover the seeds we have used. I accepted it because they told me that I had no right to plant corn in a land that did not belong to me.\"",
+        "I did not ask my father again about the agreement between him and the church. It was only fifteen months since we had cleared the land, and we had had a good crop of corn. But a strange man appeared from nowhere and claimed that the land belonged to another man in Manila.",
+        "After that, tragedy after tragedy occurred and Carlos' father had only their narrow strip of land and his grandmother's stony ground remaining which was \"good for nothing, not even sweet potato\" meanwhile Carlos left to live with his mother in town, and that would be the end of \"the bitter days of childhood...the end of my life with my father, the end of my farming life in the Philippines, the end of blinding heat and heavy rains\" (30).",
+        "My father stopped and looked eagerly into my brother's eyes. \"Can a stranger take away what we have molded with our hands?\"",
+        "\"Yes, father\" said [Carlos' brother] Luciano. \"It is possible under the present government. There are no laws to protect the tao against the unscrupulous practices of wealthy men in our country. I am afraid you will have to give up your land.\"",
+        "My father could not believe it. Sadly he glanced at his ugly, dark hands, then looked into my brother's eyes, his face dim with broken hope.",
+        "And from there, Carlos' restless journey would begin. Carlos would leave his family for good and Carlos recalls his mother and father weeping silently as they realized their last son would be gone, when on pg. 63-64 Carlos remarks,",
+        "\"I am leaving now, Father,\" I said one day.",
+        "...\"Allos!\" my mother cried. \"You are too young to go out into the world.\"",
+        "I was thirteen years old...",
+        "My father lifted my bundle and put it on his back. I walked after him witout looking back at the house that was my childhood, because that time of my life was gone forever and there was no return. There were fears in that house of childhood, and I was leaving them forever. I was fleeing into manhood, into another struggle against other fears...",
+        "I said. \"Maybe I will be able to go to America someday.\"",
+        "\"I cannot take your money, Francisca,\" I said.",
+        "She looked at me as though she had something important to say. Then she said: \"Take it anyway, brother. When you are in America go to school, and when you come back to Binalonan teach [little sister] Marcela and me to read. That is all I want from you. We will be working hard with mother while you are gone.\"",
+        "There was a big lump in my throat. A little girl giving me five pesos so that I could go to school in America! It was her whole year's savings.",
+        "At the age of 17, Carlos Bulosan would save enough money to go to Seattle where he would begin his journey in America. He would be leaving behind his childhood for good, \"all my years in the Philippines, my father fighting for his inherited land, my mother selling boggoong to the impoverished peasants...my brothers and their bitter fight for a place in the sun\" (56)."
+      ],
       "body": [
-        "Carlos Bulosan is a Filipino immigrant known for his semi-autobiography, America is in the Heart: A Personal History, which tells the story of his childhood and journey in America. Bulosan was born in 1913 in Binalonan in the Philippines to a peasant and at the age of 17, he bought a voyage to America in hopes of giving up his peasant life. Here, we will give a brief description of Bulosan's story, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart , which so vividly describes his life.",
+        "Carlos Bulosan is a Filipino immigrant known for his semi-autobiography, America is in the Heart: A Personal History, which tells the story of his childhood and journey in America. Bulosan was born in 1913 in Binalonan in the Philippines to a peasant and at the age of 17, he bought a voyage to America in hopes of giving up his peasant life. Here, we will give a brief description of Bulosan's story, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his life.",
         "During Bulosan's childhood, the Philippines was undergoing radical change after the Philippines was colonized by the United States. Education grew in popularity as it opened the door to new opportunities, hence Bulosan recalls, \"My father and mother, who could not read or write, were willing to sacrifice anything and everything to put my brother Macario through high school\" (14). But boarding fees were high and they had deprived themselves of \"any form of leisure and simple luxury\" until they sold all but one hectare of land so his brother could finish school (14). The entire family was working to support his brother Macario, whom Allos (the name Carlos Bulosan is referred to during his childhood), had never met before he finished high school. When Macario returned upon graduating high school, they were sure that Macario, who would become a teacher, could make enough money to repay the moneylender and gain their land back. But at the time, their family had only a narrow strip of land left, plus a small clearing they had borrowed from the Church nearby.",
         "But soon after they celebrated Macario's graduation from high school, Carlos' father was presented with a paper signed by the Church that stated the land given to them by the Church did not belong to them anymore. In a conversation between Carlos and his father on pg. 27, he says,",
         "\"It belongs to a man in Manila now. We will have to look for another land tomorrow.\"",
@@ -2106,7 +2122,7 @@ window.CCAH_DATA = {
         "Speaking little or no English, Bulosan arrived in Seattle in June of 1930 with the dream of becoming part of America as a naturalized citizen. But he never obtained his U.S. citizenship and never returned to the Philippines. His story continues in Part II .",
         "Works Cited",
         "Bulosan, Carlos. America is in the Heart: A Personal History. University of Washington Press, 1973.",
-        "Image Source",
+        "Image Source:",
         "Carlos Bulosan, ca. 1940s. circa 1945, photograph, Portraits Collection, University of Washington Libraries, Special Collections, POR0017, University of Washington Libraries, Special Collections, https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/32/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/america-is-in-the-heart-bulosan-in-the-philippines-part-i"
@@ -2221,7 +2237,7 @@ window.CCAH_DATA = {
         "In 1903, the Ventura Free Press praised the Chinese Fire Company saying, “The Chinese Fire Company is peculiar to Ventura and a valuable adjunct. By its promptness always, it has saved 1000’s of dollars worth of property and it would not be a bad idea to give it a benefit so it could have a new complete outfit. Its maintenance has never cost the town a cent.”",
         "Works Cited",
         "“What Is Ventura's Chinese Fire Company?: Ventura, California.” Ventura California , 18 Apr. 2019, visitventuraca.com/blog/what-is-venturas-chinese-fire-company/.",
-        "Image Source",
+        "Image Source:",
         "Chinese Fire Company, Ventura Parade: July 4, 1874. 1874 July 4, Photograph, Asian/Pacific - Americans on the Central Coast, Black Gold Cooperative Library System, Calisphere, https://calisphere.org/item/7c14bf651dec1f4b37907b2cad11d291/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/ventura-s-chinese-fire-company"
@@ -2313,7 +2329,7 @@ window.CCAH_DATA = {
         "In the 1890s, the Chinese had to carry registration cards and certificates of residency with them, where ever they went. Therefore, they had their photos taken by a local photographer, which can be seen at the History Center of San Luis Obispo County . At the time, a lot of them were the lowest economic status in California, but they are the faces of the men and boys who built this state.",
         "Works Cited",
         "“San Luis Obispo ChinaTown- California's Gold (907).” Huell Howser Archives at Chapman University , 8 Sept. 2016, blogs.chapman.edu/huell-howser-archives/1998/01/08/san-luis-obispo-chinatown-californias-gold-907/.",
-        "Image Source"
+        "Image Source:"
       ],
       "source": "https://www.centralcoastasianhistory.org/post/slo-chinatown-by-huell-howser"
     },
@@ -2328,16 +2344,20 @@ window.CCAH_DATA = {
       "categoryKey": "filipino",
       "category": "Filipino American",
       "image": "https://static.wixstatic.com/media/f45b0f_943bd71edb5c430990b0936d65105789~mv2.jpg/v1/fill/w_695,h_539,al_c,q_85/f45b0f_943bd71edb5c430990b0936d65105789~mv2.jpg",
+      "heroCaption": "Lt. Col Robert Offley, the First Filipino Regiment's commander, at front left (U.S. Army Photograph)",
+      "sectionHeadings": [
+        "Asian Discrimination",
+        "Filipino Immigration",
+        "Service to America"
+      ],
       "body": [
         "Asian Discrimination",
         "Many Filipinos fought in World War II, but regardless of whether they were serving the country or not, they faced discrimination. For example, when four Asian soldiers from Camp Beale arrived at a Marysville Chinese restaurant, they wanted rice as they hadn't had that in months. Like everyone else, they waited, and waited, and waited some more for service, but to no avail. At last, their sergeant called for help. And when he did, the assistant manager had the decency to be embarrassed, for he said, \"I'm sorry. We don't serve Asians.\"",
         "The soldiers thought, No Chinese Food, for Asians? Meanwhile, the manager replied, \"It's a city ordinance, there's nothing I can do about it.\" Eventually, the story was retold to First Regiment's commanding officer, Lt. Col. Robert Offley, a veteran of Douglas MacArthur's Philippine Army, who responded to the treatment of the soldiers by giving the Marysville town leaders a choice; he said, \"My men are American soldiers. You will treat them as such, or I will place Marysville under martial law.\"",
-        "Lt. Col Robert Offley, the First Filipino Regiment's commander, at front left ( U.S. Army Photograph )",
         "Filipino Immigration",
         "Like many other Asians, Filipinos immigrated to the United States in the early twentieth century in hopes of making money for their families back home. But like all of those other Asians, they could not gain American citizenship, as determined by the Naturalization Act of 1790, a law repeatedly upheld by the Supreme Court. According to Gregory, \"In San Luis Obispo County, many Filipinos came to work in the fields, restaurant kitchens and hotels of the Central Coast, and they suffered the same kinds of canards that had been heaped on their predecessors in California, the Chinese and Japanese, whose immigration was by the 1930s severely limited. The Filipinos came because, like those earlier immigrants, they had a powerful work ethic,\" and they were the laborers building California. Because their goal was to work and send money back home, those who emigrated from the Philippines were mostly male; in fact, in many towns, Filipinas were outnumbered one hundred to one. Their capabilities were often restricted, for their strong work ethic was often frowned upon by Europeans such as Madge Ditmas, Arroyo Grande's town historian, who viewed them as \"unmarried Filipinos with no homes to pay taxes on, and no families to support, given work that they took away from white men.\"",
         "Service to America",
         "During World War II, as many as 250,000 Flipinos served in the U.S. Army. Their story begins at Camp San Luis Obispo, where the First Filipino Battalion was formed in 1942. In the army, most only served as servants, and many faced unfavorable working conditions and sometimes even tragic deaths, such Arroyo Grande sailor Felix Estibal, who died in the sinking of the destroyer Walke off Guadalcanal in the fall of 1942. Regardless of the dangers, the number of volunteers serving in the army grew by so much that a Second Regiment was formed near Lompoc. It was quickly apparent that the Filipinos would prove to be excellent soldiers, for \"They took to every aspect of GI life, from cleaning the M1 Garand to the drudgery of company drill, with quickness and enthusiasm\" (Gregory). In addition, they were also distinctly different from other GI's, for they used bolo knifes, which were fundamental to their martial arts. Later, \"The bolo knife became a singular trademark, and one that conferred immense pride, for the men of the First Regiment\" (Gregory).",
-        "Arroyo Grande sailor Felix Estibal served on the destroyer USS Walke; seen leaving Mare Island in San Francisco on its final voyage, in August 1942 ( Department of the Navy, Naval History and Heritage Command )",
         "No matter how they were treated, the First Filipino Infantry Battalion consisted of \"young men who wanted to fight together to liberate their homes and to fight for the nation that seemed to find their presence so distasteful\" (Gregory).",
         "Works Cited",
         "Gregory, Jim. The First Filipino Infantry Regiment and San Luis Obispo County , www.militarymuseum.org/1FIR-SLO.html."
@@ -2365,7 +2385,7 @@ window.CCAH_DATA = {
         "45% of students were Japanese. In the 1930s at a school in Guadalupe, 45% of the 450 students were Japanese Americans.",
         "Gila River Detention Camp (National Archives)",
         "On February 19, 1942, President Franklin D. Roosevelt signed Executive Order 9066 , forcing 120,000 people of Japanese descent—even American citizens—who lived in the Western part of the United States to flee from their homes, separate from their families, and live in detention camps. Here are their stories.",
-        "Image Source",
+        "Image Source:",
         "[1] Japanese School of San Luis Obispo located near Los Osos Rd : 1928, 1928, photograph, Asian/Pacific - Americans on the Central Coast, Black Gold Cooperative Library System, Calisphere, https://calisphere.org/item/ark:/13030/c8513x15/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/quick-facts-japanese-history-you-probably-didn-t-know"
@@ -2399,7 +2419,7 @@ window.CCAH_DATA = {
         "As can be seen, it was no easy task for the Matsuura family to care for all of these children, but they did so with care and compassion. They really wanted to preserve the Japanese heritage and had a heart for all of the families who had to work to make a living. Life was not easy for the Japanese in America, and the Great Depression only made matters worse. As a result, the Japanese Children's Home was forced to close, and the children returned to live with their parents.",
         "Works Cited",
         "Contreras, Shirley “How the Matsuura Family Stepped in to Help.” Santa Maria Times , 4 May 2014, santamariatimes.com/lifestyles/columnist/shirley_contreras/how-the-matsuura-family-stepped-in-to-help/article_eb8aab3c-d352-11e3-9d5a-001a4bcf887a.html.",
-        "Image Source",
+        "Image Source:",
         "Guadalupe Grammar School, c.1920s, photograph, Dawn Kamiya Collection, Dawn Kamiya, Re/Collecting Project, http://reco.calpoly.edu/items/show/2323."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/the-matsuura-family-and-the-japanese-children-s-home"
@@ -2798,7 +2818,7 @@ window.CCAH_DATA = {
         "Ah Louis Store is the only remaining Chinese Historical Landmark present in San Luis Obispo County",
         "Works Cited",
         "Chinese History in SLO , web.calpoly.edu/~aloh/garden/history.html.",
-        "Image Source",
+        "Image Source:",
         "AH Louis Store c. 1900-1910 (800 Palm St.), no date, photograph, Louis Family Papers, California Polytechnic State University, San Luis Obispo, Cal Poly, https://digital.lib.calpoly.edu/rekl-5702?solr_nav%5Bid%5D=762aee0d7e7d22bc610a&solr_nav%5Bpage%5D=0&solr_nav%5Boffset%5D=1."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/a-timeline-of-the-chinese-population-in-san-luis-obispo"
@@ -2944,7 +2964,18 @@ window.CCAH_DATA = {
       "excerpt": "Author of \"Be American\", Carlos Bulosan was a Filipino activist and writer who came to the United States in 1930 at the age of 17. \"Be American\" incorporates autobiographical elements of his life in the United States, and shares the struggle Filipinos faced in living the American Dream. Scroll down for a summary of his story.",
       "categoryKey": "filipino",
       "category": "Filipino American",
-      "image": "https://static.wixstatic.com/media/f45b0f_139f8b180089431eaf49b0120cea35f8~mv2.png/v1/fill/w_490,h_635,al_c,lg_1,q_85/f45b0f_139f8b180089431eaf49b0120cea35f8~mv2.png",
+      "image": "assets/images/carlos-bulosan-portrait-young.png",
+      "heroImageClass": "is-contained",
+      "smallText": [
+        "\"Not American citizen yet?\"",
+        "\"You should have told me,\" he responded.",
+        "\"Told you what?\"",
+        "\"Filipinos can't become American citizens.\"",
+        "\"Well, I could have told you, but I wanted you to learn.\"",
+        "\"At least I speak better English now.\"",
+        "\"This is a country of great opportunity.\"",
+        "\"You have a wonderful dream,\" Consorcio responded and left."
+      ],
       "body": [
         "Author of \"Be American\", Carlos Bulosan was a Filipino activist and writer who came to the United States in 1930 at the age of 17. \"Be American\" incorporates autobiographical elements of his life in the United States, and shares the struggle Filipinos faced in living the American Dream. Scroll down for a summary of his story.",
         "\"Be American\" follows the story of Carlos and his cousin, Consorcio. The story begins after they arrive by boat in San Francisco; they came as wanderers who could neither read nor write English. But like many others, they came to live the American Dream. Consorcio tells his cousin that he plans to live permanently in the United States, and that he wishes to be an American citizen right away. Yet Carlos reminds him that Filipinos must wait five years before obtaining a legal citizenship. Frustrated by the law, Consorcio defends himself and says he will change the law and prove himself.",
@@ -2963,7 +2994,7 @@ window.CCAH_DATA = {
         "And just like that, Consorcio was a true American. This was a dream that he finally conquered. But this was also a dream that was out of reach for many Filipinos.",
         "Works Cited",
         "\"Be American\" by Carlos Bulosan, from the collection titled: Schlund-Vials, Cathy J., et al. Asian America: a Primary Source Reader . Yale University Press, 2017.",
-        "Image Source",
+        "Image Source:",
         "Carlos Bulosan, ca. 1940s. circa 1945, photograph, Portraits Collection, University of Washington Libraries, Special Collections, POR0017, University of Washington Libraries, Special Collections, https://digitalcollections.lib.washington.edu/digital/collection/portraits/id/32/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/be-american-by-carlos-bulosan"
@@ -3222,20 +3253,32 @@ window.CCAH_DATA = {
       "date": "",
       "readTime": "3 min read",
       "description": "Filipino Love Stories is an exhibit put together by Cal Poly Ethnic Studies Professor Dr. Grace Yeh and her students. These stories speak to how families/the community was able to form despite the economic and legal constraints imposed upon Filipino migrants before WWII. The communities that formed and that persisted after WWII are shaped by this earlier history. Filipinos, like the Chinese immigrants before them, were characterized as \"bachelor communities\" because they largely migrated without",
-      "excerpt": "Filipino Love Stories is an exhibit put together by Cal Poly Ethnic Studies Professor Dr. Grace Yeh and her students. These stories speak to how families/the community was able to form despite the economic and legal constraints imposed upon Filipino migrants before WWII. The communities that formed and that persisted after WWII are shaped by this earlier history. Filipinos, like the Chinese immigrants before them, were characterized as \"bachelor communities\" because they largely migrated without women and anti-miscegenation laws restricted marriages. Thus, there are a lot of stories of eloping in that collection or marriages with large age gaps because the men were able to find brides during and after WWII. Thus, while most of the men from this generation have already passed, their widows were still around for Dr. Yeh and her students to interview. The stories can be found on a website Dr. Yeh and her students put together, while the interview clips can be viewed on their Youtube Channel .",
+      "excerpt": "Filipino Love Stories is an exhibit put together by Cal Poly Ethnic Studies Professor Dr. Grace Yeh and her students. These stories speak to how families/the community was able to form despite the economic and legal constraints imposed upon Filipino migrants before WWII. The communities that formed and that persisted after WWII are shaped by this earlier history. Filipinos, like the Chinese immigrants before them, were characterized as \"bachelor communities\" because they largely migrated without women and anti-miscegenation laws restricted marriages. Thus, there are a lot of stories of eloping in that collection or marriages with large age gaps because the men were able to find brides during and after WWII. Thus, while most of the men from this generation have already passed, their widows were still around for Dr. Yeh and her students to interview. The stories can be viewed on their Youtube channel.",
       "categoryKey": "filipino",
       "category": "Filipino American",
       "image": "https://static.wixstatic.com/media/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png/v1/fill/w_1000,h_701,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_1e10e0ed9bf64bd69e00b826fba9d668~mv2.png",
+      "links": [
+        {
+          "text": "Youtube channel",
+          "url": "https://www.youtube.com/channel/UCnAfnjBAoYl42T6Q6tecgNw",
+          "line": "Filipino Love Stories is an exhibit put together by Cal Poly Ethnic Studies Professor Dr. Grace Yeh and her students. These stories speak to how families/the community was able to form despite the economic and legal constraints imposed upon Filipino migrants before WWII. The communities that formed and that persisted after WWII are shaped by this earlier history. Filipinos, like the Chinese immigrants before them, were characterized as \"bachelor communities\" because they largely migrated without women and anti-miscegenation laws restricted marriages. Thus, there are a lot of stories of eloping in that collection or marriages with large age gaps because the men were able to find brides during and after WWII. Thus, while most of the men from this generation have already passed, their widows were still around for Dr. Yeh and her students to interview. The stories can be viewed on their Youtube channel."
+        },
+        {
+          "text": "here",
+          "url": "https://www.youtube.com/channel/UCnAfnjBAoYl42T6Q6tecgNw",
+          "line": "These are just some of the interviews Dr. Yeh and her students have collected. To view more, click here."
+        }
+      ],
       "body": [
-        "Filipino Love Stories is an exhibit put together by Cal Poly Ethnic Studies Professor Dr. Grace Yeh and her students. These stories speak to how families/the community was able to form despite the economic and legal constraints imposed upon Filipino migrants before WWII. The communities that formed and that persisted after WWII are shaped by this earlier history. Filipinos, like the Chinese immigrants before them, were characterized as \"bachelor communities\" because they largely migrated without women and anti-miscegenation laws restricted marriages. Thus, there are a lot of stories of eloping in that collection or marriages with large age gaps because the men were able to find brides during and after WWII. Thus, while most of the men from this generation have already passed, their widows were still around for Dr. Yeh and her students to interview. The stories can be found on a website Dr. Yeh and her students put together, while the interview clips can be viewed on their Youtube Channel .",
-        "In an interview with brothers Clifford and Robert Labastida , they share how their father, a US soldier in the Philippines, met their mother. After the Filipino troops were done, they allowed the soldiers stay for two months to find wives (because interracial marriage was nonexistent), which is how their parents met. They married in the Philippines, before returning to Santa Maria, which is where their father is from.",
+        "Filipino Love Stories is an exhibit put together by Cal Poly Ethnic Studies Professor Dr. Grace Yeh and her students. These stories speak to how families/the community was able to form despite the economic and legal constraints imposed upon Filipino migrants before WWII. The communities that formed and that persisted after WWII are shaped by this earlier history. Filipinos, like the Chinese immigrants before them, were characterized as \"bachelor communities\" because they largely migrated without women and anti-miscegenation laws restricted marriages. Thus, there are a lot of stories of eloping in that collection or marriages with large age gaps because the men were able to find brides during and after WWII. Thus, while most of the men from this generation have already passed, their widows were still around for Dr. Yeh and her students to interview. The stories can be viewed on their Youtube channel.",
+        "In an interview with brothers Clifford and Robert Labastida, they share how their father, a US soldier in the Philippines, met their mother. After the Filipino troops were done, they allowed the soldiers stay for two months to find wives (because interracial marriage was nonexistent), which is how their parents met. They married in the Philippines, before returning to Santa Maria, which is where their father is from.",
         "Similarly, Joe Talaugon shares how his mother, a Chumash Native American, met his father, a Filipino . At age 27, his father was living in a labor camp in Ventura as he worked in the field orchards. Since they were all single men working in those labor camps, they would play games and sports, and coincidentally, high school girls who lived in the area would stop by and watch the men play. Joe's mother was one of those girls who would watch Joe's father and many other young men play, which is how they first met. As their relationship strengthened, they eloped from Ventura to Santa Maria, where his father continued to work in the fields. For a long time, they weren't actually married, they were simply living together. This was because at the time, Joe's mother's father didn't want her to marry Joe's father, as Filipinos were not seen as locals. Therefore, they eloped, and together, had six children, one of whom is Joe.",
-        "In another interview, Anghilita Vea discusses her struggles during WWII in the Philippines . She recalls going into labor and all of a sudden hearing noises and needing to run and flee. Her in-law took her under and they fled to a big hole he had made, where she gave birth at 11pm. The next moment, her baby was wrapped and they fled to the river, because the soldiers were getting closer. Afterwards, she remembers having to go up a mountain, despite hardly being able to walk. Meanwhile, her husband was a guerilla fighter who had been caught twice already. She says by the time they reached him, he had fainted and some fishermen saved him to take him to Australia. Through all of her struggles during World War II in the Philippines, she eventually made it to the United States, where she was a citizen, and received help from the American Red Cross.",
-        "As shown here , Jay Alfonso describes how she met the love of her life during WWII. She says that during World War II, her family opened up their home to the Filipino soldiers as they were stationed at Camp Cooke, so on the weekends, soldiers would go in and out of her house to eat and drink. One day, a family friend of hers named Felix Andolero, who had recently joined the army, invited her to Clara's house, where she was introduced to some Hawaiian boys, one of whom was Alfred Alfonso; later, Jay's mother invited the Hawaiian boys to their home. The Hawaiian boys would go back and forth from San Francisco to Los Angeles, but when Alfred complained he was tired of commuting, Jay's mother offered him a little room in their home. So on the weekends, Alfred and the then 14 year old Jay would go to the movies and hang out together, eventually leading to their marriage.",
-        "These are just some of the interviews Dr. Yeh and her students have collected. To view more, click here .",
+        "In another interview, Anghilita Vea discusses her struggles during WWII in the Philippines. She recalls going into labor and all of a sudden hearing noises and needing to run and flee. Her in-law took her under and they fled to a big hole he had made, where she gave birth at 11pm. The next moment, her baby was wrapped and they fled to the river, because the soldiers were getting closer. Afterwards, she remembers having to go up a mountain, despite hardly being able to walk. Meanwhile, her husband was a guerilla fighter who had been caught twice already. She says by the time they reached him, he had fainted and some fishermen saved him to take him to Australia. Through all of her struggles during World War II in the Philippines, she eventually made it to the United States, where she was a citizen, and received help from the American Red Cross.",
+        "Jay Alfonso describes how she met the love of her life during WWII. She says that during World War II, her family opened up their home to the Filipino soldiers as they were stationed at Camp Cooke, so on the weekends, soldiers would go in and out of her house to eat and drink. One day, a family friend of hers named Felix Andolero, who had recently joined the army, invited her to Clara's house, where she was introduced to some Hawaiian boys, one of whom was Alfred Alfonso; later, Jay's mother invited the Hawaiian boys to their home. The Hawaiian boys would go back and forth from San Francisco to Los Angeles, but when Alfred complained he was tired of commuting, Jay's mother offered him a little room in their home. So on the weekends, Alfred and the then 14 year old Jay would go to the movies and hang out together, eventually leading to their marriage.",
+        "These are just some of the interviews Dr. Yeh and her students have collected. To view more, click here.",
         "Works Cited",
         "“Filipino Love Stories.” Omeka RSS , reco.calpoly.edu/exhibits/show/filipino-love-stories.",
-        "“Re/Collecting Project.” YouTube , YouTube, www.youtube.com/channel/UCnAfnjBAoYl42T6Q6tecgNw."
+        "“Re/Collecting Project.” YouTube, www.youtube.com/channel/UCnAfnjBAoYl42T6Q6tecgNw."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/filipino-love-stories"
     },
@@ -3318,7 +3361,7 @@ window.CCAH_DATA = {
         "After the war, the Tanaka's didn't have the resources necessary to return to Oso Flaco, so they moved to Fresno where they lived in a Buddhist Church until they were able to rent a place again. In April of 1955, at the age of 83, he was finally able to purchase land, having become a U.S. citizen. But at that time, he was too old to work. Umekichi Tanaka would live to be 96 years old. As can be seen, it was not easy for the Tanaka Family, having lost a dear mother and wife to the Spanish Flu, forcing the family apart, not being able to purchase property, and being relocated because of World War II.",
         "Works Cited",
         "Contreras, Shirley “The Fascinating Life of Umekichi Tanaka and His Family.” Santa Maria Times , 17 Aug. 2014, santamariatimes.com/lifestyles/columnist/shirley_contreras/the-fascinating-life-of-umekichi-tanaka-and-his-family/article_7731deaf-a4f7-5c81-ad1a-4b15394fbf67.html.",
-        "Image Source",
+        "Image Source:",
         "[1] Tanaka Family at Guadalupe Buddhist Church, October 15, 1933, photograph, Dawn Kamiya Collection, Dawn Kamiya, Re/Collecting Project, http://reco.calpoly.edu/items/show/2300."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/he-lost-his-wife-to-the-spanish-flu-umekichi-tanaka-s-fascinating-story"
@@ -3415,7 +3458,7 @@ window.CCAH_DATA = {
         "Yet no matter how wonderfully people treated the Japanese after the war, the memories of the war years were not shared with their children and \"Gila River remained, both submerged and sharply painful, until they began to approach the ends of their lives\" (Gregory).",
         "Works Cited",
         "Gregory, Jim “Lessons from Coach Sab's Generation.” A Work in Progress , 13 Apr. 2018, jimgregory52.wordpress.com/2018/04/13/lessons-from-coach-sabs-generation/.",
-        "Image Source",
+        "Image Source:",
         "100th Infantry Battalion Veterans Education Program, from the Collection of Masami Hamakado"
       ],
       "source": "https://www.centralcoastasianhistory.org/post/life-in-a-japanese-detention-camp-and-the-kind-mr-wilkinson"
@@ -3498,7 +3541,7 @@ window.CCAH_DATA = {
         "Photo Courtesy of Emily Pan",
         "Today, Chinatown in San Luis Obispo is only 1.5% of what it used to be. Back in the day, 3/4 of Palm Street was Chinatown , but today, only the Ah Louis Store and Chinatown mural stands as a reminder of the Chinatown San Luis Obispo once had.",
         "Reference: Dr. Daniel Krieger, Professor Emeritus, Cal Poly SLO",
-        "Image Source",
+        "Image Source:",
         "[1] Louis Brickyard, circa 1920, photograph, Louis Family Papers, California Polytechnic State University, San Luis Obispo, Calisphere, https://calisphere.org/item/01ac2d1e5ff8a900cdd53d8fc3c02564/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/quick-facts-slo-chinese-history-you-probably-didn-t-know"
@@ -3592,7 +3635,7 @@ window.CCAH_DATA = {
         "1883 - Chinese laundry workers go on strike after a disproportionate fee increase to their business licenses",
         "Works Cited",
         "Gregory, Jim. San Luis Obispo County Outlaws: Desperados, Vigilantes and Bootleggers . The History Press, 2017.",
-        "Image Source",
+        "Image Source:",
         "[Portrait of Denis Kearney.] , no date, photograph, California Faces: Selections from The Bancroft Library Portrait Collection, UC Berkeley, Bancroft Library, Calisphere, https://calisphere.org/item/ark:/13030/tf8v19p3dv/."
       ],
       "source": "https://www.centralcoastasianhistory.org/post/threats-to-the-chinese-in-the-1880s"

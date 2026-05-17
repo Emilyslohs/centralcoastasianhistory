@@ -95,6 +95,7 @@ const inlineArticleImages = {
 function paragraphize(lines = [], item = {}) {
   const sectionHeadings = new Set(item.sectionHeadings || []);
   const smallText = new Set(item.smallText || []);
+  const italicText = new Set(item.italicText || []);
 
   return lines
     .filter(Boolean)
@@ -126,7 +127,11 @@ function paragraphize(lines = [], item = {}) {
       if (/^- [“"]/.test(line)) {
         return `<p class="speaker-quote">${formatArticleText(line, item)}</p>`;
       }
-      return `<p${smallText.has(line) ? ` class="article-small-text"` : ""}>${formatArticleText(line, item)}</p>`;
+      const classes = [
+        smallText.has(line) ? "article-small-text" : "",
+        italicText.has(line) ? "article-italic-text" : "",
+      ].filter(Boolean).join(" ");
+      return `<p${classes ? ` class="${classes}"` : ""}>${formatArticleText(line, item)}</p>`;
     })
     .join("");
 }
@@ -174,8 +179,13 @@ function renderArticleMedia(item) {
     `;
   }
 
+  if (!item.image) return "";
+
   const imageClass = item.heroImageClass ? ` ${escapeHtml(item.heroImageClass)}` : "";
-  return item.image ? `<img class="article-hero${imageClass}" src="${escapeHtml(item.image)}" alt="">` : "";
+  return html`
+    <img class="article-hero${imageClass}" src="${escapeHtml(item.image)}" alt="">
+    ${item.heroCaption ? `<p class="article-hero-caption">${escapeHtml(item.heroCaption)}</p>` : ""}
+  `;
 }
 
 function renderArticleGallery(item) {
