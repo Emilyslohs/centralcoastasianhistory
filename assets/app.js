@@ -89,6 +89,8 @@ const inlineArticleImages = {
     src: "assets/images/gila-river-detention-camp.jpg",
     alt: "Gila River detention camp in Arizona",
     className: "is-wide",
+    caption: "Gila River Detention Camp (National Archives)",
+    hideText: true,
   },
   "Carlos Bulosan's semi-autobiographical novel tells his story in the Philippines (part I), his journey in America (Part II), his work in the Filipino labor movement (Part III), and his later days as a writer. Bulosan, at the age of 17, bought a steerage ticket to America in search of new opportunities. Here, we will give a brief description of Bulosan's life in America and the Filipino struggle for representation, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his feelings and experiences being an immigrant in a foreign land.": {
     src: "assets/images/carlos-bulosan-edited.jpg",
@@ -105,13 +107,19 @@ function paragraphize(lines = [], item = {}) {
   return lines
     .filter(Boolean)
     .map((line) => {
+      if (typeof line === "object" && line.type === "bullet") {
+        const level = Math.max(0, Math.min(Number(line.level) || 0, 3));
+        const text = line.text || "";
+        return `<p class="article-bullet article-bullet-level-${level}"><span>${formatArticleText(text, item)}</span></p>`;
+      }
+
       const inlineImage = inlineArticleImages[line];
       if (inlineImage) {
         return html`
           <div class="article-inline-photo ${escapeHtml(inlineImage.className || "")}">
             <img src="${escapeHtml(inlineImage.src)}" alt="${escapeHtml(inlineImage.alt)}">
             ${inlineImage.caption ? `<span class="article-inline-caption">${escapeHtml(inlineImage.caption)}</span>` : ""}
-            <p>${formatArticleText(line, item)}</p>
+            ${inlineImage.hideText ? "" : `<p>${formatArticleText(line, item)}</p>`}
           </div>
         `;
       }
@@ -181,6 +189,7 @@ function renderArticleMedia(item) {
           allowfullscreen
         ></iframe>
       </div>
+      ${item.videoCaption ? `<p class="article-hero-caption">${formatArticleText(item.videoCaption, item)}</p>` : ""}
     `;
   }
 
@@ -189,7 +198,7 @@ function renderArticleMedia(item) {
   const imageClass = item.heroImageClass ? ` ${escapeHtml(item.heroImageClass)}` : "";
   return html`
     <img class="article-hero${imageClass}" src="${escapeHtml(item.image)}" alt="">
-    ${item.heroCaption ? `<p class="article-hero-caption">${escapeHtml(item.heroCaption)}</p>` : ""}
+    ${item.heroCaption ? `<p class="article-hero-caption">${formatArticleText(item.heroCaption, item)}</p>` : ""}
   `;
 }
 
