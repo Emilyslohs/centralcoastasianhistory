@@ -508,6 +508,34 @@ h3 {
   width: min(22rem, 52%);
 }
 
+.article-inline-photo.is-small-portrait img,
+.article-inline-photo.is-small-portrait .article-inline-caption {
+  width: min(11rem, 26%);
+}
+
+.article-inline-photo.is-small-wide img,
+.article-inline-photo.is-small-wide .article-inline-caption {
+  width: min(14rem, 30%);
+}
+
+.article-inline-photo.is-full {
+  clear: both;
+  margin: 1.4rem 0;
+}
+
+.article-inline-photo.is-full img,
+.article-inline-photo.is-full .article-inline-caption {
+  float: none;
+  display: block;
+  width: min(34rem, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inline-photo.is-full .article-inline-caption {
+  margin-top: 0.45rem;
+}
+
 .article-body h2,
 .article-body h3 {
   margin: 1.5rem 0 0.7rem;
@@ -725,6 +753,10 @@ h3 {
 .site-footer p {
   max-width: 72rem;
   margin: 0 auto;
+}
+
+.site-footer a {
+  color: inherit;
 }
 
 .empty {
