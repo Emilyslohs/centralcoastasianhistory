@@ -127,6 +127,27 @@ const inlineArticleImages = {
     caption: "Photo Courtesy of Emily Pan",
     hideText: true,
   },
+  "Helen Louis in 1939 [2]": {
+    src: "assets/images/helen-louis-1939.avif",
+    alt: "Helen Louis in 1939",
+    className: "is-large-portrait",
+    caption: "Helen Louis in 1939 [2]",
+    hideText: true,
+  },
+  "Fred Louis in 1957 [3]": {
+    src: "assets/images/fred-louis-1957.avif",
+    alt: "Fred Louis in 1957",
+    className: "is-large-portrait",
+    caption: "Fred Louis in 1957 [3]",
+    hideText: true,
+  },
+  "Sept. 4, 1928 Telegram about Elsie Louis being Spelling Bee Champion (Image courtesy of History Center of San Luis Obispo)": {
+    src: "assets/images/elsie-louis-spelling-bee-telegram.avif",
+    alt: "Telegram about Elsie Louis being Spelling Bee Champion",
+    className: "is-wide",
+    caption: "Sept. 4, 1928 Telegram about Elsie Louis being Spelling Bee Champion (Image courtesy of History Center of San Luis Obispo)",
+    hideText: true,
+  },
   "Carlos Bulosan's semi-autobiographical novel tells his story in the Philippines (part I), his journey in America (Part II), his work in the Filipino labor movement (Part III), and his later days as a writer. Bulosan, at the age of 17, bought a steerage ticket to America in search of new opportunities. Here, we will give a brief description of Bulosan's life in America and the Filipino struggle for representation, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his feelings and experiences being an immigrant in a foreign land.": {
     src: "assets/images/carlos-bulosan-edited.jpg",
     alt: "Carlos Bulosan standing in a suit and hat",
