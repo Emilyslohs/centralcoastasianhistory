@@ -464,7 +464,7 @@ h3 {
 .article-inline-photo img {
   float: right;
   width: min(9.5rem, 40%);
-  margin: 0 0 0.75rem 1rem;
+  margin: 0 0 0.35rem 1rem;
   border: 1px solid var(--line);
   border-radius: 7px;
   background: #f1ece4;
@@ -474,7 +474,7 @@ h3 {
   float: right;
   clear: right;
   width: min(9.5rem, 40%);
-  margin: -0.45rem 0 0.75rem 1rem;
+  margin: 0 0 0.75rem 1rem;
   color: var(--muted);
   font-size: 0.82rem;
   line-height: 1.25;
