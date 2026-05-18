@@ -144,7 +144,7 @@ const inlineArticleImages = {
   "Sept. 4, 1928 Telegram about Elsie Louis being Spelling Bee Champion (Image courtesy of History Center of San Luis Obispo)": {
     src: "assets/images/elsie-louis-spelling-bee-telegram.avif",
     alt: "Telegram about Elsie Louis being Spelling Bee Champion",
-    className: "is-small-full",
+    className: "is-small-wide",
     caption: "Sept. 4, 1928 Telegram about Elsie Louis being Spelling Bee Champion (Image courtesy of History Center of San Luis Obispo)",
     hideText: true,
   },
