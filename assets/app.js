@@ -137,14 +137,14 @@ const inlineArticleImages = {
   "Fred Louis in 1957 [3]": {
     src: "assets/images/fred-louis-1957.avif",
     alt: "Fred Louis in 1957",
-    className: "is-small-portrait",
+    className: "is-small-portrait is-align-anchor",
     caption: "Fred Louis in 1957 [3]",
     hideText: true,
   },
   "Sept. 4, 1928 Telegram about Elsie Louis being Spelling Bee Champion (Image courtesy of History Center of San Luis Obispo)": {
     src: "assets/images/elsie-louis-spelling-bee-telegram.avif",
     alt: "Telegram about Elsie Louis being Spelling Bee Champion",
-    className: "is-small-wide",
+    className: "is-small-wide is-align-anchor",
     caption: "Sept. 4, 1928 Telegram about Elsie Louis being Spelling Bee Champion (Image courtesy of History Center of San Luis Obispo)",
     hideText: true,
   },

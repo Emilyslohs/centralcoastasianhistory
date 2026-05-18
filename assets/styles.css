@@ -518,6 +518,10 @@ h3 {
   width: min(14rem, 30%);
 }
 
+.article-inline-photo.is-align-anchor {
+  clear: right;
+}
+
 .article-inline-photo.is-full {
   clear: both;
   margin: 1.4rem 0;
