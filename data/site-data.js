@@ -3797,8 +3797,8 @@ window.CCAH_DATA = {
         "Letter of Recommendation from H. L. Kemper to Commissioner of Immigration and Naturalization [2]",
         "Ah Louis had such a loving affection for San Luis Obispo that he even advised his friend to not go back to China. He explained, \"You will find only disappointment. End your days in California—here in San Luis Obispo.\" Indeed, Ah Louis did exactly that.",
         "Works Cited",
-        "HISTORY IN  SAN LUIS OBISPO COUNTY Site Created and Maintained by Lynne Landwehr , www.historyinslocounty.org/Ah Louis Store.htm.",
-        "HISTORY IN  SAN LUIS OBISPO COUNTY Site Created and Maintained by Lynne Landwehr , www.historyinslocounty.org/Oldest Living Chinese.htm.",
+        "HISTORY IN  SAN LUIS OBISPO COUNTY Site Created and Maintained by Lynne Landwehr, www.historyinslocounty.org/Ah Louis Store.htm.",
+        "HISTORY IN  SAN LUIS OBISPO COUNTY Site Created and Maintained by Lynne Landwehr, www.historyinslocounty.org/Oldest Living Chinese.htm.",
         "Image Sources",
         "[1] Ah Louis of China, who became a highly respected citizen of San Luis Obispo. He passed away December 16, 1936, at 96 years of age, undated : circa 1920s, photograph, Asian/Pacific - Americans on the Central Coast, Black Gold Cooperative Library System, Calisphere, https://calisphere.org/item/e4e5789d9b9bdf201a0a45a670d97b7f/.",
         "[2] Letter of recommendation from H. L. Kemper to Commissioner of Immigration and Naturalization, November 21, 1933, 1933-11-21, photograph, Louis Family Papers, California Polytechnic State University, San Luis Obispo, Cal Poly, https://digital.lib.calpoly.edu/rekl-94318?solr_nav%5Bid%5D=8c10a885e5980f237d05&solr_nav%5Bpage%5D=0&solr_nav%5Boffset%5D=7#page/1/mode/1up."
