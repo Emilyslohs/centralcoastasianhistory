@@ -485,6 +485,12 @@ h3 {
   width: min(24rem, 56%);
 }
 
+.article-inline-photo.is-large .article-inline-caption {
+  width: min(24rem, 56%);
+  font-size: clamp(0.68rem, 1.5vw, 0.78rem);
+  white-space: nowrap;
+}
+
 .article-inline-photo.is-wide img {
   width: min(28rem, 60%);
 }

@@ -1692,7 +1692,7 @@ window.CCAH_DATA = {
         "Updated: Jun 20, 2022",
         "Cambria's Chinese history is widely unknown, but one historic Chinese Temple stands as a symbol of the many Chinese immigrants--fishermen, laborers and miners--who helped build Cambria's vibrant economy in the 19th century. Cambria is home to one of the oldest Chinese temples in Southern California--called the Association House--and was recently restored by Greenspace to allow for visitors and public access. Read on to learn about the history of the site.",
         "When the Chinese arrived on the Pacific coast, they immediately found the surrounding ecosystem filled with marine species considered very valuable in China. The rocky shoreline near Cambria provided an ideal environment for seaweed and abolone, harvested at low tide, so many Chinese immigrants became acquainted with abalone and seaweed harvesting. For over one hundred years, they harvested seaweed at what became known as \"China Cove\" about two miles north of Cayucos. Since it was necessary for the gatherers to be close to the seaweed beds and have ample space to spread out the seaweed to dry, these men elected to stay in isolated cabins near the seaweed, as opposed to crowded Chinatowns.",
-        "Since they worked and lived in isolated locations, they desired interaction with others and social life, so they frequently traveled to Cambria's Chinese Center, where they could gather together, retreat from bad weather, and rest. On weekends and holidays, they celebrated their traditional customs, wrote letters home, cooked, gambled, and chatted in their native tongue. The buildings allowed for dining and sleeping, complete with cabins, laundries, and a \"joss house\". It served as a Buddhist Temple as well as the lodge of Chee Kung Tong, a fraternal society that served Chinese immigrants' needs during the 19th and early 20th century. However, by the 1920s, the local buildings were generally abandoned as the immigrants relocated near San Francisco, but their legacy remains. Feel free to visit the site at 2276 Center St, Cambria, CA 93428, or check out the recorded webinar below. To support their renovation efforts through a donation, or to learn more, check out their website .",
+        "Since they worked and lived in isolated locations, they desired interaction with others and social life, so they frequently traveled to Cambria's Chinese Center, where they could gather together, retreat from bad weather, and rest. On weekends and holidays, they celebrated their traditional customs, wrote letters home, cooked, gambled, and chatted in their native tongue. The buildings allowed for dining and sleeping, complete with cabins, laundries, and a \"joss house\". It served as a Buddhist Temple as well as the lodge of Chee Kung Tong, a fraternal society that served Chinese immigrants' needs during the 19th and early 20th century. However, by the 1920s, the local buildings were generally abandoned as the immigrants relocated near San Francisco, but their legacy remains. Feel free to visit the site at 2276 Center St, Cambria, CA 93428.",
         "Source: \"Historic Chinese Temple in Cambria\". Greenspace Cambria, n.d. https://greenspacecambria.org/chinese-temple"
       ],
       "source": "https://www.centralcoastasianhistory.org/post/historic-chinese-temple-in-cambria"
@@ -1708,6 +1708,7 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_9fcd43e907d5442e88c95c571869d413~mv2.png/v1/fill/w_705,h_684,al_c,q_90/f45b0f_9fcd43e907d5442e88c95c571869d413~mv2.png",
+      "heroCaption": "Wawona Hotel (NPS)",
       "body": [
         "Updated: Dec 26, 2021",
         "In 4.5 months in 1875, 300 Chinese laborers built a 23-mile road that climbed 3000ft in elevation, that has become one of the most popular roads in Yosemite National Park, connecting Mariposa Grove to Yosemite Valley. Because Washburn brothers, owners of the Wawona Hotel, didn't want to hinder tourism in the spring but saw the need for a road to connect various park destinations, they asked Chinese laborers to build the road through the winter, in snowy and unfavorable conditions. Chinese contributions to Yosemite National Park are not widely known, but the Chinese built many of the roads that connect the National Park as we know it today.",
@@ -1715,7 +1716,6 @@ window.CCAH_DATA = {
         "On October 15, 2021, the last remaining laundry from Yosemite's early days opened to the public as a historical exhibit showcasing the contributions of Chinese immigrants to Yosemite National Park, including their work constructing roads and serving as chefs in Yosemite's hotels.",
         "They are so many others were disenfranchised when in the 1850s the Foreign Miners taxes, specifically targeted towards the Chinese and Mexicans, forced all miners to pay at least $3. The Police Tax of 1862 then required the Chinese to pay an extra $2.50 per month for performing any work besides agriculture. As a result, many Chinese miners, who came in the gold rush era, found jobs constructing roads, and serving as cooks and laundry workers.",
         "Two well-known Chinese chefs in Yosemite are Ah You and Tie Sing, recognized for their superior culinary skills and work ethic. Ah You was head chef of the Wawona Hotel for 47 years from 1886 to 1933. Hired by Henry Washburn, owner of Wawona Hotel, he prepared food for presidents Rutherford B. Hayes, Benjamin Harrison, Theodore Roosevelt, and William Howard Taft. Besides Wawona Hotel, most hotels in Yosemite hired Chinese cooks and laundry staff; in fact, a 1925 map of Yosemite Village showed \"Chinese Quarters\" located near today's Sentinal Bridge.",
-        "Wawona Hotel (NPS)",
         "Tie Sing was the chef for Stephen T. Mather, assistant secretary of interior's Mountain Party trip in 1915 and 1916. During the two-week trip, Sing was given the name \"The Wizard\" for cooking up delicacies in the wilderness. Mather's goal was to increase funding for National Parks from Congress. Thus, he invited businessmen, government officials, journalists, and other influential people on the expedition to convince them of the significance National Parks. As a result of the trip, Mather convinced Congress to fund National Parks and the National Park Service was established in August 1916.",
         "The contributions of Teddy Roosevelt and John Muir in establishing National Parks are commonly told, but often overlooked are the contributions of immigrants like the Chinese who were influential in their development. Next time you visit Yosemite National Park, be sure not to miss the Chinese laundry exhibit in Wawona.",
         "Works Cited",
@@ -2270,25 +2270,47 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_15597555876847d4bd940b63912381e9~mv2.png/v1/fill/w_1000,h_739,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_15597555876847d4bd940b63912381e9~mv2.png",
+      "sectionHeadings": [
+        "Overview",
+        "Chinese New Year",
+        "Gold Rush",
+        "Photo I.D."
+      ],
+      "links": [
+        {
+          "text": "Ah Louis",
+          "url": "https://sloasianhistory.wixsite.com/home/post/ah-louis-in-san-luis-obispo",
+          "line": "In the mid-1800s, many Chinese people came to California in search of a better life, but also to help build their community. Back then, 3/4 of Palm Street was San Luis Obispo's Chinatown, but today, only the Ah Louis store remains. Most of the Chinese laborers were men, and in addition to building roads and railroads, they also worked on various public works projects. Most of the laborers came from the Canton Province, the same province Ah Louis is from, so the dialect spoken was Cantonese."
+        },
+        {
+          "text": "lake being drained",
+          "url": "https://sloasianhistory.wixsite.com/home/post/draining-laguna-lake",
+          "line": "When there was a big public works project, such as a lake being drained, there were probably more Chinese laborers than the census recorded"
+        },
+        {
+          "text": "History Center of San Luis Obispo County",
+          "url": "https://historycenterslo.org",
+          "line": "In the 1890s, the Chinese had to carry registration cards and certificates of residency with them, where ever they went. Therefore, they had their photos taken by a local photographer, which can be seen at the History Center of San Luis Obispo County. At the time, a lot of them were the lowest economic status in California, but they are the faces of the men and boys who built this state."
+        }
+      ],
       "body": [
-        "Updated: Jan 3, 2021",
         "Overview",
         "In the mid-1800s, many Chinese people came to California in search of a better life, but also to help build their community. Back then, 3/4 of Palm Street was San Luis Obispo's Chinatown, but today, only the Ah Louis store remains. Most of the Chinese laborers were men, and in addition to building roads and railroads, they also worked on various public works projects. Most of the laborers came from the Canton Province, the same province Ah Louis is from, so the dialect spoken was Cantonese.",
-        "The Joss House and the buildings surrounding it were what started Chinatown",
-        "A lot of those buildings were boarding houses, where four to five men would stay together in a room",
-        "The town's Chinese population fluctuated",
-        "When there was a big public works project, such as a lake being drained , there were probably more Chinese laborers than the census recorded",
-        "The laborers worked on ranches, were cooks and laundrymen, and they worked where they were needed",
+        { "type": "bullet", "level": 0, "text": "The Joss House and the buildings surrounding it were what started Chinatown" },
+        { "type": "bullet", "level": 1, "text": "A lot of those buildings were boarding houses, where four to five men would stay together in a room" },
+        { "type": "bullet", "level": 0, "text": "The town's Chinese population fluctuated" },
+        { "type": "bullet", "level": 1, "text": "When there was a big public works project, such as a lake being drained, there were probably more Chinese laborers than the census recorded" },
+        { "type": "bullet", "level": 1, "text": "The laborers worked on ranches, were cooks and laundrymen, and they worked where they were needed" },
         "Chinese New Year",
         "Chinese New Year was a big deal both in China, but also in San Luis Obispo's Chinatown.",
         "There would be lion dancers, music, food, firecrackers and many other festivities during Chinese New Year. This happened every year from the 1860s to 1924. Howard Louis says there were as many as 100,000 firecrackers shot off on Chinese New Year's.",
-        "Cal Poly Chinese Student's Association",
-        "One of the oldest clubs on campus - started back in the 1930s by Young and Stella Louis",
+        { "type": "bullet", "level": 0, "text": "Cal Poly Chinese Student's Association" },
+        { "type": "bullet", "level": 1, "text": "One of the oldest clubs on campus - started back in the 1930s by Young and Stella Louis" },
         "Gold Rush",
         "In the 1850s, people from all over the world rushed to California in response to the gold rush. In fact, in 1852, 20,000 Chinese arrived in San Francisco and within 10 years, there was regular boat service between San Francisco and Hong Kong. At the beginning, they were welcomed as they were looking for gold like everyone else. But then, there were so many laborers and not enough jobs, leading to high unemployment. Therefore, in the 1860s and 1870s, the European Americans began to blame the Chinese for taking away the jobs. As a result, the Chinese were discriminated against, and by 1882, immigration from China was cut off. By 1892, the Chinese in the United States were forced to carry photo I.D.s with them.",
         "Photo I.D.",
         "Photo I.D.s",
-        "In the 1890s, the Chinese had to carry registration cards and certificates of residency with them, where ever they went. Therefore, they had their photos taken by a local photographer, which can be seen at the History Center of San Luis Obispo County . At the time, a lot of them were the lowest economic status in California, but they are the faces of the men and boys who built this state.",
+        "In the 1890s, the Chinese had to carry registration cards and certificates of residency with them, where ever they went. Therefore, they had their photos taken by a local photographer, which can be seen at the History Center of San Luis Obispo County. At the time, a lot of them were the lowest economic status in California, but they are the faces of the men and boys who built this state.",
         "Works Cited",
         "“San Luis Obispo ChinaTown- California's Gold (907).” Huell Howser Archives at Chapman University , 8 Sept. 2016, blogs.chapman.edu/huell-howser-archives/1998/01/08/san-luis-obispo-chinatown-californias-gold-907/.",
         "Image Source:"
@@ -2397,10 +2419,9 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_b0bc2bd298654868aa97ab9b5b6c61db~mv2.jpg/v1/fill/w_1000,h_811,al_c,q_85,usm_0.66_1.00_0.01/f45b0f_b0bc2bd298654868aa97ab9b5b6c61db~mv2.jpg",
+      "heroCaption": "Laguna Lake before Being Drained (Photo Courtesy of History Center of San Luis Obispo County)",
       "body": [
         "Updated: Jan 2, 2021",
-        "Laguna Lake before Being Drained (Photo Courtesy of History Center of San Luis Obispo County)",
-        "Introduction",
         "Before Laguna Lake was drained, it was a 350 acre natural lake, which had an average water depth of six feet. Nearby farmers wanted to drain the lake for cultivation, because the soil would prove to be very fertile. It was estimated that the land sold for one-hundred dollars per acre. In addition, blackbirds prey on the tules that surround the lake; in turn, they also destroy the grains farmed around the lake (thousands of pounds destroyed annually). Therefore, the draining of the lake also meant the removal of the tules, hence forcing the blackbirds to migrate elsewhere as well. But draining the lake was no easy task.",
         "Laguna Lake was to be drained in order to deepen the water level, but most importantly, to decrease the size of the lake in order to accommodate land needed for agriculture. To drain Laguna Lake, a ditch had to be built from the lake to Foreman Creek, where it would eventually intersect with the San Luis Creek. The ditch was to be twelve feet wide at the top and five feet wide at the bottom. In addition, they had to enlarge Foreman creek to be sixteen feet wide in order to accommodate the gravel and debris that fills up the creek bed during the rainy months. Therefore, a channel of Foreman Creek was to be removed and brush dams were built in hopes that the ditch would remain clear of debris. Since the distance from Laguna Lake to San Luis Creek was 1.25 miles, that was the length of the ditch. Initially, this task was left to the White men, but they quickly abandoned the task because it was no easy work. Instead, Ah Louis' laborers worked on draining the lake and building the ditch, for a total of $1100. Moreover, one night, while camping near Foreman Creek to cut the ditch, the water rose and two feet of water covered their camp. As can be seen, draining Laguna Lake was a laborious task that only the Chinese were willing to undertake.",
         "Works Cited",
@@ -2421,12 +2442,11 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_2c9cdfb5b611478bb619277d2f3699d5~mv2.jpg/v1/fill/w_943,h_1000,al_c,q_85,usm_0.66_1.00_0.01/f45b0f_2c9cdfb5b611478bb619277d2f3699d5~mv2.jpg",
+      "heroCaption": "Evidence from the Southern Pacific Railway Company and Howard Louis that the Chinese Built the San Luis Obispo railraods (Image Courtesy of History Center of San Luis Obispo)",
       "body": [
         "Updated: Jul 6, 2020",
-        "Evidence from the Southern Pacific Railway Company and Howard Louis that the Chinese Built the San Luis Obispo railraods (Image Courtesy of History Center of San Luis Obispo)",
         "The Chinese played a significant role in building the railraods that ran through San Luis Obispo County. In 1980, the San Luis Obispo Weekly Tribune published an article saying the Chinese did not build the railraods that run through San Luis Obispo. However, this article sparked much controversy. But with the evidence gathered, it is evident that the Chinese did indeed build the railraods. As stated by the Southern Pacific Railway Company, \"Cuesta Pass posed a difficult challenge to railraod builders. The railroad reached the east side of the pass in 1889, but it wasn't until 1894 that it was completed over the mountains to San Luis Obispo. Eight tunnels had to be carved with hand tools and dynamite. Some 2000 Chinese worked on the $1.8 million project. On March 31, 1901, the line between San Francisco and Los Angeles was opened for service\" (Louis).",
         "In addition, the freight bills show an increase in the amount of rice bought, explaining that there were a lot more Chinese than normal. The orders showed only 2,100 pounds of rice in 1888, but a significant jump to 10,050 pounds of rice in 1891.",
-        "To watch a video learn more about the Chinese Contribution to the San Luis Obispo Railraod, click here . For more information on the role the Chinese played in the Pacific Coast and Southern pacific railroad Companies, click here .",
         "Works Cited",
         "Louis, Howard \"Letters to the Editor\" San Luis Obispo Telegram Tribune , 1980"
       ],
@@ -2443,8 +2463,8 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_664b5687b3264485b8053c6eff16249d~mv2.jpg/v1/fill/w_714,h_1000,al_c,q_85,usm_0.66_1.00_0.01/f45b0f_664b5687b3264485b8053c6eff16249d~mv2.jpg",
+      "heroCaption": "Timeline of Chinese History in California by San Luis Obispo Weekly Tribune (Image courtesy of History Center of San Luis Obispo County)",
       "body": [
-        "Timeline of Chinese History in California by San Luis Obispo Weekly Tribune (Image courtesy of History Center of San Luis Obispo County)",
         "1848: Gold is discovered at Sutter's Mill",
         "1850 - 1864: Taiping Rebellion rages in China",
         "1852: Approximately 10 percent of California's population was Chinese. An estimated 25,000 Chinese lived in the state at the time.",
@@ -3034,8 +3054,8 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_6a1dbe9286494b29842e749634b3e1f7~mv2.png/v1/fill/w_767,h_1000,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_6a1dbe9286494b29842e749634b3e1f7~mv2.png",
+      "heroCaption": "Community reactions to Chinese Exclusion Bill (Image Courtesy of History center of San Luis Obispo County)",
       "body": [
-        "Community reactions to Chinese Exclusion Bill (Image Courtesy of History center of San Luis Obispo County)",
         "That was how the community reacted when the Chinese Exclusion Bill was signed by the President. The Tribune reports, \"The news that the ex-Chinese Bill had received the President's signature awakened much enthusiasm amongst our citizens and the American flag speedily decorated innumerable flagstaffs throughout the city...The San Luis Band appeared on the balcony of the Cosmopolitan and [played] several joyful airs\" (San Luis Obispo Weekly Tribune).",
         "Moreover, they \"traced the history of Chinese immigration into this country and the change in public opinion which at first regarded the Chinaman with indifference presently became agreed as to his dangerous and unwelcome character, and finally became a unit in opposing his coming here. It had taken a series of years to awaken the people of the East to the danger of the immigration but that result had at last been accomplished, and the legislation which had culminated in the passage of the present exclusion bill declared the sentiment of the whole American people. This was not a political movement. It was the unanimous declaration of a principle which applied not only to the leprous hordes of China, but to the pauper labor of other parts of the world, of Norway,, Russia, Italy and elsewhere which threatened to engulf our institutions\" (San Luis Obispo Weekly Tribune).",
         "The paper goes on to say that the Chinese Exclusion Act proved \"the principle that America was for Americans\" (San Luis Obispo Weekly Tribune).",
@@ -3055,9 +3075,31 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_1c7b39d6e1d74fd6b1f104b9bb8d0e47~mv2.png/v1/fill/w_498,h_730,al_c,q_90/f45b0f_1c7b39d6e1d74fd6b1f104b9bb8d0e47~mv2.png",
+      "heroCaption": "Photo Courtesy of EIlliot Gong",
+      "sectionHeadings": [
+        "Part I: Jiangsu Province (1944-1950)"
+      ],
+      "smallText": [
+        "\"The boy is four, and he cannot even talk,\" she huffed. \"What good is he? He's just another mouth to feed.\"",
+        "\"He is my sister's baby,\" Uncle pleaded softly.",
+        "\"Give him back to [Sister]. Why should we be responsible for him?\" Aunt demanded.",
+        "\"[Sister] has a new baby girl to take care of, and Chi Haw doesn't want him,\" Uncle whispered.",
+        "\"I don't want him either!\" she snapped. \"Tomorrow he goes.\"",
+        "Then came silence. Aunt always got the last word.",
+        "First I helped [Communist Father] lift the heavy cart out of the boat. Then, one at a time, we carried the bags of wheat to the cart. Hungry and eager for a ripe peach and a duck egg, I grabbed the cart's handles.",
+        "Communist Mother called to me, \"Double Luck, where do you think you are going?\"",
+        "\"To the marketplace,\" I said.",
+        "\"No! You are soaking wet. Stay here and guard the boat. Father will eat your duck egg, and I will eat an extra peach for you.\"",
+        "\"Uncle, this is great luck seeing you here.\"",
+        "\"It is not luck that brought me here, Chi Fa,\" he said with a smile. \"An old woman selling sticks came to the school. She told me where I could find you.\"",
+        "\"I want to go home with you, Uncle,\" I pleaded.",
+        "\"Oh, no, I am sorry, Chi Fa, but I cannot take you. You belong to the Communist chief. It I steal you away, he would have me arrested. You belong to him.\"",
+        "\"They are mean to me, Uncle. They beat me. They starve me.\"",
+        "\"I am sorry for you, Chi Fa,\" said uncle.",
+        "...\"Okay,\" I told him, \"if you cannot help me, please go get Sister. I want to see her before I go. Tell her where I am. Tell her I am waiting here to see her. WIll you do that, Uncle? Please!\""
+      ],
       "body": [
         "Updated: Jan 19, 2021",
-        "Photo Courtesy of EIlliot Gong",
         "Double Luck tells the story of Lu Chi Fa, a Chinese American who escaped Communist China and made his way to America. In 1944, Lu Chi Fa's parents died and at the time, China was facing tremendous political turmoil as the Communist party was coming into power, and very few families were willing to care for orphans. Even Lu Chi Fa's family was unwilling to take him in; hence, Chi Fa was often hungry, cold, and beaten. But through all of life's challenges, Chi Fa held onto his sister's words: \"You are lucky, Chi Fa. Good fortune will find you\" (8). Indeed, in 1969, Lu Chi Fa had found good fortune for he had the opportunity to immigrate to America, a land he always dreamed of seeing because of its legendary ideals. Today, he is a successful restaurant owner, owning the Coffee Pot Restaurant in Morro Bay, California. Here, we will give a brief summary of Lu Chi Fa's bitter childhood, but no one could tell his story as well as himself, whose words are forever contained in his autobiography, Double Luck: Memoirs of a Chinese Orphan.",
         "Part I: Jiangsu Province (1944-1950)",
         "In the summer of 1944, Lu Chi Fa, who was only three years old, would lose his parents forever after the village healer gave Father the wrong medicine, killing Father, and brokenhearted Mother, shortly after. They would leave behind Lu Chi Fa, whose name means \"new beginning\", his sister, and three older brothers. The death of both his parents meant Chi Fa was an orphan, and though his sister, who is twenty years older than him, took him into her home for a time, only day, Chi Fa recalls Sister saying, \"Sister likes to have you here, but [my husband] Chi Haw does not. I am going to have a baby, and my husband wants only his own son. There is nothing I can do\" (7). And with that, Sister left Chi Fa at the door of Favorite Uncle. But Favorite Uncle was not home, and Aunt slammed the door in his face saying, \"We do not want another mouth to feed!\" (8). Chi Fa recalls, \"I wanted to run away, but I had nowhere to go,\" but little did he know that Aunt's house was only the beginning of a restless journey being abandoned and hungry (8). Following an argument between Favorite Uncle and Aunt on pg. 10, when Lu Chi Fa was five and a half years old, Chi Fa's family decided that since Number One Brother, Ching Fa, had inherited Father's store, he should take care of Chi Fa:",
@@ -3084,7 +3126,7 @@ window.CCAH_DATA = {
         "\"I am sorry for you, Chi Fa,\" said uncle.",
         "...\"Okay,\" I told him, \"if you cannot help me, please go get Sister. I want to see her before I go. Tell her where I am. Tell her I am waiting here to see her. WIll you do that, Uncle? Please!\"",
         "Luckily for Chi Fa, Sister came to his rescue and told the Communist parents, \"My little brother has been mistreated by you. You may be the Communist chief of your village and have a little bit of power, but I will report you to a higher authority. Let my brother go. If you refuse to let him go, there will be trouble\" (44). And with that, Sister took Lu Chi Fa back to Favorite Uncle's house, only this time, with two bags of rice, which Sister forced Communist parents to provide. But at Favorite Uncle's house, Aunt only gave Chi Fa pig food and wheat husks, and always made him feed the pigs while the rest of the family had dinner so when Chi Fa returned, all the rice was gone. At night, Boy Cousin would never share the blanket with Chi Fa so he was always cold and shivering. But like Sister said, Chi Fa is lucky, and Sister gave Chi Fa a blanket of his own so he would never again be cold at Favorite Uncle's house; \"Mother made it just before she died. I was saving it for your wedding day, but you need it now. Mama would want you to have it today\" (57).",
-        "Then, one evening, Sister told Chi Fa that she had found a job for him working for another family in the kitchen. He worked for an old woman, whom he called Grandma, and every morning he would make her tea, work in her garden, and make the fire. Chi Fa loved being at Grandma's as he always had good food to eat and a clean bed to sleep in, but one day, Chi Fa had an accident making the fire and set the entire house on fire. Chi Fa, embarrassed, fled from the house, but no one else would take him in. Finally, the next morning, a sick man who often had seizures took Chi Fa in, and Chi Fa was to care for him. After caring for him for a time, Sister told Chi Fa he was to live with Ching Fa in Shanghai and handed Chi Fa women's clothing to wear on the ten-day barge, because Chi Fa had no decent clothes. Chi Fa was made fun of on the barge for his clothing, but he finally made his way to Brother's place. From Shanghai, Chi Fa would escape to Hong Kong, Taiwan, and finally the United States. His story continues in Part II .",
+        "Then, one evening, Sister told Chi Fa that she had found a job for him working for another family in the kitchen. He worked for an old woman, whom he called Grandma, and every morning he would make her tea, work in her garden, and make the fire. Chi Fa loved being at Grandma's as he always had good food to eat and a clean bed to sleep in, but one day, Chi Fa had an accident making the fire and set the entire house on fire. Chi Fa, embarrassed, fled from the house, but no one else would take him in. Finally, the next morning, a sick man who often had seizures took Chi Fa in, and Chi Fa was to care for him. After caring for him for a time, Sister told Chi Fa he was to live with Ching Fa in Shanghai and handed Chi Fa women's clothing to wear on the ten-day barge, because Chi Fa had no decent clothes. Chi Fa was made fun of on the barge for his clothing, but he finally made his way to Brother's place. From Shanghai, Chi Fa would escape to Hong Kong, Taiwan, and finally the United States. His story continues in Part II.",
         "Works Cited",
         "Lu, Chi Fa., and Becky White. Double Luck: Memoirs of a Chinese Orphan. Holiday House, 2001."
       ],
@@ -3101,9 +3143,15 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/f45b0f_781d5a31980746d1b2a5edf71e2ff371~mv2.png/v1/fill/w_1000,h_710,al_c,q_90,usm_0.66_1.00_0.01/f45b0f_781d5a31980746d1b2a5edf71e2ff371~mv2.png",
+      "heroImageClass": "is-contained",
+      "heroCaption": "Lu Chi Fa (Photo Courtesy of EIlliot Gong)",
+      "sectionHeadings": [
+        "Part II: Shanghai (1950-1951)",
+        "Part III: Canton (1951)",
+        "Part IV: Hong Kong (1951-1954)"
+      ],
       "body": [
         "Updated: Jan 19, 2021",
-        "Lu Chi Fa (Photo Courtesy of EIlliot Gong)",
         "Double Luck tells the story of Lu Chi Fa, a Chinese American who escaped Communist China and made his way to America. In 1944, Lu Chi Fa's parents died and at the time, China was facing tremendous political turmoil as the Communist party was coming into power, and very few families were willing to care for orphans. Even Lu Chi Fa's family was unwilling to take him in; hence, Chi Fa was often hungry, cold, and beaten. But through all of life's challenges, Chi Fa held onto his sister's words: \"You are lucky, Chi Fa. Good fortune will find you\" (8). Indeed, in 1969, Lu Chi Fa had found good fortune for he had the opportunity to immigrate to America, a land he always dreamed of seeing because of its legendary ideals. Today, he is a successful restaurant owner, owning the Coffee Pot Restaurant in Morro Bay, California. Here, we will give a brief summary of Lu Chi Fa's bitter childhood (see Part I ) and immigration to the United States, but no one could tell his story as well as himself, whose words are forever contained in his autobiography, Double Luck: Memoirs of a Chinese Orphan.",
         "Part II: Shanghai (1950-1951)",
         "Lu Chi Fa's story continues after he rode the barge to Shanghai to his brother's place. Chi Fa was in charge of making rice for the family, but it seemed that Chi Fa could never satisfy brother, as shown on pg. 108:",
@@ -3118,7 +3166,7 @@ window.CCAH_DATA = {
         "At day's end, the woman working in the kitchen told Chi Fa that although she can't pay him, he could sweep the floor and eat the rice in the dirt pile. Then, Chi Fa hurried back to his family with the dirty rice, but he \"remembered the beating Brother had given me in Shanghai for 'dirty' rice. I didn't know what to do, so I sat down on a large, flat rock to think. In the end, I decided that Brother would not look past the dirt and see supper. So I poured out the contents of the can on the rock. Carefully I separated each grain from the dirt and polished it on my shirt. By the time the sun had completely disappeared for the day, I had a can half full of shiny, white rice\" (146). Unfortunately for Chi Fa, Brother remarked, \"It took you all day to get this little bit of rice?\" and for most of the year, Chi Fa would go every day and beg for rice (146). Some days, if Chi Fa was lucky and got more rice than his family needed, he would sell the rice for a few nickels and buy pork fat to flavor the rice.",
         "One night, an old man who slept next to Chi Fa said, \"Chi Fa, I see that sometimes you have more rice than your family needs. I was wondering if, on the days when you have extra rice, you would share it with me?...I have two sons living in America. If you will share your rice with me, someday I will be able to repay you\" (148). From that day on, Chi Fa always gave his extra rice to the old man and he would tell Chi Fa about a legendary land called America. He said, \"America is a land of plenty. In America people eat three times a day. In America they are too full to swallow sorrow...In America people live in houses with many rooms. Men drive their own cars, and little children own bicycles...If a boy can catch the Orphan Star in the sky before any of the other stars begin to twinkle, and he makes a wish, that wish will come true\" (150). For the old man, his wish came true and his sons let him go to America. Chi Fa was fascinated by America and the old man promised Chi Fa that he too, would one day see America.",
         "Meanwhile, Brother told Chi Fa that he would sell all the extra rice and save the money to take the Ferry to Kowloon where he hoped there would be work opportunities. But when they arrived, Brother realized there was no work available and every day, Chi Fa would stand at the bus station, tell his story about his bitter childhood, and beg for money. With his begging success, he rented a small wooden house for his family. Then one day, when Brother asked for Chi Fa's coins, after he realized Chi Fa hadn't received the \"usual quota for the day\" he beat Chi Fa with his fists and slapped him. Chi Fa was afraid to go home so he stayed out begging until he received enough coins to cash for a five-dollar bill. He slept on the street but when he awoke, he realized someone had stolen his five-dollar bill.",
-        "When he gained enough courage to return to Brother, Chi Fa recalls that he had been begging and supporting his family for nearly three years, although he was only 13 years old at the time. The flicker of hope grew dimmer with each day's begging until his clothing, shoes, and spirit were all ragged from begging. Luckily, within a week, news came that Chi Fa's Auntie arranged for the family to move the Taiwan. And it is from Taiwan that Lu Chi Fa would go to America, which he heard about from the old man. We wrap up Lu Chi Fa's story in Parts V & VI .",
+        "When he gained enough courage to return to Brother, Chi Fa recalls that he had been begging and supporting his family for nearly three years, although he was only 13 years old at the time. The flicker of hope grew dimmer with each day's begging until his clothing, shoes, and spirit were all ragged from begging. Luckily, within a week, news came that Chi Fa's Auntie arranged for the family to move the Taiwan. And it is from Taiwan that Lu Chi Fa would go to America, which he heard about from the old man. We wrap up Lu Chi Fa's story in Parts V & VI.",
         "Works Cited",
         "Lu, Chi Fa., and Becky White. Double Luck: Memoirs of a Chinese Orphan. Holiday House, 2001."
       ],
@@ -3135,6 +3183,29 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://i.ytimg.com/vi/sxIXHD0EIlw/maxresdefault.jpg",
+      "videoEmbed": "https://www.youtube.com/embed/sxIXHD0EIlw",
+      "videoTitle": "Double Luck: Memoirs of a Chinese Orphan (Parts V & VI)",
+      "sectionHeadings": [
+        "Part V: Taiwan (1954-1969)",
+        "Part VI: America (1969-Present)"
+      ],
+      "smallText": [
+        "With coarse rice to eat,",
+        "with water to drink,",
+        "and my bended arm for a pillow-",
+        "I have still joy in the midst of these things.",
+        "\"Now,\" she said, pointing a straight finger at a lone [orphan] star that twinkled in the sky, \"there it is. Make your wish.\"",
+        "I gazed upward. Over the big moon, one star sparkled brightly. \"I want to go to America,\" I whispered.",
+        "\"I have provided you a home and food to eat,\" [Brother] countered.",
+        "\"No!\" I shouted. \"I paid the rent. I bought the food. I am the one who has provided for you. Your son, who is only one year younger than I, has never had to lift a finger to help the family. He is precious to you. I am your brother, but I am not respected. You make me your slave. Think about how you have treated me!\"",
+        "With obvious effort to regain control, he recited, \"I am thinking of you. I have been saving your money for you. Someday your money will all be there. You will thank me then. Trust me.\""
+      ],
+      "italicText": [
+        "With coarse rice to eat,",
+        "with water to drink,",
+        "and my bended arm for a pillow-",
+        "I have still joy in the midst of these things."
+      ],
       "body": [
         "Updated: Jan 19, 2021",
         "Double Luck tells the story of Lu Chi Fa, a Chinese American who escaped Communist China and made his way to America. In 1944, Lu Chi Fa's parents died and at the time, China was facing tremendous political turmoil as the Communist party was coming into power, and very few families were willing to care for orphans. Even Lu Chi Fa's family was unwilling to take him in; hence, Chi Fa was often hungry, cold, and beaten. But through all of life's challenges, Chi Fa held onto his sister's words: \"You are lucky, Chi Fa. Good fortune will find you\" (8). Indeed, in 1969, Lu Chi Fa had found good fortune for he had the opportunity to immigrate to America, a land he always dreamed of seeing because of its legendary ideals. Today, he is a successful restaurant owner, owning the Coffee Pot Restaurant in Morro Bay, California. Here, we will give a brief summary of Lu Chi Fa's bitter childhood (see Part I and Parts II-IV ) and immigration to the United States, but no one could tell his story as well as himself, whose words are forever contained in his autobiography, Double Luck: Memoirs of a Chinese Orphan.",
@@ -3262,9 +3333,9 @@ window.CCAH_DATA = {
       "categoryKey": "chinese",
       "category": "Chinese American",
       "image": "https://static.wixstatic.com/media/a27d24_ad4aa68d3c324a7aaf3fe16de097984f~mv2.jpg/v1/fill/w_1000,h_606,al_c,q_85,usm_0.66_1.00_0.01/a27d24_ad4aa68d3c324a7aaf3fe16de097984f~mv2.jpg",
+      "heroCaption": "\"Gandy Dancers\" Iron Road Pioneers Statue (Photo Courtesy of Emily Pan)",
       "body": [
         "Updated: May 30, 2024",
-        "\"Gandy Dancers\" Iron Road Pioneers Statue (Photo Courtesy of Emily Pan)",
         "The \"Gandy Dancers\" statue, located at the entrance to the San Luis Obispo Historic railraod District, depicts two Chinese laborers laying railraod tracks, symbolizing the important yet often unnoticed role the Chinese played in building California. To learn more about railroad building in California, click here . Below is the story of the creation of the \"Gandy Dancers\" statue, as explained by Dr. Daniel Krieger, Professor Emeritus at Cal Poly SLO.",
         "\"Young and Stella Louis had dreamed of such a statue following the installation of the historical marker at the Ah Louis Store in 1968. Following Young’s death in 1989, Howard Louis got behind the project.",
         "The centennial celebration of the arrival of the SP (Southern Pacific) on May 5, 1994 coalesced interest in the role of its construction. All due attention returned to the Railroad Square project when in the mid-1990’s a group of so called 'Minor Historians' led by Edison Strobridge began a process of publicly trivializing the role of Chinese labor in bringing the Southern Pacific to San Luis Obispo. They used the misstatement on the plaque at the Ah Louis Store regarding the Chinese drilling the Cuesta tunnels to prove their point. [Later,] riots [broke out] in SLO [and] gave Benjamin Brooks, the Editor of Tribune the opportunity to boast that “No Chinese Worked on the Tunnels or the Railroad,” when the first train came down the Grade in 1894. [But] by 1900, SP was using Chinese, Mexican and even some Sikh labor from its Southern Division in the Imperial Valley to connect the Coast Route via the trestle across the Santa Ynez Valley at Surf.",
