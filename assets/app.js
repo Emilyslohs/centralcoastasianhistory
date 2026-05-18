@@ -106,6 +106,27 @@ const inlineArticleImages = {
     caption: "91 year old Haruo Hayashi",
     hideText: true,
   },
+  "Narrow Gauge Railraod (Photo courtesy of Elliot Gong)": {
+    src: "assets/images/narrow-gauge-railroad.avif",
+    alt: "Narrow gauge railroad near Avila Beach",
+    className: "is-large",
+    caption: "Narrow Gauge Railraod (Photo courtesy of Elliot Gong)",
+    hideText: true,
+  },
+  "Ah Louis' Brickyard [1]": {
+    src: "assets/images/ah-louis-brickyard.avif",
+    alt: "Ah Louis' Brickyard",
+    className: "is-large",
+    caption: "Ah Louis' Brickyard [1]",
+    hideText: true,
+  },
+  "Photo Courtesy of Emily Pan": {
+    src: "assets/images/chinese-population-emily-pan.avif",
+    alt: "San Luis Obispo Chinatown",
+    className: "is-large",
+    caption: "Photo Courtesy of Emily Pan",
+    hideText: true,
+  },
   "Carlos Bulosan's semi-autobiographical novel tells his story in the Philippines (part I), his journey in America (Part II), his work in the Filipino labor movement (Part III), and his later days as a writer. Bulosan, at the age of 17, bought a steerage ticket to America in search of new opportunities. Here, we will give a brief description of Bulosan's life in America and the Filipino struggle for representation, but no one could tell his story as well as himself, whose words are forever contained in his novel, America is in the Heart, which so vividly describes his feelings and experiences being an immigrant in a foreign land.": {
     src: "assets/images/carlos-bulosan-edited.jpg",
     alt: "Carlos Bulosan standing in a suit and hat",
